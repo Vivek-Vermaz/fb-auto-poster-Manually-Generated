@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Poster Dashboard</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; color: #333; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; text-align: center; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px; }
+        .card { background: #f9fbfd; padding: 20px; border: 1px solid #e1e8ed; border-radius: 8px; }
+        label { display: block; font-weight: bold; margin-bottom: 5px; color: #555; }
+        input, textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
+        textarea { height: 120px; resize: vertical; }
+        button { background: #3498db; color: white; border: none; padding: 12px 20px; font-size: 16px; border-radius: 5px; cursor: pointer; width: 100%; }
+        button:hover { background: #2980b9; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #f2f2f2; }
+        .badge { display: inline-block; padding: 5px 10px; border-radius: 20px; font-size: 12px; background: #2ecc71; color: white; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 Automation Dashboard</h1>
+
+    <div class="grid">
+        <div class="card">
+            <h3>⚙️ Configuration</h3>
+            <label>Cloudinary Folder Name</label>
+            <input type="text" id="cloudinaryFolder" placeholder="e.g., my_cars">
+            
+            <label>Daily Post Frequency (times/day)</label>
+            <input type="number" id="frequency" value="6" min="1" max="24">
+
+            <label>Bulk Captions (Comma Separated)</label>
+            <textarea id="captions" placeholder="Caption 1, Caption 2, Caption 3..."></textarea>
+            
+            <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+            
+            <label>GitHub Personal Access Token (Required to Save)</label>
+            <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxx">
+            
+            <label>GitHub Repository (owner/repo)</label>
+            <input type="text" id="ghRepo" placeholder="yourusername/fb-auto-poster">
+
+            <button onclick="saveSettings()">Save Configuration</button>
+            <p id="saveStatus" style="text-align: center; margin-top: 10px; font-weight: bold;"></p>
+        </div>
+
+        <div class="card">
+            <h3>📊 Live Stats</h3>
+            <p><strong>Today's Posts:</strong> <span id="dailyCount">0</span></p>
+            <p><strong>Last Run:</strong> <span id="lastRun">Never</span></p>
+            
+            <h3 style="margin-top: 30px;">📝 Recent Posts</h3>
+            <div style="overflow-y: auto; max-height: 400px;">
+                <table id="historyTable">
+                    <thead>
+                        <tr>
+                            <th>Time (US)</th>
+                            <th>Status</th>
+                            <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- History loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
