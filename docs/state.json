@@ -3,17 +3,23 @@
     "Pure Detox Journey": {
       "posted": [
         {
+          "public_id": "Chrome Cruiser/CC_10",
+          "url": "https://facebook.com/1015851838282697_122108369612848645",
+          "time": "2026-04-27T13:17:09.809637-04:00",
+          "caption": "Timeless lines and roaring V8 engines define the true golden age of American steel"
+        },
+        {
           "public_id": "Chrome Cruiser/CC_1",
           "url": "https://facebook.com/1015851838282697_122108307020848645",
           "time": "2026-04-27T07:41:01.389476-04:00",
           "caption": "Cruising in a chrome-clad dream where every mile tells a story of the open road"
         }
       ],
-      "last_run": "2026-04-27T07:41:01.389476-04:00",
+      "last_run": "2026-04-27T13:17:09.809637-04:00",
       "day_date": "2026-04-27",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 10
+      "images_left": 9
     },
     "Chrome Cruiser": {
       "posted": [],
