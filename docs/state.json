@@ -3,6 +3,12 @@
     "Pure Detox Journey": {
       "posted": [
         {
+          "public_id": "Chrome Cruiser/CC_3",
+          "url": "https://facebook.com/1015851838282697_122108402234848645",
+          "time": "2026-04-27T16:55:59.873407-04:00",
+          "caption": "Chasing horizons in a vintage masterpiece that turns every street into a movie set"
+        },
+        {
           "public_id": "Chrome Cruiser/CC_2",
           "url": "https://facebook.com/1015851838282697_122108382902848645",
           "time": "2026-04-27T15:09:03.491243-04:00",
@@ -21,11 +27,11 @@
           "caption": "Cruising in a chrome-clad dream where every mile tells a story of the open road"
         }
       ],
-      "last_run": "2026-04-27T15:09:03.491243-04:00",
+      "last_run": "2026-04-27T16:55:59.873407-04:00",
       "day_date": "2026-04-27",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 8
+      "images_left": 7
     },
     "Chrome Cruiser": {
       "posted": [],
