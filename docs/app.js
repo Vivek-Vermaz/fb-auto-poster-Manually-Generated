@@ -80,15 +80,38 @@ function switchPage() {
 
 function renderStats(pageName) {
     const state = globalState.pages[pageName] || {};
+    const pageConfig = globalConfig.pages[activePageIndex] || {};
     
     document.getElementById('dailyCount').innerText = state.daily_count || 0;
     
+    if (pageConfig.last_updated) {
+        const d = new Date(pageConfig.last_updated);
+        document.getElementById('lastUpdated').innerText = d.toLocaleString();
+    } else {
+        document.getElementById('lastUpdated').innerText = "Never";
+    }
+
     if (state.last_run) {
         const d = new Date(state.last_run);
         document.getElementById('lastRun').innerText = d.toLocaleString();
     } else {
         document.getElementById('lastRun').innerText = "Never";
     }
+    
+    if (state.images_left !== undefined) {
+        const el = document.getElementById('imagesLeft');
+        el.innerText = state.images_left;
+        if (state.images_left < 7) {
+            el.style.background = "#e74c3c"; // Red warning
+        } else {
+            el.style.background = "#2ecc71"; // Green good
+        }
+    }
+
+    const totalCaptions = pageConfig.captions ? pageConfig.captions.length : 0;
+    const totalPosted = state.posted ? state.posted.length : 0;
+    const uniqueRemaining = Math.max(0, totalCaptions - totalPosted);
+    document.getElementById('captionsLeft').innerText = uniqueRemaining;
 
     const tbody = document.querySelector('#historyTable tbody');
     tbody.innerHTML = '';
@@ -113,6 +136,8 @@ function saveFormToLocalState() {
         
         const captionsRaw = document.getElementById('captions').value;
         page.captions = captionsRaw.split(',').map(c => c.trim()).filter(c => c.length > 0);
+        
+        page.last_updated = new Date().toISOString();
     }
 }
 

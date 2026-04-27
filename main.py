@@ -147,6 +147,10 @@ def main():
         images_left = len(unposted_images)
         print(f"[{page_name}] Found {images_left} unposted images.")
         
+        # Track inventory for the dashboard
+        page_state["images_left"] = images_left
+        state_changed = True
+        
         if images_left < 7:
             send_email_alert(
                 f"[{page_name}] WARNING: Low Image Inventory", 
