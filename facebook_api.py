@@ -2,16 +2,13 @@ import os
 import time
 import requests
 
-def post_to_facebook(image_url, caption, retries=2):
+def post_to_facebook(image_url, caption, page_id, access_token, retries=2):
     """
     Uploads an image via URL to a Facebook Page along with a caption.
     Includes retry logic.
     """
-    page_id = os.environ.get("FB_PAGE_ID")
-    access_token = os.environ.get("FB_PAGE_ACCESS_TOKEN")
-    
     if not page_id or not access_token:
-        raise ValueError("FB_PAGE_ID or FB_PAGE_ACCESS_TOKEN environment variable not set")
+        raise ValueError("page_id or access_token not provided")
         
     url = f"https://graph.facebook.com/v19.0/{page_id}/photos"
     
