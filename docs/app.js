@@ -13,12 +13,12 @@ async function loadData() {
     if (savedRepo) document.getElementById('ghRepo').value = savedRepo;
 
     try {
-        const configRes = await fetch('config.json');
+        const configRes = await fetch(`config.json?t=${Date.now()}`);
         if (configRes.ok) {
             globalConfig = await configRes.json();
         }
         
-        const stateRes = await fetch('state.json');
+        const stateRes = await fetch(`state.json?t=${Date.now()}`);
         if (stateRes.ok) {
             globalState = await stateRes.json();
         }
