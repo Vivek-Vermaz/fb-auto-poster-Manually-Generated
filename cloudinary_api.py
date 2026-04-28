@@ -46,6 +46,18 @@ def get_images_from_folder(folder_name):
         print(f"Error fetching images from Cloudinary folder '{folder_name}': {e}")
         return []
 
+def delete_image(public_id):
+    """
+    Deletes an image from Cloudinary permanently after posting.
+    """
+    init_cloudinary()
+    import cloudinary.uploader
+    try:
+        result = cloudinary.uploader.destroy(public_id)
+        print(f"Cloudinary deletion result for {public_id}: {result}")
+    except Exception as e:
+        print(f"Failed to delete image {public_id} from Cloudinary: {e}")
+
 if __name__ == "__main__":
     # Test
     # print(get_images_from_folder("my_classic_cars"))
