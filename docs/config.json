@@ -5,26 +5,17 @@
   "pages": [
     {
       "page_name": "Pure Detox Journey",
-      "cloudinary_folder": "Chrome Cruiser",
+      "cloudinary_folder": "Pure Detox Journey",
       "frequency": 6,
-      "captions": [
-        "Cruising in a chrome-clad dream where every mile tells a story of the open road",
-        "Timeless lines and roaring V8 engines define the true golden age of American steel",
-        "They don’t build them like this anymore—just pure soul and polished chrome",
-        "Chasing horizons in a vintage masterpiece that turns every street into a movie set",
-        "More than just a car it is a symphony of engineering and classic American grit",
-        "Vintage vibes and high-octane memories under a wide-open summer sky",
-        "Wrapped in leather and fueled by nostalgia this is how freedom used to feel",
-        "A rolling testament to an era when design was bold and the journey was everything",
-        "Rust and glory hand in hand proving that legends never truly go out of style",
-        "Behind the wheel of a classic you aren't just driving history you are living it."
-      ]
+      "captions": [],
+      "last_updated": "2026-04-28T04:59:08.660Z"
     },
     {
       "page_name": "Chrome Cruiser",
       "cloudinary_folder": "",
       "frequency": 6,
-      "captions": []
+      "captions": [],
+      "last_updated": "2026-04-28T04:56:29.829Z"
     }
   ]
 }
