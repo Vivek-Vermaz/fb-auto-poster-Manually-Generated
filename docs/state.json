@@ -3,6 +3,12 @@
     "Pure Detox Journey": {
       "posted": [
         {
+          "public_id": "Pure Detox Journey/Cortisol_dropping_with_202604271247",
+          "url": "https://facebook.com/1015851838282697_122108546930848645",
+          "time": "2026-04-28T11:35:12.172167-04:00",
+          "caption": "\u2728\ud83d\udcaf\ud83c\udfc6\ud83c\udf1f"
+        },
+        {
           "public_id": "Chrome Cruiser/CC_3",
           "url": "https://facebook.com/1015851838282697_122108402234848645",
           "time": "2026-04-27T16:55:59.873407-04:00",
@@ -27,9 +33,9 @@
           "caption": "Cruising in a chrome-clad dream where every mile tells a story of the open road"
         }
       ],
-      "last_run": "2026-04-27T16:55:59.873407-04:00",
+      "last_run": "2026-04-28T11:35:12.172167-04:00",
       "day_date": "2026-04-28",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 10
     },
