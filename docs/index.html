@@ -40,6 +40,9 @@
             <div>
                 <button onclick="addNewPage()">+ Add New Page</button>
             </div>
+            <div style="margin-left: 15px;">
+                <button class="btn-success" style="margin-top: 0;" onclick="forceTestPost()">🚀 Force Test Post</button>
+            </div>
         </div>
     </div>
 
@@ -74,6 +77,9 @@
         <div class="card">
             <h3>📊 Stats: <span id="statsPageTitle"></span></h3>
             <p style="font-size: 13px; color: #7f8c8d; margin-top: -15px;">⚙️ Settings Last Updated: <span id="lastUpdated">Never</span></p>
+            <div id="activeConfigAlert" style="background-color: #d1ecf1; color: #0c5460; padding: 10px; border-radius: 5px; margin-bottom: 15px; display: none;">
+                <strong>Active Config:</strong> Folder <span id="activeFolder"></span> | Captions: <span id="activeCaptionsCount"></span>
+            </div>
             
             <p><strong>Today's Posts:</strong> <span id="dailyCount">0</span></p>
             <p><strong>Last Run:</strong> <span id="lastRun">Never</span></p>
@@ -87,6 +93,7 @@
                         <tr>
                             <th>Time (US)</th>
                             <th>Status</th>
+                            <th>Caption Snippet</th>
                             <th>Link</th>
                         </tr>
                     </thead>

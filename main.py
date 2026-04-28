@@ -4,7 +4,7 @@ import random
 from datetime import datetime
 import pytz
 
-from cloudinary_api import get_images_from_folder
+from cloudinary_api import get_images_from_folder, delete_image
 from facebook_api import post_to_facebook
 from email_alerter import send_email_alert
 
@@ -94,6 +94,7 @@ def main():
 
     current_time = get_us_time()
     state_changed = False
+    config_changed = False
     
     pages = config.get("pages", [])
     if not pages:
@@ -129,8 +130,15 @@ def main():
         page_state = state["pages"][page_name]
         frequency = page_config.get("frequency", 6)
         
-        if not check_schedule(page_state, frequency, current_time, page_name):
-            continue
+        # Check if this is a forced test post
+        test_page_target = os.environ.get("TEST_PAGE_NAME")
+        is_test_run = (test_page_target == page_name)
+
+        if not is_test_run:
+            if not check_schedule(page_state, frequency, current_time, page_name):
+                continue
+        else:
+            print(f"[{page_name}] 🚀 FORCE TEST POST COMMAND RECEIVED! Bypassing schedule.")
             
         print(f"[{page_name}] Conditions met. Proceeding to post...")
         
@@ -164,12 +172,14 @@ def main():
         image_to_post = unposted_images[0]
         
         captions = page_config.get("captions", [])
-        if not captions:
-            print(f"[{page_name}] No captions configured.")
-            continue
-            
-        caption_index = len(page_state.get("posted", [])) % len(captions)
-        caption_to_post = captions[caption_index].strip()
+        if not captions or len(captions) == 0:
+            print(f"[{page_name}] No captions configured. Using random emojis fallback.")
+            num_emojis = random.randint(4, 5)
+            fallback_emojis = ["🔥", "😎", "💯", "🚀", "✨", "😍", "🙌", "💥", "💪", "🌟", "🚗", "🏆", "👌"]
+            caption_to_post = "".join(random.choices(fallback_emojis, k=num_emojis))
+        else:
+            caption_index = len(page_state.get("posted", [])) % len(captions)
+            caption_to_post = captions[caption_index].strip()
         
         try:
             post_url = post_to_facebook(
@@ -178,6 +188,15 @@ def main():
                 fb_page_id, 
                 fb_page_token
             )
+            
+            # Post-processing: Destructive Deletions as requested
+            print(f"[{page_name}] Deleting posted image from Cloudinary...")
+            delete_image(image_to_post["public_id"])
+            
+            if captions and len(captions) > 0:
+                print(f"[{page_name}] Deleting posted caption from config...")
+                page_config["captions"].pop(caption_index)
+                config_changed = True
             
             # Update state
             post_record = {
@@ -203,6 +222,10 @@ def main():
     if state_changed:
         save_json(STATE_FILE, state)
         print("Overall state saved.")
+        
+    if config_changed:
+        save_json(CONFIG_FILE, config)
+        print("Config updated (captions deleted) and saved.")
 
 if __name__ == "__main__":
     main()

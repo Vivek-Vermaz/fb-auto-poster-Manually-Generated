@@ -76,6 +76,12 @@ function switchPage() {
     document.getElementById('captions').value = (page.captions || []).join(',\n');
     
     renderStats(page.page_name);
+
+    // Update the Active Config Alert
+    const alert = document.getElementById('activeConfigAlert');
+    alert.style.display = 'block';
+    document.getElementById('activeFolder').innerText = page.cloudinary_folder || 'None';
+    document.getElementById('activeCaptionsCount').innerText = (page.captions || []).length;
 }
 
 function renderStats(pageName) {
@@ -119,9 +125,11 @@ function renderStats(pageName) {
     (state.posted || []).forEach(post => {
         const tr = document.createElement('tr');
         const d = new Date(post.time);
+        const captionSnippet = post.caption ? (post.caption.substring(0, 50) + (post.caption.length > 50 ? '...' : '')) : 'N/A';
         tr.innerHTML = `
             <td>${d.toLocaleString()}</td>
             <td><span class="badge">Success</span></td>
+            <td><span title="${post.caption || ''}">${captionSnippet}</span></td>
             <td><a href="${post.url}" target="_blank">View Post</a></td>
         `;
         tbody.appendChild(tr);
@@ -228,5 +236,57 @@ async function saveSettings() {
         console.error(error);
         statusEl.innerText = `❌ Error: ${error.message}`;
         statusEl.style.color = "red";
+    }
+}
+async function forceTestPost() {
+    const selector = document.getElementById('pageSelector');
+    const pageIndex = parseInt(selector.value, 10);
+    if (isNaN(pageIndex)) return;
+
+    const page = globalConfig.pages[pageIndex];
+    const token = document.getElementById('ghToken').value;
+    const repo = document.getElementById('ghRepo').value;
+
+    if (!token || !repo) {
+        alert("GitHub Token and Repo name are required to trigger a test post.");
+        return;
+    }
+
+    if (!confirm(`🚀 This will force an immediate post to Facebook for "${page.page_name}", bypassing all schedules and probabilities. Continue?`)) {
+        return;
+    }
+
+    const btn = event.target;
+    const originalText = btn.innerText;
+    btn.innerText = "⏳ Triggering...";
+    btn.disabled = true;
+
+    try {
+        const url = `https://api.github.com/repos/${repo}/actions/workflows/auto_post.yml/dispatches`;
+        const res = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Authorization': `token ${token}`,
+                'Accept': 'application/vnd.github.v3+json'
+            },
+            body: JSON.stringify({
+                ref: 'main',
+                inputs: {
+                    test_page_name: page.page_name
+                }
+            })
+        });
+
+        if (res.ok) {
+            alert("✅ Test post triggered! It will appear on Facebook in about 2-3 minutes. Check your Actions tab to watch the progress.");
+        } else {
+            const err = await res.json();
+            throw new Error(err.message || "Failed to trigger workflow");
+        }
+    } catch (e) {
+        alert("❌ Error: " + e.message);
+    } finally {
+        btn.innerText = originalText;
+        btn.disabled = false;
     }
 }
