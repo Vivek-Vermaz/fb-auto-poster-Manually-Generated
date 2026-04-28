@@ -73,6 +73,7 @@ function switchPage() {
     
     document.getElementById('cloudinaryFolder').value = page.cloudinary_folder || '';
     document.getElementById('frequency').value = page.frequency || 6;
+    document.getElementById('aiPrompt').value = page.ai_prompt || '';
     document.getElementById('captions').value = (page.captions || []).join(',\n');
     updateCaptionCount();
     
@@ -162,6 +163,7 @@ function saveFormToLocalState() {
         const page = globalConfig.pages[activePageIndex];
         page.cloudinary_folder = document.getElementById('cloudinaryFolder').value;
         page.frequency = parseInt(document.getElementById('frequency').value, 10);
+        page.ai_prompt = document.getElementById('aiPrompt').value.trim();
         
         const captionsRaw = document.getElementById('captions').value;
         page.captions = captionsRaw.split(',').map(c => c.trim()).filter(c => c.length > 0);
@@ -182,6 +184,7 @@ function addNewPage() {
             page_name: name.trim(),
             cloudinary_folder: "",
             frequency: 6,
+            ai_prompt: "",
             captions: []
         });
         activePageIndex = globalConfig.pages.length - 1;
