@@ -239,54 +239,81 @@ async function saveSettings() {
     }
 }
 async function forceTestPost() {
-    const selector = document.getElementById('pageSelector');
-    const pageIndex = parseInt(selector.value, 10);
-    if (isNaN(pageIndex)) return;
+    const page = globalConfig.pages[activePageIndex];
+    if (!confirm(`🚀 Force an immediate post for "${page.page_name}"?`)) return;
+    
+    await triggerRobotAction('test', page.page_name);
+}
 
-    const page = globalConfig.pages[pageIndex];
+async function refreshStatsOnDemand() {
+    if (!confirm(`🔄 Refresh inventory counts for all pages?`)) return;
+    await triggerRobotAction('refresh');
+}
+
+async function triggerRobotAction(type, pageName = '') {
     const token = document.getElementById('ghToken').value;
     const repo = document.getElementById('ghRepo').value;
+    const statusDiv = document.getElementById('robotStatus');
+    const statusMsg = document.getElementById('statusMessage');
 
     if (!token || !repo) {
-        alert("GitHub Token and Repo name are required to trigger a test post.");
+        alert("GitHub Token and Repo required.");
         return;
     }
 
-    if (!confirm(`🚀 This will force an immediate post to Facebook for "${page.page_name}", bypassing all schedules and probabilities. Continue?`)) {
-        return;
-    }
-
-    const btn = event.target;
-    const originalText = btn.innerText;
-    btn.innerText = "⏳ Triggering...";
-    btn.disabled = true;
+    statusDiv.style.display = 'block';
+    statusMsg.innerText = type === 'test' ? `⏳ Waking up robot to post to ${pageName}...` : `⏳ Waking up robot to count images...`;
 
     try {
+        // Record current last_run to detect changes
+        const pageToWatch = pageName || (globalConfig.pages[0] ? globalConfig.pages[0].page_name : null);
+        const originalLastRun = globalState.pages[pageToWatch]?.last_run;
+        const originalImgCount = globalState.pages[pageToWatch]?.images_left;
+
         const url = `https://api.github.com/repos/${repo}/actions/workflows/auto_post.yml/dispatches`;
+        const inputs = type === 'test' ? { test_page_name: pageName } : { refresh_only: 'true' };
+        
         const res = await fetch(url, {
             method: 'POST',
-            headers: {
-                'Authorization': `token ${token}`,
-                'Accept': 'application/vnd.github.v3+json'
-            },
-            body: JSON.stringify({
-                ref: 'main',
-                inputs: {
-                    test_page_name: page.page_name
-                }
-            })
+            headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' },
+            body: JSON.stringify({ ref: 'main', inputs })
         });
 
-        if (res.ok) {
-            alert("✅ Test post triggered! It will appear on Facebook in about 2-3 minutes. Check your Actions tab to watch the progress.");
-        } else {
-            const err = await res.json();
-            throw new Error(err.message || "Failed to trigger workflow");
-        }
+        if (!res.ok) throw new Error("Failed to trigger GitHub Action.");
+
+        statusMsg.innerText = `🤖 Robot is working (this takes 1-2 minutes)...`;
+        
+        // Start polling for state.json changes
+        await pollForStateUpdate(pageToWatch, originalLastRun, originalImgCount);
+        
+        statusMsg.innerText = `✅ Done! Dashboard Updated.`;
+        setTimeout(() => { statusDiv.style.display = 'none'; }, 5000);
+
     } catch (e) {
-        alert("❌ Error: " + e.message);
-    } finally {
-        btn.innerText = originalText;
-        btn.disabled = false;
+        alert("Error: " + e.message);
+        statusDiv.style.display = 'none';
     }
+}
+
+async function pollForStateUpdate(pageName, oldRun, oldCount) {
+    const maxAttempts = 20; // 200 seconds total
+    for (let i = 0; i < maxAttempts; i++) {
+        await new Promise(r => setTimeout(r, 10000)); // Wait 10s
+        
+        try {
+            // Force bypass cache by adding timestamp
+            const res = await fetch(`state.json?t=${Date.now()}`);
+            if (res.ok) {
+                const newState = await res.json();
+                const pageState = newState.pages[pageName];
+                
+                if (pageState && (pageState.last_run !== oldRun || pageState.images_left !== oldCount)) {
+                    globalState = newState;
+                    renderStats(globalConfig.pages[activePageIndex].page_name);
+                    return;
+                }
+            }
+        } catch (e) { console.log("Polling error:", e); }
+    }
+    throw new Error("Robot took too long to respond. Please refresh the page manually in a minute.");
 }

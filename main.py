@@ -129,7 +129,27 @@ def main():
             
         page_state = state["pages"][page_name]
         frequency = page_config.get("frequency", 6)
+
+        # Handle Refresh Only command
+        is_refresh_only = os.environ.get("REFRESH_ONLY") == "true"
         
+        # Get latest image count from Cloudinary
+        folder = page_config.get("cloudinary_folder")
+        if folder:
+            all_images = get_images_from_folder(folder)
+            posted_ids = [p["public_id"] for p in page_state.get("posted", [])]
+            unposted_images = [img for img in all_images if img["public_id"] not in posted_ids]
+            
+            images_left = len(unposted_images)
+            if page_state.get("images_left") != images_left:
+                page_state["images_left"] = images_left
+                state_changed = True
+            
+            print(f"[{page_name}] Inventory Check: {images_left} images remaining.")
+
+        if is_refresh_only:
+            continue # Move to next page to refresh its count too
+
         # Check if this is a forced test post
         test_page_target = os.environ.get("TEST_PAGE_NAME")
         is_test_run = (test_page_target == page_name)
@@ -142,23 +162,10 @@ def main():
             
         print(f"[{page_name}] Conditions met. Proceeding to post...")
         
-        folder = page_config.get("cloudinary_folder")
         if not folder:
             print(f"[{page_name}] No Cloudinary folder configured.")
             continue
             
-        # Get images
-        all_images = get_images_from_folder(folder)
-        posted_ids = [p["public_id"] for p in page_state.get("posted", [])]
-        unposted_images = [img for img in all_images if img["public_id"] not in posted_ids]
-        
-        images_left = len(unposted_images)
-        print(f"[{page_name}] Found {images_left} unposted images.")
-        
-        # Track inventory for the dashboard
-        page_state["images_left"] = images_left
-        state_changed = True
-        
         if images_left < 7:
             send_email_alert(
                 f"[{page_name}] WARNING: Low Image Inventory", 

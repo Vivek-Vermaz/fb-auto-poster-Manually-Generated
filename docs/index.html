@@ -40,10 +40,15 @@
             <div>
                 <button onclick="addNewPage()">+ Add New Page</button>
             </div>
-            <div style="margin-left: 15px;">
+            <div style="margin-left: 15px; display: flex; gap: 10px;">
                 <button class="btn-success" style="margin-top: 0;" onclick="forceTestPost()">🚀 Force Test Post</button>
+                <button style="margin-top: 0; background-color: #3498db;" onclick="refreshStatsOnDemand()">🔄 Refresh Stats</button>
             </div>
         </div>
+    </div>
+    
+    <div id="robotStatus" style="display: none; background: #2c3e50; color: white; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center; font-weight: bold; animation: pulse 2s infinite;">
+        <span id="statusMessage"></span>
     </div>
 
     <div class="grid" id="mainGrid" style="display: none;">
