@@ -5,10 +5,11 @@
   "pages": [
     {
       "page_name": "Pure Detox Journey",
-      "cloudinary_folder": "Pure Detox Journey",
+      "cloudinary_folder": "",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-04-28T16:32:54.181Z"
+      "last_updated": "2026-04-28T17:14:00.389Z",
+      "ai_prompt": "Write a 150 to 180 words engaging caption with emojis with 2 to 4 releavent hashtags"
     },
     {
       "page_name": "Chrome Cruiser",
