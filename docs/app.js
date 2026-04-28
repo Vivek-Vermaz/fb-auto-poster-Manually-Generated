@@ -74,6 +74,7 @@ function switchPage() {
     document.getElementById('cloudinaryFolder').value = page.cloudinary_folder || '';
     document.getElementById('frequency').value = page.frequency || 6;
     document.getElementById('captions').value = (page.captions || []).join(',\n');
+    updateCaptionCount();
     
     renderStats(page.page_name);
 
@@ -175,6 +176,12 @@ function deleteCurrentPage() {
     }
 }
 
+function updateCaptionCount() {
+    const text = document.getElementById('captions').value;
+    const count = text.split(',').map(c => c.trim()).filter(c => c.length > 0).length;
+    document.getElementById('captionQueueCount').innerText = count;
+}
+
 async function saveSettings() {
     saveFormToLocalState(); // Make sure latest edits are caught
     
@@ -257,7 +264,7 @@ async function triggerRobotAction(type, pageName = '') {
     const statusMsg = document.getElementById('statusMessage');
 
     if (!token || !repo) {
-        alert("GitHub Token and Repo required.");
+        alert("GitHub Token and Repo required. Please enter them and click 'Save ALL Configurations' first.");
         return;
     }
 
@@ -265,8 +272,8 @@ async function triggerRobotAction(type, pageName = '') {
     statusMsg.innerText = type === 'test' ? `⏳ Waking up robot to post to ${pageName}...` : `⏳ Waking up robot to count images...`;
 
     try {
-        // Record current last_run to detect changes
-        const pageToWatch = pageName || (globalConfig.pages[0] ? globalConfig.pages[0].page_name : null);
+        // Record current state to detect changes
+        const pageToWatch = pageName || (globalConfig.pages[activePageIndex] ? globalConfig.pages[activePageIndex].page_name : null);
         const originalLastRun = globalState.pages[pageToWatch]?.last_run;
         const originalImgCount = globalState.pages[pageToWatch]?.images_left;
 
@@ -275,11 +282,17 @@ async function triggerRobotAction(type, pageName = '') {
         
         const res = await fetch(url, {
             method: 'POST',
-            headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' },
+            headers: { 
+                'Authorization': `token ${token}`, 
+                'Accept': 'application/vnd.github.v3+json' 
+            },
             body: JSON.stringify({ ref: 'main', inputs })
         });
 
-        if (!res.ok) throw new Error("Failed to trigger GitHub Action.");
+        if (!res.ok) {
+            const errData = await res.json();
+            throw new Error(errData.message || "Failed to trigger GitHub Action.");
+        }
 
         statusMsg.innerText = `🤖 Robot is working (this takes 1-2 minutes)...`;
         
@@ -290,6 +303,7 @@ async function triggerRobotAction(type, pageName = '') {
         setTimeout(() => { statusDiv.style.display = 'none'; }, 5000);
 
     } catch (e) {
+        console.error(e);
         alert("Error: " + e.message);
         statusDiv.style.display = 'none';
     }

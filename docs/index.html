@@ -64,8 +64,9 @@
             <label>Daily Post Frequency (times/day)</label>
             <input type="number" id="frequency" value="6" min="1" max="24">
 
-            <label>Bulk Captions (Comma Separated)</label>
-            <textarea id="captions" placeholder="Caption 1, Caption 2, Caption 3..."></textarea>
+            <h3>📝 Bulk Captions (Comma Separated)</h3>
+            <p style="font-size: 12px; color: #7f8c8d; margin-top: -10px;">Captions in queue: <span id="captionQueueCount" style="font-weight: bold; color: #2980b9;">0</span></p>
+            <textarea id="captions" placeholder="Caption 1, Caption 2, Caption 3..." oninput="updateCaptionCount()"></textarea>
             
             <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
             

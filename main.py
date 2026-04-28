@@ -137,8 +137,9 @@ def main():
         folder = page_config.get("cloudinary_folder")
         if folder:
             all_images = get_images_from_folder(folder)
-            posted_ids = [p["public_id"] for p in page_state.get("posted", [])]
-            unposted_images = [img for img in all_images if img["public_id"] not in posted_ids]
+            # Since we now delete images from Cloudinary after posting, 
+            # everything in the folder is considered 'unposted'.
+            unposted_images = all_images
             
             images_left = len(unposted_images)
             if page_state.get("images_left") != images_left:
