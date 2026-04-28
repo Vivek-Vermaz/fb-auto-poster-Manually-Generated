@@ -5,17 +5,19 @@
   "pages": [
     {
       "page_name": "Pure Detox Journey",
-      "cloudinary_folder": "Pure Detox Journey",
+      "cloudinary_folder": "",
       "frequency": 6,
-      "captions": [],
-      "last_updated": "2026-04-28T12:26:26.754Z"
+      "captions": [
+        "hello how are you"
+      ],
+      "last_updated": "2026-04-28T12:29:18.569Z"
     },
     {
       "page_name": "Chrome Cruiser",
       "cloudinary_folder": "Chrome Cruiser",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-04-28T12:23:44.867Z"
+      "last_updated": "2026-04-28T12:26:44.386Z"
     }
   ]
 }
