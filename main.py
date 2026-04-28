@@ -7,6 +7,7 @@ import pytz
 from cloudinary_api import get_images_from_folder, delete_image
 from facebook_api import post_to_facebook
 from email_alerter import send_email_alert
+from gemini_api import generate_caption
 
 CONFIG_FILE = "docs/config.json"
 STATE_FILE = "docs/state.json"
@@ -179,15 +180,32 @@ def main():
             
         image_to_post = unposted_images[0]
         
-        captions = page_config.get("captions", [])
-        if not captions or len(captions) == 0:
-            print(f"[{page_name}] No captions configured. Using random emojis fallback.")
-            num_emojis = random.randint(4, 5)
-            fallback_emojis = ["🔥", "😎", "💯", "🚀", "✨", "😍", "🙌", "💥", "💪", "🌟", "🚗", "🏆", "👌"]
-            caption_to_post = "".join(random.choices(fallback_emojis, k=num_emojis))
-        else:
-            caption_index = len(page_state.get("posted", [])) % len(captions)
-            caption_to_post = captions[caption_index].strip()
+        image_to_post = unposted_images[0]
+        
+        caption_to_post = None
+        used_bulk_caption_index = -1
+        
+        ai_prompt = page_config.get("ai_prompt", "").strip()
+        
+        if ai_prompt:
+            print(f"[{page_name}] AI Prompt found. Generating dynamic caption via Gemini...")
+            try:
+                caption_to_post = generate_caption(image_to_post["url"], ai_prompt)
+                print(f"[{page_name}] Gemini AI Caption generated successfully.")
+            except Exception as ai_e:
+                print(f"[{page_name}] WARNING: Gemini AI generation failed: {ai_e}")
+                caption_to_post = None # Force fallback
+                
+        if not caption_to_post:
+            captions = page_config.get("captions", [])
+            if not captions or len(captions) == 0:
+                print(f"[{page_name}] No Bulk Captions configured. Using random emojis fallback.")
+                num_emojis = random.randint(4, 5)
+                fallback_emojis = ["🔥", "😎", "💯", "🚀", "✨", "😍", "🙌", "💥", "💪", "🌟", "🚗", "🏆", "👌"]
+                caption_to_post = "".join(random.choices(fallback_emojis, k=num_emojis))
+            else:
+                used_bulk_caption_index = len(page_state.get("posted", [])) % len(captions)
+                caption_to_post = captions[used_bulk_caption_index].strip()
         
         try:
             post_url = post_to_facebook(
@@ -201,9 +219,9 @@ def main():
             print(f"[{page_name}] Deleting posted image from Cloudinary...")
             delete_image(image_to_post["public_id"])
             
-            if captions and len(captions) > 0:
-                print(f"[{page_name}] Deleting posted caption from config...")
-                page_config["captions"].pop(caption_index)
+            if used_bulk_caption_index >= 0:
+                print(f"[{page_name}] Deleting used Bulk Caption from config...")
+                page_config["captions"].pop(used_bulk_caption_index)
                 config_changed = True
             
             # Update state
