@@ -48,6 +48,12 @@
     "Chrome Cruiser": {
       "posted": [
         {
+          "public_id": "Chrome Cruiser/CC_4",
+          "url": "https://facebook.com/1088226834364883_122109556946914957",
+          "time": "2026-04-28T17:02:33.331663-04:00",
+          "caption": "Vintage vibes and high-octane memories under a wide-open summer sky"
+        },
+        {
           "public_id": "Chrome Cruiser/CC_3",
           "url": "https://facebook.com/1088226834364883_122109547604914957",
           "time": "2026-04-28T15:25:26.335235-04:00",
@@ -72,11 +78,11 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-04-28T15:25:26.335235-04:00",
+      "last_run": "2026-04-28T17:02:33.331663-04:00",
       "day_date": "2026-04-28",
-      "daily_count": 4,
+      "daily_count": 5,
       "daily_target_reached": false,
-      "images_left": 7
+      "images_left": 6
     }
   }
 }
