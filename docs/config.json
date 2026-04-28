@@ -8,8 +8,8 @@
       "cloudinary_folder": "",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-04-28T17:14:06.116Z",
-      "ai_prompt": "Write a 150 to 180 words engaging caption with emojis with 2 to 4 releavent hashtags"
+      "last_updated": "2026-04-28T17:17:50.692Z",
+      "ai_prompt": ""
     },
     {
       "page_name": "Chrome Cruiser",
@@ -27,7 +27,8 @@
         "Rust and glory hand in hand proving that legends never truly go out of style",
         "Behind the wheel of a classic you aren't just driving history you are living it."
       ],
-      "last_updated": "2026-04-28T15:34:13.883Z"
+      "last_updated": "2026-04-28T17:18:01.628Z",
+      "ai_prompt": "Write a 150 to 180 words engaging caption with emojis with 2 to 4 releavent hashtags"
     }
   ]
 }
