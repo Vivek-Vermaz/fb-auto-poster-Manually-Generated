@@ -105,6 +105,26 @@ function renderStats(pageName) {
         document.getElementById('lastRun').innerText = "Never";
     }
     
+    // Calculate Next Run
+    let nextRunText = "Unknown";
+    if (!state.last_run) {
+        nextRunText = "Ready for next hourly check";
+    } else {
+        const last = new Date(state.last_run);
+        const freq = pageConfig.frequency || 6;
+        if (state.daily_count >= freq) {
+            nextRunText = "Daily limit reached. Paused until tomorrow.";
+        } else {
+            const nextTime = new Date(last.getTime() + 60 * 60 * 1000); // Must wait 1 hour
+            if (new Date() > nextTime) {
+                nextRunText = "Eligible Now (Waiting for hourly 60% chance)";
+            } else {
+                nextRunText = `After ${nextTime.toLocaleTimeString()} (60% chance)`;
+            }
+        }
+    }
+    document.getElementById('nextRun').innerText = nextRunText;
+    
     if (state.images_left !== undefined) {
         const el = document.getElementById('imagesLeft');
         el.innerText = state.images_left;
@@ -147,6 +167,10 @@ function saveFormToLocalState() {
         page.captions = captionsRaw.split(',').map(c => c.trim()).filter(c => c.length > 0);
         
         page.last_updated = new Date().toISOString();
+        
+        // Instantly update the UI so the user sees their changes applied
+        document.getElementById('activeFolder').innerText = page.cloudinary_folder || 'None';
+        document.getElementById('activeCaptionsCount').innerText = page.captions.length;
     }
 }
 
