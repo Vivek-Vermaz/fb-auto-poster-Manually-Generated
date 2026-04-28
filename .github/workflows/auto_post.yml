@@ -11,6 +11,10 @@ on:
         description: 'Page Name to force a test post for'
         required: false
         default: ''
+      refresh_only:
+        description: 'Set to true to only refresh inventory counts without posting'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write
@@ -41,6 +45,7 @@ jobs:
     - name: Run Background Script
       env:
         TEST_PAGE_NAME: ${{ github.event.inputs.test_page_name }}
+        REFRESH_ONLY: ${{ github.event.inputs.refresh_only }}
         FB_PAGES_CREDENTIALS: ${{ secrets.FB_PAGES_CREDENTIALS }}
         CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
         CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
