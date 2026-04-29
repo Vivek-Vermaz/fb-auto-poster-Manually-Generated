@@ -3,6 +3,12 @@
     "Pure Detox Journey": {
       "posted": [
         {
+          "public_id": "Pure Detox Journey/Glass_of_lemon_202604271246",
+          "url": "https://facebook.com/1015851838282697_122108632178848645",
+          "time": "2026-04-29T03:03:32.622133-04:00",
+          "caption": "\ud83d\ude4c\ud83d\ude0e\ud83d\ude97\ud83d\udcaa"
+        },
+        {
           "public_id": "Pure Detox Journey/Dehydrated_brain_vs_202604271246_1",
           "url": "https://facebook.com/1015851838282697_122108557940848645",
           "time": "2026-04-28T12:35:03.324439-04:00",
@@ -39,9 +45,9 @@
           "caption": "Cruising in a chrome-clad dream where every mile tells a story of the open road"
         }
       ],
-      "last_run": "2026-04-28T12:35:03.324439-04:00",
+      "last_run": "2026-04-29T03:03:32.622133-04:00",
       "day_date": "2026-04-28",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 8
     },
@@ -85,9 +91,9 @@
         }
       ],
       "last_run": "2026-04-28T18:51:24.832422-04:00",
-      "day_date": "2026-04-28",
-      "daily_count": 6,
-      "daily_target_reached": true,
+      "day_date": "2026-04-29",
+      "daily_count": 0,
+      "daily_target_reached": false,
       "images_left": 4
     }
   }
