@@ -54,6 +54,12 @@
     "Chrome Cruiser": {
       "posted": [
         {
+          "public_id": "Chrome Cruiser/CC_6",
+          "url": "https://facebook.com/1088226834364883_122109699536914957",
+          "time": "2026-04-29T13:22:26.346991-04:00",
+          "caption": "Behind the wheel of a classic you aren't just driving history you are living it."
+        },
+        {
           "public_id": "Chrome Cruiser/CC_5",
           "url": "https://facebook.com/1088226834364883_122109563180914957",
           "time": "2026-04-28T18:51:24.832422-04:00",
@@ -90,9 +96,9 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-04-28T18:51:24.832422-04:00",
+      "last_run": "2026-04-29T13:22:26.346991-04:00",
       "day_date": "2026-04-29",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 4
     }
