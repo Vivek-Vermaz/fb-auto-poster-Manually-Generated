@@ -15,7 +15,16 @@ async function loadData() {
     try {
         const configRes = await fetch(`config.json?t=${Date.now()}`);
         if (configRes.ok) {
-            globalConfig = await configRes.json();
+            const fetchedConfig = await configRes.json();
+            
+            // Prevent GitHub Pages deployment delay from wiping out recent saves
+            const cachedTime = localStorage.getItem('cachedConfigTime');
+            if (cachedTime && (Date.now() - parseInt(cachedTime)) < 3 * 60 * 1000) {
+                console.log("Using recent local cache to bypass GitHub Pages 2-minute delay.");
+                globalConfig = JSON.parse(localStorage.getItem('cachedConfig'));
+            } else {
+                globalConfig = fetchedConfig;
+            }
         }
         
         const stateRes = await fetch(`state.json?t=${Date.now()}`);
@@ -225,8 +234,12 @@ async function saveSettings() {
     // Save tokens locally so the user doesn't have to type them again
     localStorage.setItem('ghToken', token);
     localStorage.setItem('ghRepo', repo);
+    
+    // Save to local cache to prevent refresh wipeouts while GitHub Pages deploys
+    localStorage.setItem('cachedConfig', JSON.stringify(globalConfig));
+    localStorage.setItem('cachedConfigTime', Date.now());
 
-    statusEl.innerText = "Saving ALL configurations to GitHub...";
+    statusEl.innerText = "Saving ALL configurations to GitHub (takes ~2 mins to go live)...";
     statusEl.style.color = "orange";
 
     try {
