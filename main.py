@@ -1,6 +1,7 @@
 import os
 import json
 import random
+import time
 from datetime import datetime
 import pytz
 
@@ -98,8 +99,26 @@ def main():
     config_changed = False
     
     pages = config.get("pages", [])
+    
+    # --- AUTO-PROVISIONING ---
+    existing_page_names = [p.get("page_name") for p in pages]
+    for secret_page_name in fb_creds.keys():
+        if secret_page_name not in existing_page_names:
+            print(f"Auto-provisioning new page from secrets: '{secret_page_name}'")
+            pages.append({
+                "page_name": secret_page_name,
+                "cloudinary_folder": "",
+                "frequency": 6,
+                "ai_prompt": "",
+                "captions": []
+            })
+            config_changed = True
+            existing_page_names.append(secret_page_name)
+    
+    config["pages"] = pages
+    
     if not pages:
-        print("No pages configured in docs/config.json.")
+        print("No pages configured in docs/config.json and no secrets found.")
         return
         
     for page_config in pages:
@@ -238,6 +257,12 @@ def main():
             
             print(f"[{page_name}] Workflow completed successfully.")
             
+            # --- ANTI-SPAM PACING ---
+            if not is_test_run and not is_refresh_only:
+                sleep_time = random.randint(30, 90)
+                print(f"PACING: Sleeping for {sleep_time} seconds before checking next page to avoid Facebook spam flags...")
+                time.sleep(sleep_time)
+                
         except Exception as e:
             print(f"[{page_name}] Error during posting workflow: {e}")
             send_email_alert(
