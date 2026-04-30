@@ -5,10 +5,10 @@
   "pages": [
     {
       "page_name": "Pure Detox Journey",
-      "cloudinary_folder": "PDJ",
+      "cloudinary_folder": "",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-04-29T09:08:56.986Z",
+      "last_updated": "2026-04-30T09:17:49.889Z",
       "ai_prompt": ""
     },
     {
@@ -20,7 +20,7 @@
         "More than just a car it is a symphony of engineering and classic American grit",
         "Rust and glory hand in hand proving that legends never truly go out of style"
       ],
-      "last_updated": "2026-04-29T06:03:22.399Z",
+      "last_updated": "2026-04-30T09:18:21.209Z",
       "ai_prompt": "Write a 200 to 250 words engaging caption related to particual car and the vibes with emojis with 2 to 4 releavent hashtags"
     },
     {
@@ -32,10 +32,11 @@
     },
     {
       "page_name": "Beautiful House",
-      "cloudinary_folder": "",
-      "frequency": 6,
-      "ai_prompt": "",
-      "captions": []
+      "cloudinary_folder": "Beautiful House",
+      "frequency": 5,
+      "ai_prompt": "Write a 200 to 250 words engaging caption related to particual house and the vibes with emojis with 2 to 4 releavent hashtags",
+      "captions": [],
+      "last_updated": "2026-04-30T09:18:39.088Z"
     },
     {
       "page_name": "manifest.yourdreamz",
