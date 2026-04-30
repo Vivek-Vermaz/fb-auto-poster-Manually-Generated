@@ -46,7 +46,7 @@
         }
       ],
       "last_run": "2026-04-29T03:03:32.622133-04:00",
-      "day_date": "2026-04-29",
+      "day_date": "2026-04-30",
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0
@@ -115,10 +115,46 @@
         }
       ],
       "last_run": "2026-04-29T17:58:59.021925-04:00",
-      "day_date": "2026-04-29",
-      "daily_count": 4,
+      "day_date": "2026-04-30",
+      "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 21
+    },
+    "Celebs A": {
+      "posted": [],
+      "last_run": null,
+      "day_date": "2026-04-30",
+      "daily_count": 0,
+      "daily_target_reached": false
+    },
+    "Beautiful House": {
+      "posted": [
+        {
+          "public_id": "Beautiful House/BH_1",
+          "url": "https://facebook.com/943246308873115_122119802307204521",
+          "time": "2026-04-30T05:19:09.832546-04:00",
+          "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
+        }
+      ],
+      "last_run": "2026-04-30T05:19:09.832546-04:00",
+      "day_date": null,
+      "daily_count": 1,
+      "daily_target_reached": false,
+      "images_left": 24
+    },
+    "manifest.yourdreamz": {
+      "posted": [],
+      "last_run": null,
+      "day_date": "2026-04-30",
+      "daily_count": 0,
+      "daily_target_reached": false
+    },
+    " Aging With Grace": {
+      "posted": [],
+      "last_run": null,
+      "day_date": "2026-04-30",
+      "daily_count": 0,
+      "daily_target_reached": false
     }
   }
 }
