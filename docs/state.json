@@ -148,6 +148,12 @@
     "Beautiful House": {
       "posted": [
         {
+          "public_id": "Beautiful House/BH_12",
+          "url": "https://facebook.com/943246308873115_122119835043204521",
+          "time": "2026-04-30T11:44:57.437420-04:00",
+          "caption": "\ud83d\udcaf\ud83d\ude4c\ud83c\udf1f\ud83d\udca5\ud83d\ude0e"
+        },
+        {
           "public_id": "Beautiful House/BH_11",
           "url": "https://facebook.com/943246308873115_122119808889204521",
           "time": "2026-04-30T05:59:39.811008-04:00",
@@ -166,9 +172,9 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-04-30T05:59:39.811008-04:00",
+      "last_run": "2026-04-30T11:44:57.437420-04:00",
       "day_date": "2026-04-30",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 21
     },
