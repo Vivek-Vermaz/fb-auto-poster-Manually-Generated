@@ -37,9 +37,8 @@ def generate_caption(image_url, prompt):
         "data": image_bytes
     }
     
-    # 3. Call Gemini 1.5 Flash
+    # 3. Call Gemini with Fallbacks
     print(f"Sending image and prompt to Gemini: '{prompt}'")
-    model = genai.GenerativeModel('gemini-1.5-flash')
     
     # Add a system-like instruction to ensure it only returns the caption and no conversational filler
     full_prompt = (
@@ -48,10 +47,25 @@ def generate_caption(image_url, prompt):
         f"Output ONLY the caption text. Do not include quotes, explanations, or introductory phrases."
     )
     
-    result = model.generate_content([full_prompt, image_part])
+    models_to_try = [
+        'gemini-1.5-flash-latest', 
+        'gemini-1.5-flash',
+        'gemini-1.0-pro-vision-latest',
+        'gemini-pro-vision'
+    ]
     
-    caption = result.text.strip()
-    return caption
+    for model_name in models_to_try:
+        try:
+            print(f"Trying Gemini model: {model_name}...")
+            model = genai.GenerativeModel(model_name)
+            result = model.generate_content([full_prompt, image_part])
+            caption = result.text.strip()
+            return caption
+        except Exception as e:
+            print(f"Model {model_name} failed: {str(e)}")
+            continue
+            
+    raise Exception("All Gemini models failed. Please check your API key permissions and region.")
 
 if __name__ == "__main__":
     # Local test
