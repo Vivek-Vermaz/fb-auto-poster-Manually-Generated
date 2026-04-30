@@ -3,6 +3,12 @@
     "Pure Detox Journey": {
       "posted": [
         {
+          "public_id": "Puredetox/Apple_acting_as_shield_202604301541",
+          "url": "https://facebook.com/1015851838282697_122108824952848645",
+          "time": "2026-04-30T06:14:15.407193-04:00",
+          "caption": "\ud83d\udcaa\ud83d\udcaa\ud83c\udf1f\ud83d\udca5\ud83d\udcaf"
+        },
+        {
           "public_id": "Pure Detox Journey/Glass_of_lemon_202604271246",
           "url": "https://facebook.com/1015851838282697_122108632178848645",
           "time": "2026-04-29T03:03:32.622133-04:00",
@@ -45,11 +51,11 @@
           "caption": "Cruising in a chrome-clad dream where every mile tells a story of the open road"
         }
       ],
-      "last_run": "2026-04-29T03:03:32.622133-04:00",
+      "last_run": "2026-04-30T06:14:15.407193-04:00",
       "day_date": "2026-04-30",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 0
+      "images_left": 13
     },
     "Chrome Cruiser": {
       "posted": [
@@ -149,10 +155,10 @@
         }
       ],
       "last_run": "2026-04-30T05:59:39.811008-04:00",
-      "day_date": null,
-      "daily_count": 3,
+      "day_date": "2026-04-30",
+      "daily_count": 0,
       "daily_target_reached": false,
-      "images_left": 22
+      "images_left": 21
     },
     "manifest.yourdreamz": {
       "posted": [],
