@@ -8,18 +8,15 @@
       "cloudinary_folder": "",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-04-30T10:20:37.964Z",
-      "ai_prompt": "Write a 200 to 250 words engaging caption related to particual image with 2 to 4 releavent hashtags"
+      "last_updated": "2026-04-30T10:21:24.276Z",
+      "ai_prompt": ""
     },
     {
       "page_name": "Chrome Cruiser",
       "cloudinary_folder": "Chrome Cruiser",
       "frequency": 6,
-      "captions": [
-        "Cruising in a chrome-clad dream where every mile tells a story of the open road",
-        "Rust and glory hand in hand proving that legends never truly go out of style"
-      ],
-      "last_updated": "2026-04-30T09:59:06.683Z",
+      "captions": [],
+      "last_updated": "2026-04-30T10:23:33.292Z",
       "ai_prompt": "Write a 200 to 250 words engaging caption related to particual car and the vibes with emojis with 2 to 4 releavent hashtags"
     },
     {
@@ -28,7 +25,7 @@
       "frequency": 6,
       "ai_prompt": "",
       "captions": [],
-      "last_updated": "2026-04-30T09:44:07.970Z"
+      "last_updated": "2026-04-30T10:21:11.853Z"
     },
     {
       "page_name": "Beautiful House",
@@ -36,7 +33,7 @@
       "frequency": 5,
       "ai_prompt": "Write a 200 to 250 words engaging caption related to particual house and the vibes with emojis with 2 to 4 releavent hashtags",
       "captions": [],
-      "last_updated": "2026-04-30T10:20:15.908Z"
+      "last_updated": "2026-04-30T10:21:14.652Z"
     },
     {
       "page_name": "manifest.yourdreamz",
@@ -44,7 +41,7 @@
       "frequency": 4,
       "ai_prompt": "",
       "captions": [],
-      "last_updated": "2026-04-30T09:59:00.827Z"
+      "last_updated": "2026-04-30T10:21:19.828Z"
     },
     {
       "page_name": " Aging With Grace",
