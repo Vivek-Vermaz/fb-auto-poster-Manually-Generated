@@ -5,11 +5,11 @@
   "pages": [
     {
       "page_name": "Pure Detox Journey",
-      "cloudinary_folder": "Puredetox",
-      "frequency": 5,
+      "cloudinary_folder": "",
+      "frequency": 6,
       "captions": [],
-      "last_updated": "2026-04-30T09:29:01.857Z",
-      "ai_prompt": ""
+      "last_updated": "2026-04-30T10:20:37.964Z",
+      "ai_prompt": "Write a 200 to 250 words engaging caption related to particual image with 2 to 4 releavent hashtags"
     },
     {
       "page_name": "Chrome Cruiser",
@@ -20,7 +20,7 @@
         "More than just a car it is a symphony of engineering and classic American grit",
         "Rust and glory hand in hand proving that legends never truly go out of style"
       ],
-      "last_updated": "2026-04-30T09:18:21.209Z",
+      "last_updated": "2026-04-30T09:59:06.683Z",
       "ai_prompt": "Write a 200 to 250 words engaging caption related to particual car and the vibes with emojis with 2 to 4 releavent hashtags"
     },
     {
@@ -28,7 +28,8 @@
       "cloudinary_folder": "",
       "frequency": 6,
       "ai_prompt": "",
-      "captions": []
+      "captions": [],
+      "last_updated": "2026-04-30T09:44:07.970Z"
     },
     {
       "page_name": "Beautiful House",
@@ -36,15 +37,15 @@
       "frequency": 5,
       "ai_prompt": "Write a 200 to 250 words engaging caption related to particual house and the vibes with emojis with 2 to 4 releavent hashtags",
       "captions": [],
-      "last_updated": "2026-04-30T09:23:13.681Z"
+      "last_updated": "2026-04-30T10:20:15.908Z"
     },
     {
       "page_name": "manifest.yourdreamz",
-      "cloudinary_folder": "",
-      "frequency": 6,
+      "cloudinary_folder": "manifest.yourdreamz",
+      "frequency": 4,
       "ai_prompt": "",
       "captions": [],
-      "last_updated": "2026-04-30T09:23:09.449Z"
+      "last_updated": "2026-04-30T09:59:00.827Z"
     },
     {
       "page_name": " Aging With Grace",
