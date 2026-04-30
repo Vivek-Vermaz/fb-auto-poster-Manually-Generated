@@ -5,18 +5,18 @@
   "pages": [
     {
       "page_name": "Pure Detox Journey",
-      "cloudinary_folder": "",
+      "cloudinary_folder": "Puredetox",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-04-30T10:21:24.276Z",
-      "ai_prompt": ""
+      "last_updated": "2026-04-30T10:24:29.884Z",
+      "ai_prompt": "Write a 200 to 250 words engaging caption related to particual image with emojis with 2 to 4 releavent hashtags"
     },
     {
       "page_name": "Chrome Cruiser",
       "cloudinary_folder": "Chrome Cruiser",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-04-30T10:23:38.372Z",
+      "last_updated": "2026-04-30T10:24:15.293Z",
       "ai_prompt": "Write a 200 to 250 words engaging caption related to particual car and the vibes with emojis with 2 to 4 releavent hashtags"
     },
     {
