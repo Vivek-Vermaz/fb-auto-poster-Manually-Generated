@@ -66,6 +66,12 @@
     "Chrome Cruiser": {
       "posted": [
         {
+          "public_id": "Chrome Cruiser/Ferrari_250_GTO_coastal_estate_202604301344_1",
+          "url": "https://facebook.com/1088226834364883_122109895796914957",
+          "time": "2026-04-30T16:54:19.099264-04:00",
+          "caption": "\ud83d\ude0e\ud83d\ude0d\ud83d\udcaa\ud83d\ude97\ud83c\udfc6"
+        },
+        {
           "public_id": "Chrome Cruiser/Ferrari_250_GTO_coastal_estate_202604301344",
           "url": "https://facebook.com/1088226834364883_122109877874914957",
           "time": "2026-04-30T15:10:58.216259-04:00",
@@ -144,11 +150,11 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-04-30T15:10:58.216259-04:00",
+      "last_run": "2026-04-30T16:54:19.099264-04:00",
       "day_date": "2026-04-30",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 19
+      "images_left": 18
     },
     "Celebs A": {
       "posted": [],
@@ -159,6 +165,12 @@
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/BH_13",
+          "url": "https://facebook.com/943246308873115_122119855839204521",
+          "time": "2026-04-30T16:54:19.099264-04:00",
+          "caption": "\ud83d\udcaf\ud83d\ude4c\ud83d\udca5\u2728"
+        },
         {
           "public_id": "Beautiful House/BH_12",
           "url": "https://facebook.com/943246308873115_122119835043204521",
@@ -184,9 +196,9 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-04-30T11:44:57.437420-04:00",
+      "last_run": "2026-04-30T16:54:19.099264-04:00",
       "day_date": "2026-04-30",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 20
     },
