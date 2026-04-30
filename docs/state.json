@@ -66,6 +66,12 @@
     "Chrome Cruiser": {
       "posted": [
         {
+          "public_id": "Chrome Cruiser/BMW_3.0_CSL_alpine_road_202604301344",
+          "url": "https://facebook.com/1088226834364883_122109863372914957",
+          "time": "2026-04-30T13:14:01.630954-04:00",
+          "caption": "\ud83d\udc4c\ud83d\ude0d\ud83d\udcaf\ud83d\ude4c"
+        },
+        {
           "public_id": "Chrome Cruiser/Blue_Shelby_Cobra_mountain_road_202604301343",
           "url": "https://facebook.com/1088226834364883_122109809522914957",
           "time": "2026-04-30T06:21:49.921848-04:00",
@@ -132,9 +138,9 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-04-30T06:21:49.921848-04:00",
+      "last_run": "2026-04-30T13:14:01.630954-04:00",
       "day_date": "2026-04-30",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 20
     },
@@ -176,7 +182,7 @@
       "day_date": "2026-04-30",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 21
+      "images_left": 20
     },
     "manifest.yourdreamz": {
       "posted": [],
