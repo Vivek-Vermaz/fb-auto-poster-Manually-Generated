@@ -245,10 +245,10 @@
         }
       ],
       "last_run": "2026-05-01T00:57:32.025310-04:00",
-      "day_date": "2026-04-30",
-      "daily_count": 7,
+      "day_date": "2026-05-01",
+      "daily_count": 0,
       "daily_target_reached": false,
-      "images_left": 15
+      "images_left": 14
     },
     "manifest.yourdreamz": {
       "posted": [],
