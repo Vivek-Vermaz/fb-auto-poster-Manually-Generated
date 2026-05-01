@@ -3,6 +3,12 @@
     "Pure Detox Journey": {
       "posted": [
         {
+          "public_id": "manifest.yourdreamz/20260501_091849_UTC_0",
+          "url": "https://facebook.com/1015851838282697_122109037478848645",
+          "time": "2026-05-01T09:06:15.272752-04:00",
+          "caption": "\u2728\ud83d\udca5\ud83d\ude80\ud83d\udd25"
+        },
+        {
           "public_id": "manifest.yourdreamz/20260501_091348_UTC_0",
           "url": "https://facebook.com/1015851838282697_122108993732848645",
           "time": "2026-05-01T07:54:31.720948-04:00",
@@ -87,11 +93,11 @@
           "caption": "Cruising in a chrome-clad dream where every mile tells a story of the open road"
         }
       ],
-      "last_run": "2026-05-01T07:54:31.720948-04:00",
+      "last_run": "2026-05-01T09:06:15.272752-04:00",
       "day_date": "2026-05-01",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 2
+      "images_left": 1
     },
     "Chrome Cruiser": {
       "posted": [
@@ -278,7 +284,7 @@
       "day_date": "2026-05-01",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 26
+      "images_left": 25
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -293,7 +299,7 @@
       "day_date": "2026-05-01",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 1
+      "images_left": 0
     },
     " Aging With Grace": {
       "posted": [],
