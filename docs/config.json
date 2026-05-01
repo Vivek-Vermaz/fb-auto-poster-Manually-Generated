@@ -5,11 +5,11 @@
   "pages": [
     {
       "page_name": "Pure Detox Journey",
-      "cloudinary_folder": "Puredetox",
+      "cloudinary_folder": "",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-04-30T10:24:29.884Z",
-      "ai_prompt": "Write a 200 to 250 words engaging caption related to particual image with emojis with 2 to 4 releavent hashtags"
+      "last_updated": "2026-05-01T04:18:06.445Z",
+      "ai_prompt": ""
     },
     {
       "page_name": "Chrome Cruiser",
@@ -33,7 +33,7 @@
       "frequency": 5,
       "ai_prompt": "Write a 200 to 250 words engaging caption related to particual house and the vibes with emojis with 2 to 4 releavent hashtags",
       "captions": [],
-      "last_updated": "2026-04-30T10:21:14.652Z"
+      "last_updated": "2026-05-01T04:19:41.940Z"
     },
     {
       "page_name": "manifest.yourdreamz",
