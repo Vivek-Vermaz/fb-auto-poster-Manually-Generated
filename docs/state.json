@@ -97,7 +97,7 @@
       "day_date": "2026-05-01",
       "daily_count": 4,
       "daily_target_reached": true,
-      "images_left": 2
+      "images_left": 4
     },
     "Chrome Cruiser": {
       "posted": [
@@ -289,6 +289,12 @@
     "manifest.yourdreamz": {
       "posted": [
         {
+          "public_id": "manifest.yourdreamz/20260501_091849_UTC_0",
+          "url": "https://facebook.com/143893868797671_122214470102055199",
+          "time": "2026-05-01T12:50:36.707875-04:00",
+          "caption": "Soaring through the celestial canvas, this magnificent guardian graces the twilight sky with unparalleled splendor. Her luminous wings, adorned with a constellation of shimmering light, stretch wide above a bustling metropolis aglow with a million tiny stars of its own. Below, the city sprawls, a tapestry of human ambition and glittering windows, while above, the universe whispers its ancient secrets. She is a beacon of ethereal beauty, a celestial vision descending or ascending, bridging the earthly realm with realms unknown. Every detail, from her flowing, starlit gown to the serene expression, speaks of divine grace and boundless freedom, captivating the soul in its radiant ascent."
+        },
+        {
           "public_id": "manifest.yourdreamz/20260501_091003_UTC_0",
           "url": "https://facebook.com/143893868797671_122214463244055199",
           "time": "2026-05-01T10:49:53.580563-04:00",
@@ -301,11 +307,11 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-01T10:49:53.580563-04:00",
+      "last_run": "2026-05-01T12:50:36.707875-04:00",
       "day_date": "2026-05-01",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 2
+      "images_left": 4
     },
     " Aging With Grace": {
       "posted": [],
