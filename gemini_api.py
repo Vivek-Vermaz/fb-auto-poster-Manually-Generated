@@ -33,37 +33,37 @@ def generate_caption(image_url, prompt):
         f"Output ONLY the caption text. Do not include quotes, explanations, or introductory phrases."
     )
     
-    # Using the raw REST API endpoint
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
-    
-    payload = {
-        "contents": [{
-            "parts": [
-                {"text": full_prompt},
-                {
-                    "inline_data": {
-                        "mime_type": mime_type,
-                        "data": base64_image
-                    }
-                }
-            ]
-        }]
-    }
+    models_to_try = [
+        'gemini-1.5-flash-latest', 
+        'gemini-1.5-flash',
+        'gemini-1.0-pro-vision-latest',
+        'gemini-pro-vision'
+    ]
     
     headers = {"Content-Type": "application/json"}
+    last_error = ""
     
-    api_response = requests.post(url, json=payload, headers=headers)
-    
-    if api_response.status_code != 200:
-        raise Exception(f"Google API Error {api_response.status_code}: {api_response.text}")
+    for model_name in models_to_try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
+        print(f"Trying Gemini model via REST: {model_name}...")
         
-    data = api_response.json()
-    
-    try:
-        caption = data["candidates"][0]["content"]["parts"][0]["text"].strip()
-        return caption
-    except (KeyError, IndexError) as e:
-        raise Exception(f"Unexpected response format from Google: {data}")
+        api_response = requests.post(url, json=payload, headers=headers)
+        
+        if api_response.status_code == 200:
+            data = api_response.json()
+            try:
+                caption = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+                return caption
+            except (KeyError, IndexError) as e:
+                last_error = f"Unexpected response format from Google: {data}"
+                print(last_error)
+                continue
+        else:
+            last_error = f"Model {model_name} failed with {api_response.status_code}: {api_response.text}"
+            print(last_error)
+            continue
+            
+    raise Exception(f"All Gemini models failed. Last error: {last_error}")
 
 if __name__ == "__main__":
     pass
