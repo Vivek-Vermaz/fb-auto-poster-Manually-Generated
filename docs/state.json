@@ -208,7 +208,7 @@
       "day_date": "2026-05-01",
       "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 16
+      "images_left": 15
     },
     "Celebs A": {
       "posted": [],
@@ -219,6 +219,12 @@
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/American_estate_overlooking_lake_202605011133",
+          "url": "https://facebook.com/943246308873115_122119953801204521",
+          "time": "2026-05-01T16:43:52.961097-04:00",
+          "caption": "Behold this masterpiece of lakeside living, bathed in the breathtaking hues of a golden hour sunset! \ud83c\udf05 This isn't just a house; it's an entire experience, a sanctuary where luxury meets the raw beauty of nature. Every detail of this magnificent lodge, from its rustic stone chimneys to the expansive timber balconies, whispers tales of unparalleled comfort and elegance. Imagine waking up to that serene lake view, or spending your evenings gathered with loved ones, the warmth of the fire pit dancing against the twilight sky. \ud83d\udd25 The inviting glow from within those grand windows draws you in, promising cozy evenings and unforgettable moments. Step out onto the sprawling green lawn, perfect for leisurely strolls, leading down to your very own private dock. Two sleek boats await, ready to whisk you away for a morning cruise or an afternoon of adventure on the shimmering waters. \ud83d\udea4 And that charming fire pit area, complete with comfortable seating and surrounded by towering pines, is simply calling for laughter, good conversation, and s'mores under a blanket of stars. \u2728 This property embodies the ultimate escape \u2013 a harmonious blend of refined design and rugged wilderness. It\u2019s a place where memories are forged, where the rhythm of the lake sets the pace, and where every sunset paints a new, unforgettable masterpiece. Pure bliss, encapsulated in one spectacular lakeside retreat. \ud83c\udf32\ud83d\udef6\n#LakesideLuxury #DreamHomeVibes #SunsetSerenity #MountainLakeEscape"
+        },
         {
           "public_id": "Beautiful House/Alpine_chalet_mansion_snow_mount__202605011133",
           "url": "https://facebook.com/943246308873115_122119939881204521",
@@ -292,9 +298,9 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-01T13:54:15.595596-04:00",
+      "last_run": "2026-05-01T16:43:52.961097-04:00",
       "day_date": "2026-05-01",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 24
     },
