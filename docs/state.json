@@ -79,7 +79,7 @@
       "day_date": "2026-05-01",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 32
+      "images_left": 4
     },
     "Chrome Cruiser": {
       "posted": [
@@ -263,12 +263,19 @@
       "images_left": 26
     },
     "manifest.yourdreamz": {
-      "posted": [],
-      "last_run": null,
+      "posted": [
+        {
+          "public_id": "manifest.yourdreamz/20260501_090614_UTC_0",
+          "url": "https://facebook.com/143893868797671_122214446870055199",
+          "time": "2026-05-01T05:22:05.659107-04:00",
+          "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
+        }
+      ],
+      "last_run": "2026-05-01T05:22:05.659107-04:00",
       "day_date": "2026-05-01",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 0
+      "images_left": 4
     },
     " Aging With Grace": {
       "posted": [],
