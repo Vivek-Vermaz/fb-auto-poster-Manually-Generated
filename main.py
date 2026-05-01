@@ -213,6 +213,10 @@ def main():
                 print(f"[{page_name}] Gemini AI Caption generated successfully.")
             except Exception as ai_e:
                 print(f"[{page_name}] WARNING: Gemini AI generation failed: {ai_e}")
+                send_email_alert(
+                    f"[{page_name}] Gemini AI Error", 
+                    f"The robot tried to generate an AI caption but Google's API blocked it.<br><br><b>Exact Error:</b><br>{str(ai_e)}"
+                )
                 caption_to_post = None # Force fallback
                 
         if not caption_to_post:
