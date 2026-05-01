@@ -34,10 +34,10 @@ def generate_caption(image_url, prompt):
     )
     
     models_to_try = [
-        'gemini-1.5-flash-latest', 
-        'gemini-1.5-flash',
-        'gemini-1.0-pro-vision-latest',
-        'gemini-pro-vision'
+        'gemini-3.0-flash',
+        'gemini-2.5-flash',
+        'gemini-2.0-flash',
+        'gemini-1.5-flash'
     ]
     
     headers = {"Content-Type": "application/json"}
