@@ -3,6 +3,12 @@
     "Pure Detox Journey": {
       "posted": [
         {
+          "public_id": "manifest.yourdreamz/20260501_091003_UTC_0",
+          "url": "https://facebook.com/1015851838282697_122108982848848645",
+          "time": "2026-05-01T06:20:42.227830-04:00",
+          "caption": "\ud83d\ude0e\ud83d\udca5\ud83d\udca5\ud83d\ude80\ud83d\udca5"
+        },
+        {
           "public_id": "Puredetox/Dehydrated_plant_and_glowing_person_202604301540",
           "url": "https://facebook.com/1015851838282697_122108958950848645",
           "time": "2026-05-01T02:07:36.904534-04:00",
@@ -75,11 +81,11 @@
           "caption": "Cruising in a chrome-clad dream where every mile tells a story of the open road"
         }
       ],
-      "last_run": "2026-05-01T02:07:36.904534-04:00",
+      "last_run": "2026-05-01T06:20:42.227830-04:00",
       "day_date": "2026-05-01",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 4
+      "images_left": 3
     },
     "Chrome Cruiser": {
       "posted": [
@@ -275,7 +281,7 @@
       "day_date": "2026-05-01",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 4
+      "images_left": 2
     },
     " Aging With Grace": {
       "posted": [],
