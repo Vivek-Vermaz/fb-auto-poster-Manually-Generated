@@ -97,7 +97,7 @@
       "day_date": "2026-05-01",
       "daily_count": 4,
       "daily_target_reached": true,
-      "images_left": 4
+      "images_left": 3
     },
     "Chrome Cruiser": {
       "posted": [
@@ -214,6 +214,12 @@
     "Beautiful House": {
       "posted": [
         {
+          "public_id": "Beautiful House/Alpine_chalet_mansion_snow_mount__202605011133",
+          "url": "https://facebook.com/943246308873115_122119939881204521",
+          "time": "2026-05-01T13:54:15.595596-04:00",
+          "caption": "Imagine waking up to this view every single day! \ud83e\udd29 This isn't just a house; it's a meticulously crafted sanctuary nestled perfectly between serene waters and towering peaks. The warm glow emanating from its many windows invites you into a world of cozy luxury, a haven where every detail speaks of comfort and refined taste. Picture yourself on one of those flower-adorned balconies, sipping a morning coffee as the golden light kisses the snow-capped mountains, reflecting dazzlingly on the tranquil lake below. Or perhaps, as evening descends, gathering around the crackling fire pit on the elegant stone patio, wrapped in a plush throw, sharing stories under a blanket of stars. \u2728\n\nThe chalet-style architecture, with its rich wooden textures and intricate carvings, blends seamlessly into the alpine landscape, feeling both grand and intimately welcoming. It\u2019s a place where the grandeur of nature meets sophisticated living, offering an unparalleled escape from the everyday. Every corner of this property, from the vibrant flower boxes overflowing with color to the perfectly paved pathways, whispers tales of peace and indulgence. This home isn't just a structure; it's an experience, a lifestyle. It promises quiet mornings, adventurous afternoons, and unforgettable evenings filled with warmth and wonder. Who else dreams of making this exquisite retreat their own? \ud83d\udcad\ud83c\udfe1\n\n#DreamChalet #MountainLiving #LuxuryEscape #AlpineHome"
+        },
+        {
           "public_id": "Beautiful House/20260501_055959_UTC_0",
           "url": "https://facebook.com/943246308873115_122119914201204521",
           "time": "2026-05-01T07:54:31.720948-04:00",
@@ -280,14 +286,20 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-01T07:54:31.720948-04:00",
+      "last_run": "2026-05-01T13:54:15.595596-04:00",
       "day_date": "2026-05-01",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 25
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/20260501_145004_UTC_0",
+          "url": "https://facebook.com/143893868797671_122214473048055199",
+          "time": "2026-05-01T13:54:15.595596-04:00",
+          "caption": "An angelic vision of breathtaking beauty emerges, radiant amidst the storm. With luminous wings, she gracefully walks upon the crashing waves, a beacon of serene power. Lightning streaks across the dramatic sky, illuminating her flowing gown and divine composure. This image profoundly contrasts nature's raw force with ethereal calm. It's a testament to unwavering strength and finding peace in turbulent times. An inspiring symbol of beauty, resilience, and enduring hope, shining brightly against darkness."
+        },
         {
           "public_id": "manifest.yourdreamz/20260501_091849_UTC_0",
           "url": "https://facebook.com/143893868797671_122214470102055199",
@@ -307,11 +319,11 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-01T12:50:36.707875-04:00",
+      "last_run": "2026-05-01T13:54:15.595596-04:00",
       "day_date": "2026-05-01",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 4
+      "images_left": 3
     },
     " Aging With Grace": {
       "posted": [],
