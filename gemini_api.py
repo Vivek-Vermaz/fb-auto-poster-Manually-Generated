@@ -33,6 +33,20 @@ def generate_caption(image_url, prompt):
         f"Output ONLY the caption text. Do not include quotes, explanations, or introductory phrases."
     )
     
+    payload = {
+        "contents": [{
+            "parts": [
+                {"text": full_prompt},
+                {
+                    "inline_data": {
+                        "mime_type": mime_type,
+                        "data": base64_image
+                    }
+                }
+            ]
+        }]
+    }
+    
     models_to_try = [
         'gemini-3.0-flash',
         'gemini-2.5-flash',
