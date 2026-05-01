@@ -78,6 +78,12 @@
     "Chrome Cruiser": {
       "posted": [
         {
+          "public_id": "Chrome Cruiser/Jaguar_E-Type_and_woman_202604301342",
+          "url": "https://facebook.com/1088226834364883_122109931322914957",
+          "time": "2026-05-01T00:24:49.027258-04:00",
+          "caption": "\ud83d\ude4c\ud83d\udcaf\ud83d\udcaf\u2728\ud83d\udcaa"
+        },
+        {
           "public_id": "Chrome Cruiser/Ferrari_250_GTO_coastal_estate_202604301344_1",
           "url": "https://facebook.com/1088226834364883_122109895796914957",
           "time": "2026-04-30T16:54:19.099264-04:00",
@@ -162,9 +168,9 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-04-30T16:54:19.099264-04:00",
+      "last_run": "2026-05-01T00:24:49.027258-04:00",
       "day_date": "2026-05-01",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 17
     },
@@ -177,6 +183,12 @@
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/BH_15",
+          "url": "https://facebook.com/943246308873115_122119884621204521",
+          "time": "2026-05-01T00:24:49.027258-04:00",
+          "caption": "\ud83d\ude80\ud83d\ude0e\ud83c\udf1f\ud83d\udcaa"
+        },
         {
           "public_id": "Beautiful House/BH_14",
           "url": "https://facebook.com/943246308873115_122119884213204521",
@@ -214,11 +226,11 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-01T00:18:34.856559-04:00",
+      "last_run": "2026-05-01T00:24:49.027258-04:00",
       "day_date": "2026-04-30",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 19
+      "images_left": 18
     },
     "manifest.yourdreamz": {
       "posted": [],
