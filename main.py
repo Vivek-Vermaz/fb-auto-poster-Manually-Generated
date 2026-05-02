@@ -6,7 +6,7 @@ from datetime import datetime
 import pytz
 
 from cloudinary_api import get_images_from_folder, delete_image
-from facebook_api import post_to_facebook
+from facebook_api import post_to_facebook, post_comment_to_facebook
 from email_alerter import send_email_alert
 from gemini_api import generate_caption
 
@@ -53,11 +53,13 @@ def check_schedule(page_state, frequency, current_time, page_name):
                 f"[{page_name}] Daily Posting Completed", 
                 f"Successfully posted {frequency} times today. Task completed for {today_str}."
             )
-        return False
-        
-    # Sleep mode (1 AM to 6 AM US time)
-    if 1 <= current_time.hour < 6:
-        print(f"[{page_name}] Nighttime. Sleeping.")
+    # Peak Hours Scheduling (9 AM - 12 PM, 5 PM - 9 PM US Eastern)
+    hour = current_time.hour
+    is_morning_peak = (9 <= hour < 12)
+    is_evening_peak = (17 <= hour < 21)
+    
+    if not (is_morning_peak or is_evening_peak):
+        print(f"[{page_name}] Not during peak hours ({hour}:00 EST). Sleeping.")
         return False
 
     last_post_time_str = page_state.get("last_run")
@@ -202,6 +204,7 @@ def main():
         image_to_post = unposted_images[0]
         
         caption_to_post = None
+        first_comment_to_post = None
         used_bulk_caption_index = -1
         
         ai_prompt = page_config.get("ai_prompt", "").strip()
@@ -209,8 +212,10 @@ def main():
         if ai_prompt:
             print(f"[{page_name}] AI Prompt found. Generating dynamic caption via Gemini...")
             try:
-                caption_to_post = generate_caption(image_to_post["url"], ai_prompt)
-                print(f"[{page_name}] Gemini AI Caption generated successfully.")
+                gemini_data = generate_caption(image_to_post["url"], ai_prompt)
+                caption_to_post = gemini_data.get("caption")
+                first_comment_to_post = gemini_data.get("first_comment")
+                print(f"[{page_name}] Gemini AI Caption & Comment generated successfully.")
             except Exception as ai_e:
                 print(f"[{page_name}] WARNING: Gemini AI generation failed: {ai_e}")
                 send_email_alert(
@@ -218,6 +223,7 @@ def main():
                     f"The robot tried to generate an AI caption but Google's API blocked it.<br><br><b>Exact Error:</b><br>{str(ai_e)}"
                 )
                 caption_to_post = None # Force fallback
+                first_comment_to_post = None
                 
         if not caption_to_post:
             captions = page_config.get("captions", [])
@@ -231,12 +237,17 @@ def main():
                 caption_to_post = captions[used_bulk_caption_index].strip()
         
         try:
-            post_url = post_to_facebook(
+            post_id, post_url = post_to_facebook(
                 image_to_post["url"], 
                 caption_to_post, 
                 fb_page_id, 
                 fb_page_token
             )
+            
+            # Post First Comment if generated
+            if first_comment_to_post and post_id:
+                print(f"[{page_name}] Posting First Comment to boost engagement...")
+                post_comment_to_facebook(post_id, first_comment_to_post, fb_page_token)
             
             # Post-processing: Destructive Deletions as requested
             print(f"[{page_name}] Deleting posted image from Cloudinary...")
