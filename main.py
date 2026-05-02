@@ -6,8 +6,9 @@ from datetime import datetime
 import pytz
 
 from cloudinary_api import get_images_from_folder, delete_image
-from facebook_api import post_to_facebook, post_comment_to_facebook
+from facebook_api import post_to_facebook
 from email_alerter import send_email_alert
+from telegram_alerter import send_telegram_alert
 from gemini_api import generate_caption
 
 CONFIG_FILE = "docs/config.json"
@@ -237,17 +238,26 @@ def main():
                 caption_to_post = captions[used_bulk_caption_index].strip()
         
         try:
+            # Generate a random schedule between 12 and 25 minutes to look natural
+            schedule_mins = random.randint(12, 25)
+            
             post_id, post_url = post_to_facebook(
                 image_to_post["url"], 
                 caption_to_post, 
                 fb_page_id, 
-                fb_page_token
+                fb_page_token,
+                schedule_minutes=schedule_mins
             )
             
-            # Post First Comment if generated
-            if first_comment_to_post and post_id:
-                print(f"[{page_name}] Posting First Comment to boost engagement...")
-                post_comment_to_facebook(post_id, first_comment_to_post, fb_page_token)
+            # Send Telegram alert for manual 5% engagement
+            telegram_msg = (
+                f"🚀 <b>Post Prepared for {page_name}!</b>\n\n"
+                f"The robot has scheduled your post to go live in exactly <b>{schedule_mins} minutes</b>.\n\n"
+                f"<b>Your Action Required:</b>\n"
+                f"In {schedule_mins} minutes, open your Facebook App, like the post, and drop the following first comment to boost engagement:\n\n"
+                f"<i>\"{first_comment_to_post or 'What are your thoughts on this? 👇'}\"</i>"
+            )
+            send_telegram_alert(telegram_msg)
             
             # Post-processing: Destructive Deletions as requested
             print(f"[{page_name}] Deleting posted image from Cloudinary...")

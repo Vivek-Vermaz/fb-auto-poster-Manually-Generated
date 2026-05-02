@@ -2,9 +2,10 @@ import os
 import time
 import requests
 
-def post_to_facebook(image_url, caption, page_id, access_token, retries=2):
+def post_to_facebook(image_url, caption, page_id, access_token, retries=2, schedule_minutes=0):
     """
     Uploads an image via URL to a Facebook Page along with a caption.
+    If schedule_minutes > 0, schedules the post instead of publishing instantly.
     Includes retry logic.
     """
     if not page_id or not access_token:
@@ -14,9 +15,15 @@ def post_to_facebook(image_url, caption, page_id, access_token, retries=2):
     
     data = {
         'message': caption,
-        'url': image_url, # Graph API allows passing an external image URL directly
+        'url': image_url,
         'access_token': access_token
     }
+    
+    if schedule_minutes > 0:
+        data['published'] = 'false'
+        # API requires scheduled_publish_time to be UNIX timestamp
+        data['scheduled_publish_time'] = int(time.time()) + (schedule_minutes * 60)
+        print(f"Scheduling post for {schedule_minutes} minutes in the future...")
     
     for attempt in range(retries + 1):
         print(f"Attempting to post to Facebook (Attempt {attempt + 1}/{retries + 1})...")
