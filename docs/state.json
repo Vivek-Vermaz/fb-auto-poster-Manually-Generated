@@ -244,13 +244,19 @@
         }
       ],
       "last_run": "2026-05-02T01:15:26.066401-04:00",
-      "day_date": "2026-05-01",
-      "daily_count": 2,
+      "day_date": "2026-05-02",
+      "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 1
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/BH_19",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-02T08:02:38.028013-04:00",
+          "caption": "Step into a realm where architectural brilliance meets natural serenity. \ud83c\udf3f This breathtaking living space effortlessly blends raw concrete aesthetics with the vibrant embrace of a soaring biophilic living wall, creating an oasis of calm and luxury. Imagine mornings bathed in golden sunbeams, cascading through magnificent skylights, illuminating every corner and highlighting the intricate textures of the green wall, creating a truly magical atmosphere. \u2728\n\nThe heart of this home beats around a captivating circular sunken lounge, centered by a modern fire pit. \ud83d\udd25 It\u2019s the perfect sanctuary for cozy evenings, deep conversations, or simply unwinding with a loved one, enveloped by plush comfort and the gentle crackle of the flames. The exposed wooden beams overhead add warmth and an organic touch, complementing the sleek lines and expansive open-concept design that invites both light and nature in.\n\nEvery detail speaks volumes, from the stunning abstract art piece adding a vibrant pop of color against the minimalist backdrop, to the elegant grand piano awaiting its next melody. \ud83c\udfb6 This isn't just a house; it's an experience, a harmonious blend of indoor tranquility and outdoor inspiration, designed for ultimate comfort and an elevated lifestyle. What an absolute dream! \ud83c\udfe1\ud83d\udcab\n#BiophilicArchitecture #ModernHomeGoals #LuxuryLivingSpaces #IndoorFirePit #DesignInspiration"
+        },
         {
           "public_id": "Beautiful House/Beach_house_with_coastal_gardens_202605011134",
           "url": "https://facebook.com/943246308873115_122119964043204521",
@@ -342,9 +348,9 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-01T19:44:47.711384-04:00",
+      "last_run": "2026-05-02T08:02:38.028013-04:00",
       "day_date": "2026-05-02",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 21
     },
