@@ -33,7 +33,7 @@ def generate_caption(image_url, prompt):
         f"You are an expert social media manager. I need you to write a caption AND a first comment for the attached image, based strictly on the following direction:\n\n"
         f"DIRECTION: {prompt}\n\n"
         f"CRITICAL INSTRUCTIONS:\n"
-        f"1. Generate completely unique, highly relevant hashtags for the caption to avoid spam filters.\n"
+        f"1. Generate exactly 3 to 5 completely unique, highly relevant hashtags for the caption to avoid spam filters (DO NOT use more than 5).\n"
         f"2. The 'first_comment' should be an engaging question or poll related to the image to spark conversation.\n"
         f"3. You must output RAW JSON ONLY. Do not include markdown formatting, backticks, or conversational text. Use exactly these two keys: \"caption\" and \"first_comment\".\n"
         f"Example format:\n"
