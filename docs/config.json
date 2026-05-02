@@ -5,27 +5,27 @@
   "pages": [
     {
       "page_name": "Pure Detox Journey",
-      "cloudinary_folder": "Puredetox",
+      "cloudinary_folder": "",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-05-02T03:09:22.725Z",
-      "ai_prompt": "Write a 200 to 250 words engaging caption related to particual image topic with emojis with 2 to 4 releavent hashtags"
+      "last_updated": "2026-05-02T03:11:35.822Z",
+      "ai_prompt": ""
     },
     {
       "page_name": "Chrome Cruiser",
       "cloudinary_folder": "Chrome Cruiser",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-05-01T09:03:58.229Z",
+      "last_updated": "2026-05-02T04:10:46.033Z",
       "ai_prompt": "Write a 200 to 250 words engaging caption related to particual car and the vibes with emojis with 2 to 4 releavent hashtags"
     },
     {
       "page_name": "Celebs A",
-      "cloudinary_folder": "",
+      "cloudinary_folder": "Celebs A",
       "frequency": 6,
-      "ai_prompt": "",
+      "ai_prompt": "Write a 150 to 200 words engaging caption related to particual image topic and the vibes with emojis",
       "captions": [],
-      "last_updated": "2026-05-01T09:04:03.125Z"
+      "last_updated": "2026-05-02T04:11:15.528Z"
     },
     {
       "page_name": "Beautiful House",
@@ -41,7 +41,7 @@
       "frequency": 4,
       "ai_prompt": "write Beautiful caption in 80 to 100 words as per image",
       "captions": [],
-      "last_updated": "2026-05-01T09:21:34.517Z"
+      "last_updated": "2026-05-02T04:10:30.649Z"
     },
     {
       "page_name": " Aging With Grace",
