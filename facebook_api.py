@@ -27,10 +27,8 @@ def post_to_facebook(image_url, caption, page_id, access_token, retries=2):
                 result = response.json()
                 post_id = result.get('post_id')
                 print(f"Successfully posted to Facebook! Post ID: {post_id}")
-                # Generate post URL (Format: https://facebook.com/{page_id}/posts/{post_id_part2})
-                # Note: post_id usually contains page_id_post_id
                 post_url = f"https://facebook.com/{post_id}"
-                return post_url
+                return post_id, post_url
             else:
                 print(f"Failed to post to Facebook. Status: {response.status_code}")
                 print(response.text)
@@ -42,6 +40,39 @@ def post_to_facebook(image_url, caption, page_id, access_token, retries=2):
             if attempt == retries:
                 raise
             time.sleep(10)
+
+def post_comment_to_facebook(post_id, comment_text, access_token, retries=2):
+    """
+    Posts a comment to an existing Facebook post via the Graph API.
+    """
+    if not post_id or not comment_text or not access_token:
+        print("Missing parameters for posting comment. Skipping.")
+        return False
+        
+    url = f"https://graph.facebook.com/v19.0/{post_id}/comments"
+    data = {
+        'message': comment_text,
+        'access_token': access_token
+    }
+    
+    for attempt in range(retries + 1):
+        print(f"Attempting to post First Comment (Attempt {attempt + 1}/{retries + 1})...")
+        try:
+            response = requests.post(url, data=data, timeout=30)
+            if response.status_code == 200:
+                print("Successfully posted First Comment to Facebook!")
+                return True
+            else:
+                print(f"Failed to post comment. Status: {response.status_code}")
+                print(response.text)
+                if attempt == retries:
+                    return False
+                time.sleep(5)
+        except requests.exceptions.RequestException as e:
+            print(f"Network error while commenting: {e}")
+            if attempt == retries:
+                return False
+            time.sleep(5)
 
 if __name__ == "__main__":
     pass
