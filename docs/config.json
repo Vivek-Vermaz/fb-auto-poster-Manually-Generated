@@ -22,10 +22,10 @@
     {
       "page_name": "Celebs A",
       "cloudinary_folder": "Celebs A",
-      "frequency": 6,
+      "frequency": 3,
       "ai_prompt": "Write a 150 to 200 words engaging caption related to particual image topic and the vibes with emojis",
       "captions": [],
-      "last_updated": "2026-05-02T04:11:15.528Z"
+      "last_updated": "2026-05-02T05:23:36.132Z"
     },
     {
       "page_name": "Beautiful House",
