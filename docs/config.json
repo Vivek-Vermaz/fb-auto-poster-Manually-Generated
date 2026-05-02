@@ -5,12 +5,12 @@
   "pages": [
     {
       "page_name": "Pure Detox Journey",
-      "cloudinary_folder": "",
+      "cloudinary_folder": "Puredetox",
       "frequency": 6,
       "captions": [
         "F"
       ],
-      "last_updated": "2026-05-02T12:18:07.418Z",
+      "last_updated": "2026-05-02T12:18:24.481Z",
       "ai_prompt": "Write a 200 to 250 words engaging caption related to particual image"
     },
     {
