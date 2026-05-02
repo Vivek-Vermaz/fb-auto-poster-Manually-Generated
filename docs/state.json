@@ -120,6 +120,12 @@
     "Chrome Cruiser": {
       "posted": [
         {
+          "public_id": "Chrome Cruiser/Silver_Aston_Martin_DB5_beside_202605011330",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-02T18:33:58.321514-04:00",
+          "caption": "Stepping into a scene straight out of a silver screen classic! \u2728 Behold the legendary Aston Martin DB5, a true icon of automotive design and an embodiment of sophisticated power. This isn't just a car; it's a statement, a whisper of untold stories, thrilling pursuits, and timeless elegance. Parked majestically against the breathtaking backdrop of a European chateau, bathed in the soft, ethereal glow of a golden hour sunset, the entire tableau is simply mesmerizing. \ud83c\udf05\n\nThe gleaming silver of the DB5 beautifully complements the rich emerald gown, creating a visual symphony that speaks volumes about grace, allure, and refined taste. Every curve, every detail of this magnificent machine tells a tale of craftsmanship and heritage, transporting us to an era where driving was an art form and style was paramount. Imagine cruising down scenic routes, the wind in your hair, with this masterpiece by your side. It\u2019s more than just an automobile; it\u2019s an experience, a journey through luxury and adventure. This moment captures the essence of a dream, where history, beauty, and aspiration converge under a sky painted with hues of magic. Pure automotive poetry! \ud83d\udc9a\ud83d\ude97\ud83d\udc51\n#AstonMartinDB5 #TimelessElegance #ChateauLuxury #GoldenHourVibes"
+        },
+        {
           "public_id": "Chrome Cruiser/Orange_Pontiac_GTO_Judge_woman_202604301344",
           "url": "https://facebook.com/1088226834364883_122110090346914957",
           "time": "2026-05-01T22:08:03.142456-04:00",
@@ -234,9 +240,9 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-05-01T22:08:03.142456-04:00",
+      "last_run": "2026-05-02T18:33:58.321514-04:00",
       "day_date": "2026-05-02",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 13
     },
@@ -276,7 +282,7 @@
       "last_run": "2026-05-02T17:35:02.236732-04:00",
       "day_date": "2026-05-02",
       "daily_count": 3,
-      "daily_target_reached": false,
+      "daily_target_reached": true,
       "images_left": 7
     },
     "Beautiful House": {
@@ -394,7 +400,7 @@
       "day_date": "2026-05-02",
       "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 19
+      "images_left": 18
     },
     "manifest.yourdreamz": {
       "posted": [
