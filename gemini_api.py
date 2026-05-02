@@ -1,11 +1,13 @@
 import os
 import requests
 import base64
+import json
 
 def generate_caption(image_url, prompt):
     """
     Downloads the image from Cloudinary, converts to base64, and uses the raw REST API
     to call Gemini to completely bypass the deprecated Python SDK bugs.
+    Returns a dictionary: {"caption": "...", "first_comment": "..."}
     """
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -28,9 +30,17 @@ def generate_caption(image_url, prompt):
     print(f"Sending image and prompt to Gemini REST API: '{prompt}'")
     
     full_prompt = (
-        f"You are an expert social media manager. Write a caption for the attached image based strictly on the following direction:\n\n"
+        f"You are an expert social media manager. I need you to write a caption AND a first comment for the attached image, based strictly on the following direction:\n\n"
         f"DIRECTION: {prompt}\n\n"
-        f"Output ONLY the caption text. Do not include quotes, explanations, or introductory phrases."
+        f"CRITICAL INSTRUCTIONS:\n"
+        f"1. Generate completely unique, highly relevant hashtags for the caption to avoid spam filters.\n"
+        f"2. The 'first_comment' should be an engaging question or poll related to the image to spark conversation.\n"
+        f"3. You must output RAW JSON ONLY. Do not include markdown formatting, backticks, or conversational text. Use exactly these two keys: \"caption\" and \"first_comment\".\n"
+        f"Example format:\n"
+        f"{{\n"
+        f"  \"caption\": \"Your amazing caption here with #unique #hashtags\",\n"
+        f"  \"first_comment\": \"Your engaging question here?\"\n"
+        f"}}"
     )
     
     payload = {
@@ -66,10 +76,19 @@ def generate_caption(image_url, prompt):
         if api_response.status_code == 200:
             data = api_response.json()
             try:
-                caption = data["candidates"][0]["content"]["parts"][0]["text"].strip()
-                return caption
-            except (KeyError, IndexError) as e:
-                last_error = f"Unexpected response format from Google: {data}"
+                raw_text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+                # Clean up potential markdown blocks if the AI disobeyed
+                if raw_text.startswith("```json"):
+                    raw_text = raw_text.replace("```json", "", 1)
+                if raw_text.startswith("```"):
+                    raw_text = raw_text.replace("```", "", 1)
+                if raw_text.endswith("```"):
+                    raw_text = raw_text[::-1].replace("```", "", 1)[::-1]
+                
+                parsed_json = json.loads(raw_text.strip())
+                return parsed_json
+            except (KeyError, IndexError, json.JSONDecodeError) as e:
+                last_error = f"Unexpected response format from Google: {e}\nRaw Text: {data}"
                 print(last_error)
                 continue
         else:
