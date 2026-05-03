@@ -5,13 +5,11 @@
   "pages": [
     {
       "page_name": "Pure Detox Journey",
-      "cloudinary_folder": "Puredetox",
+      "cloudinary_folder": "",
       "frequency": 6,
-      "captions": [
-        "F"
-      ],
-      "last_updated": "2026-05-02T12:28:12.123Z",
-      "ai_prompt": "Write a 200 to 250 words engaging caption related to particual image"
+      "captions": [],
+      "last_updated": "2026-05-03T02:47:12.844Z",
+      "ai_prompt": ""
     },
     {
       "page_name": "Chrome Cruiser",
@@ -47,10 +45,11 @@
     },
     {
       "page_name": " Aging With Grace",
-      "cloudinary_folder": "",
+      "cloudinary_folder": "Puredetox",
       "frequency": 6,
       "ai_prompt": "",
-      "captions": []
+      "captions": [],
+      "last_updated": "2026-05-03T02:47:20.972Z"
     }
   ]
 }
