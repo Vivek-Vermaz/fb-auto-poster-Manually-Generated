@@ -309,7 +309,7 @@
       "day_date": "2026-05-03",
       "daily_count": 0,
       "daily_target_reached": false,
-      "images_left": 7,
+      "images_left": 6,
       "last_inventory_alert": "2026-05-03"
     },
     "Beautiful House": {
@@ -427,7 +427,7 @@
       "day_date": "2026-05-03",
       "daily_count": 0,
       "daily_target_reached": false,
-      "images_left": 18,
+      "images_left": 32,
       "last_inventory_alert": "2026-05-03"
     },
     "manifest.yourdreamz": {
