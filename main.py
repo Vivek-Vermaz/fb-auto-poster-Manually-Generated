@@ -35,6 +35,7 @@ def get_us_time():
 def check_schedule(page_state, frequency, current_time, page_name):
     """
     Returns True if we should post right now for this specific page.
+    Uses US Eastern time for peak hour calculations.
     """
     today_str = current_time.strftime("%Y-%m-%d")
     
@@ -50,17 +51,31 @@ def check_schedule(page_state, frequency, current_time, page_name):
         # We hit our target for today
         if not page_state.get("daily_target_reached"):
             page_state["daily_target_reached"] = True
-            send_email_alert(
-                f"[{page_name}] Daily Posting Completed", 
-                f"Successfully posted {frequency} times today. Task completed for {today_str}."
+            send_telegram_alert(
+                f"\u2705 <b>[{page_name}] Daily Target Reached!</b>\n\nSuccessfully posted {frequency}/{frequency} times today."
             )
-    # Peak Hours Scheduling (9 AM - 12 PM, 5 PM - 9 PM US Eastern)
+        print(f"[{page_name}] Daily limit reached ({page_state['daily_count']}/{frequency}). Skipping.")
+        return False
+
+    # Weighted Posting Windows (US Eastern Time)
+    # Peak Hours:   9-12 AM, 5-9 PM  → 65% chance to post
+    # Normal Hours: 7-9 AM, 12-5 PM, 9-11 PM → 30% chance to post
+    # Dead Hours:   11 PM - 7 AM → Do NOT post
     hour = current_time.hour
-    is_morning_peak = (9 <= hour < 12)
-    is_evening_peak = (17 <= hour < 21)
     
-    if not (is_morning_peak or is_evening_peak):
-        print(f"[{page_name}] Not during peak hours ({hour}:00 EST). Sleeping.")
+    if 9 <= hour < 12 or 17 <= hour < 21:
+        post_chance = 0.65
+        window_name = "Peak"
+    elif 7 <= hour < 9 or 12 <= hour < 17 or 21 <= hour < 23:
+        post_chance = 0.30
+        window_name = "Normal"
+    else:
+        print(f"[{page_name}] Dead hours ({hour}:00 EST). No audience online. Sleeping.")
+        return False
+    
+    roll = random.random()
+    if roll > post_chance:
+        print(f"[{page_name}] {window_name} window ({hour}:00 EST, {int(post_chance*100)}% chance). Rolled {roll:.2f}. Not this hour.")
         return False
 
     last_post_time_str = page_state.get("last_run")
@@ -71,11 +86,6 @@ def check_schedule(page_state, frequency, current_time, page_name):
         if hours_since < 1:
             print(f"[{page_name}] Only {hours_since:.2f} hours since last post. Skipping.")
             return False
-            
-    # Random probability logic
-    if random.random() > 0.4:
-        print(f"[{page_name}] Random schedule says: Not this hour.")
-        return False
 
     return True
 
@@ -214,8 +224,6 @@ def main():
             
         image_to_post = unposted_images[0]
         
-        image_to_post = unposted_images[0]
-        
         caption_to_post = None
         first_comment_to_post = None
         used_bulk_caption_index = -1
@@ -294,10 +302,10 @@ def main():
             
             print(f"[{page_name}] Workflow completed successfully.")
             
-            # --- ANTI-SPAM PACING ---
+            # --- ANTI-SPAM PACING (5-8 min gap between pages) ---
             if not is_test_run and not is_refresh_only:
-                sleep_time = random.randint(30, 90)
-                print(f"PACING: Sleeping for {sleep_time} seconds before checking next page to avoid Facebook spam flags...")
+                sleep_time = random.randint(300, 480)
+                print(f"PACING: Sleeping for {sleep_time // 60} min {sleep_time % 60}s before next page...")
                 time.sleep(sleep_time)
                 
         except Exception as e:
@@ -324,16 +332,39 @@ def main():
         # Check if it's 11 PM (23:00) and if we haven't sent the report today
         if now_ist.hour == 23 and state.get("last_daily_report") != today_str:
             print("Generating Daily Summary Report...")
-            report_lines = [f"📊 <b>Daily Automation Report ({today_str})</b>\n"]
+            report_lines = [f"\ud83d\udcca <b>Daily Automation Report ({today_str})</b>\n"]
             total_posts = 0
+            total_target = 0
             
-            for p_name, p_state in state["pages"].items():
+            for page_cfg in config.get("pages", []):
+                p_name = page_cfg.get("page_name", "Unknown")
+                p_state = state["pages"].get(p_name, {})
+                freq = int(page_cfg.get("frequency", 6))
                 daily_c = p_state.get("daily_count", 0)
                 total_posts += daily_c
-                status = "✅" if daily_c > 0 else "💤"
-                report_lines.append(f"- {p_name}: <b>{daily_c} posts</b> {status}")
+                total_target += freq
+                
+                if daily_c >= freq:
+                    status = f"\u2705 {daily_c}/{freq} (Target Met!)"
+                elif daily_c > 0:
+                    reason = "Random scheduling + peak hours limited posting windows"
+                    status = f"\u26a0\ufe0f {daily_c}/{freq} (Missed: {reason})"
+                else:
+                    folder = page_cfg.get("cloudinary_folder", "")
+                    img_left = p_state.get("images_left", 0)
+                    if not folder:
+                        reason = "No Cloudinary folder configured"
+                    elif p_name not in [k for k in state["pages"].keys()]:
+                        reason = "No credentials found in secrets"
+                    elif img_left == 0:
+                        reason = "No images left in folder"
+                    else:
+                        reason = "Random scheduling skipped all eligible windows"
+                    status = f"\u274c {daily_c}/{freq} (Reason: {reason})"
+                
+                report_lines.append(f"- {p_name}: <b>{status}</b>")
             
-            report_lines.append(f"\n<b>Total Posts Today: {total_posts}</b>")
+            report_lines.append(f"\n<b>Total Posts Today: {total_posts}/{total_target}</b>")
             send_telegram_alert("\n".join(report_lines))
             
             state["last_daily_report"] = today_str
