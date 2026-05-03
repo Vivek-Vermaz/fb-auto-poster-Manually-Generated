@@ -8,7 +8,7 @@
       "cloudinary_folder": "Chrome Cruiser",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-05-03T02:56:20.276Z",
+      "last_updated": "2026-05-03T03:09:05.733Z",
       "ai_prompt": ""
     },
     {
@@ -50,14 +50,6 @@
       "ai_prompt": "",
       "captions": [],
       "last_updated": "2026-05-03T02:51:17.149Z"
-    },
-    {
-      "page_name": "No Page",
-      "cloudinary_folder": "",
-      "frequency": 6,
-      "ai_prompt": "",
-      "captions": [],
-      "last_updated": "2026-05-03T02:56:09.725Z"
     }
   ]
 }
