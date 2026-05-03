@@ -266,9 +266,17 @@ function saveFormToLocalState() {
 function addNewPage() {
     const name = prompt("Enter the name of the new Facebook Page:");
     if (name && name.trim().length > 0) {
+        const cleanName = name.trim();
         saveFormToLocalState();
+        
+        // Prevent duplicates
+        if (globalConfig.pages.some(p => p.page_name.trim() === cleanName)) {
+            alert("A page with this name already exists!");
+            return;
+        }
+
         globalConfig.pages.push({
-            page_name: name.trim(),
+            page_name: cleanName,
             cloudinary_folder: "",
             frequency: 6,
             ai_prompt: "",
@@ -394,6 +402,7 @@ async function triggerRobotAction(type, pageName = '') {
         const pageToWatch = pageName || (globalConfig.pages[activePageIndex] ? globalConfig.pages[activePageIndex].page_name : null);
         const originalLastRun = globalState.pages[pageToWatch]?.last_run;
         const originalImgCount = globalState.pages[pageToWatch]?.images_left;
+        const originalRefresh = globalState.pages[pageToWatch]?.last_refresh;
 
         const url = `https://api.github.com/repos/${repo}/actions/workflows/auto_post.yml/dispatches`;
         const inputs = type === 'test' ? { test_page_name: pageName } : { refresh_only: 'true' };
@@ -415,7 +424,7 @@ async function triggerRobotAction(type, pageName = '') {
         statusMsg.innerText = `🤖 Robot is working (this takes 1-2 minutes)...`;
         
         // Start polling for state.json changes
-        await pollForStateUpdate(pageToWatch, originalLastRun, originalImgCount);
+        await pollForStateUpdate(pageToWatch, originalLastRun, originalImgCount, originalRefresh);
         
         statusMsg.innerText = `✅ Done! Dashboard Updated.`;
         setTimeout(() => { statusDiv.style.display = 'none'; }, 5000);
@@ -427,7 +436,7 @@ async function triggerRobotAction(type, pageName = '') {
     }
 }
 
-async function pollForStateUpdate(pageName, oldRun, oldCount) {
+async function pollForStateUpdate(pageName, oldRun, oldCount, oldRefresh) {
     const maxAttempts = 30; // 300 seconds total
     for (let i = 0; i < maxAttempts; i++) {
         await new Promise(r => setTimeout(r, 10000)); // Wait 10s
@@ -439,7 +448,7 @@ async function pollForStateUpdate(pageName, oldRun, oldCount) {
                 const newState = await res.json();
                 const pageState = newState.pages[pageName];
                 
-                if (pageState && (pageState.last_run !== oldRun || pageState.images_left !== oldCount)) {
+                if (pageState && (pageState.last_run !== oldRun || pageState.images_left !== oldCount || pageState.last_refresh !== oldRefresh)) {
                     globalState = newState;
                     renderStats(globalConfig.pages[activePageIndex].page_name);
                     renderInventoryPanel();
