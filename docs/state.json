@@ -115,7 +115,7 @@
       "day_date": "2026-05-02",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 30
+      "images_left": 0
     },
     "Chrome Cruiser": {
       "posted": [
@@ -295,7 +295,7 @@
       "day_date": "2026-05-02",
       "daily_count": 4,
       "daily_target_reached": true,
-      "images_left": 7
+      "images_left": 4
     },
     "Beautiful House": {
       "posted": [
@@ -470,7 +470,8 @@
       "last_run": null,
       "day_date": "2026-05-02",
       "daily_count": 0,
-      "daily_target_reached": false
+      "daily_target_reached": false,
+      "images_left": 30
     }
   }
 }
