@@ -153,9 +153,11 @@ def main():
         page_state = state["pages"][page_name]
         frequency = page_config.get("frequency", 6)
 
-        # Handle Refresh Only command
+        # Handle commands and flags
         is_refresh_only = os.environ.get("REFRESH_ONLY") == "true"
-        
+        test_page_target = os.environ.get("TEST_PAGE_NAME")
+        is_test_run = (test_page_target == page_name)
+
         # Get latest image count from Cloudinary
         folder = page_config.get("cloudinary_folder")
         if folder:
@@ -187,10 +189,6 @@ def main():
 
         if is_refresh_only:
             continue # Move to next page to refresh its count too
-
-        # Check if this is a forced test post
-        test_page_target = os.environ.get("TEST_PAGE_NAME")
-        is_test_run = (test_page_target == page_name)
 
         if not is_test_run:
             if not check_schedule(page_state, frequency, current_time, page_name):
