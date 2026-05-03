@@ -263,7 +263,7 @@
       "day_date": "2026-05-03",
       "daily_count": 0,
       "daily_target_reached": false,
-      "images_left": 9,
+      "images_left": 22,
       "last_inventory_alert": "2026-05-03"
     },
     "Celebs A": {
@@ -483,10 +483,17 @@
       "last_inventory_alert": "2026-05-03"
     },
     " Aging With Grace": {
-      "posted": [],
-      "last_run": null,
+      "posted": [
+        {
+          "public_id": "Puredetox/Green_tea_health_infographic_ben__202605011323",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-03T05:30:50.217907-04:00",
+          "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
+        }
+      ],
+      "last_run": "2026-05-03T05:30:50.217907-04:00",
       "day_date": "2026-05-03",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 30
     }
