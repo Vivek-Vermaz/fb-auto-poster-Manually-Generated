@@ -39,6 +39,20 @@ async function loadData() {
     if (!globalState.pages) globalState.pages = {};
     
     renderPageSelector();
+    renderInventoryPanel();
+    
+    // Auto-refresh inventory every 3 hours (10800000 ms)
+    setInterval(async () => {
+        console.log("Auto-refreshing inventory...");
+        try {
+            const stateRes = await fetch(`state.json?t=${Date.now()}`);
+            if (stateRes.ok) {
+                globalState = await stateRes.json();
+                renderInventoryPanel();
+                renderStats(globalConfig.pages[activePageIndex].page_name);
+            }
+        } catch(e) { console.log("Auto-refresh error:", e); }
+    }, 3 * 60 * 60 * 1000);
 }
 
 function renderPageSelector() {
@@ -65,6 +79,70 @@ function renderPageSelector() {
     if (activePageIndex === -1) activePageIndex = 0;
     selector.value = activePageIndex;
     switchPage();
+}
+
+function renderInventoryPanel() {
+    const panel = document.getElementById('inventoryPanel');
+    const tbody = document.getElementById('inventoryBody');
+    if (!panel || !tbody) return;
+    
+    if (globalConfig.pages.length === 0) {
+        panel.style.display = 'none';
+        return;
+    }
+    
+    panel.style.display = 'block';
+    tbody.innerHTML = '';
+    
+    globalConfig.pages.forEach(page => {
+        const pState = globalState.pages[page.page_name] || {};
+        const imgLeft = pState.images_left;
+        const dailyCount = pState.daily_count || 0;
+        const freq = page.frequency || 6;
+        const folder = page.cloudinary_folder || 'Not Set';
+        
+        const tr = document.createElement('tr');
+        
+        // Determine image count color
+        let imgStyle = '';
+        let imgDisplay = 'Unknown';
+        if (imgLeft !== undefined) {
+            imgDisplay = imgLeft;
+            if (imgLeft < 10) {
+                imgStyle = 'background: #e74c3c; color: white; padding: 4px 10px; border-radius: 12px; font-weight: bold;';
+            } else if (imgLeft < 20) {
+                imgStyle = 'background: #f39c12; color: white; padding: 4px 10px; border-radius: 12px; font-weight: bold;';
+            } else {
+                imgStyle = 'background: #2ecc71; color: white; padding: 4px 10px; border-radius: 12px; font-weight: bold;';
+            }
+        }
+        
+        // Determine status
+        let status = '';
+        if (dailyCount >= freq) {
+            status = '<span style="color: #2ecc71; font-weight: bold;">✅ Target Met</span>';
+        } else if (dailyCount > 0) {
+            status = `<span style="color: #e67e22; font-weight: bold;">⚠️ ${dailyCount}/${freq} In Progress</span>`;
+        } else {
+            status = '<span style="color: #95a5a6;">💤 Waiting</span>';
+        }
+        
+        tr.innerHTML = `
+            <td><strong>${page.page_name}</strong></td>
+            <td>${folder}</td>
+            <td><span style="${imgStyle}">${imgDisplay}</span></td>
+            <td>${dailyCount}</td>
+            <td>${freq}/day</td>
+            <td>${status}</td>
+        `;
+        tbody.appendChild(tr);
+    });
+    
+    // Update last checked time
+    const checkedEl = document.getElementById('inventoryLastChecked');
+    if (checkedEl) {
+        checkedEl.innerText = `Last checked: ${new Date().toLocaleString()}`;
+    }
 }
 
 function switchPage() {
@@ -350,7 +428,7 @@ async function triggerRobotAction(type, pageName = '') {
 }
 
 async function pollForStateUpdate(pageName, oldRun, oldCount) {
-    const maxAttempts = 20; // 200 seconds total
+    const maxAttempts = 30; // 300 seconds total
     for (let i = 0; i < maxAttempts; i++) {
         await new Promise(r => setTimeout(r, 10000)); // Wait 10s
         
@@ -364,6 +442,7 @@ async function pollForStateUpdate(pageName, oldRun, oldCount) {
                 if (pageState && (pageState.last_run !== oldRun || pageState.images_left !== oldCount)) {
                     globalState = newState;
                     renderStats(globalConfig.pages[activePageIndex].page_name);
+                    renderInventoryPanel();
                     return;
                 }
             }
