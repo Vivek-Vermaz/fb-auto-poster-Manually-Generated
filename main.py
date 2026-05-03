@@ -182,8 +182,8 @@ def main():
             unposted_images = all_images
             
             images_left = len(unposted_images)
-                page_state["images_left"] = images_left
-                state_changed = True
+            page_state["images_left"] = images_left
+            state_changed = True
             
             # Always update refresh timestamp so dashboard knows we finished
             page_state["last_refresh"] = datetime.now().isoformat()
