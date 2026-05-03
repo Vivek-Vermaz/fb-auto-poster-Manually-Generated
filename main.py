@@ -170,6 +170,20 @@ def main():
                 state_changed = True
             
             print(f"[{page_name}] Inventory Check: {images_left} images remaining.")
+            
+            # Low Inventory Alerts
+            if not is_refresh_only and not is_test_run: 
+                today_str = current_time.strftime("%Y-%m-%d")
+                last_alert_str = page_state.get("last_inventory_alert", "")
+                has_alerted_today = (last_alert_str == today_str)
+                
+                if images_left < 20 and not has_alerted_today:
+                    emoji = "🔴" if images_left < 10 else "🟡"
+                    level = "URGENT" if images_left < 10 else "WARNING"
+                    alert_msg = f"{emoji} <b>{level}: Low Inventory Alert</b>\n\nPage: <b>{page_name}</b>\nImages Remaining: <b>{images_left}</b>\n\nPlease upload more content to your Cloudinary folder!"
+                    send_telegram_alert(alert_msg)
+                    page_state["last_inventory_alert"] = today_str
+                    state_changed = True
 
         if is_refresh_only:
             continue # Move to next page to refresh its count too
@@ -302,6 +316,33 @@ def main():
     if config_changed:
         save_json(CONFIG_FILE, config)
         print("Config updated (captions deleted) and saved.")
+        
+    # 11 PM IST Daily Summary Report
+    try:
+        ist = pytz.timezone('Asia/Kolkata')
+        now_ist = datetime.now(ist)
+        today_str = now_ist.strftime("%Y-%m-%d")
+        
+        # Check if it's 11 PM (23:00) and if we haven't sent the report today
+        if now_ist.hour == 23 and state.get("last_daily_report") != today_str:
+            print("Generating Daily Summary Report...")
+            report_lines = [f"📊 <b>Daily Automation Report ({today_str})</b>\n"]
+            total_posts = 0
+            
+            for p_name, p_state in state["pages"].items():
+                daily_c = p_state.get("daily_count", 0)
+                total_posts += daily_c
+                status = "✅" if daily_c > 0 else "💤"
+                report_lines.append(f"- {p_name}: <b>{daily_c} posts</b> {status}")
+            
+            report_lines.append(f"\n<b>Total Posts Today: {total_posts}</b>")
+            send_telegram_alert("\n".join(report_lines))
+            
+            state["last_daily_report"] = today_str
+            save_json(STATE_FILE, state)
+            print("Daily report sent and state updated.")
+    except Exception as e:
+        print(f"Error generating daily report: {e}")
 
 if __name__ == "__main__":
     main()
