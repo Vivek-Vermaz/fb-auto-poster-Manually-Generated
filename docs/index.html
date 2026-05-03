@@ -51,6 +51,30 @@
         <span id="statusMessage"></span>
     </div>
 
+    <div class="card" id="inventoryPanel" style="margin-bottom: 20px; display: none;">
+        <div class="flex-between">
+            <h3>🖼️ All Pages Inventory Overview</h3>
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <span id="inventoryLastChecked" style="font-size: 12px; color: #7f8c8d;">Last checked: Never</span>
+                <button onclick="refreshStatsOnDemand()" style="background: #e67e22;">🔄 Check Inventory Now</button>
+            </div>
+        </div>
+        <table id="inventoryTable">
+            <thead>
+                <tr>
+                    <th>Page Name</th>
+                    <th>Folder</th>
+                    <th>Images Left</th>
+                    <th>Today's Posts</th>
+                    <th>Target</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="inventoryBody">
+            </tbody>
+        </table>
+    </div>
+
     <div class="grid" id="mainGrid" style="display: none;">
         <div class="card">
             <div class="flex-between">
