@@ -114,19 +114,20 @@ def main():
     pages = config.get("pages", [])
     
     # --- AUTO-PROVISIONING ---
-    existing_page_names = [p.get("page_name") for p in pages]
+    existing_page_names = [p.get("page_name", "").strip() for p in pages]
     for secret_page_name in fb_creds.keys():
-        if secret_page_name not in existing_page_names:
-            print(f"Auto-provisioning new page from secrets: '{secret_page_name}'")
+        clean_secret_name = secret_page_name.strip()
+        if clean_secret_name not in existing_page_names:
+            print(f"Auto-provisioning new page from secrets: '{clean_secret_name}'")
             pages.append({
-                "page_name": secret_page_name,
+                "page_name": clean_secret_name,
                 "cloudinary_folder": "",
                 "frequency": 6,
                 "ai_prompt": "",
                 "captions": []
             })
             config_changed = True
-            existing_page_names.append(secret_page_name)
+            existing_page_names.append(clean_secret_name)
     
     config["pages"] = pages
     
@@ -141,6 +142,11 @@ def main():
         if not page_name:
             continue
             
+        # Optimization: If we are targeting a specific page for a test, skip everything else immediately
+        test_page_target = os.environ.get("TEST_PAGE_NAME")
+        if test_page_target and test_page_target != page_name and os.environ.get("REFRESH_ONLY") != "true":
+            continue
+
         if page_name not in fb_creds:
             print(f"[{page_name}] Credentials not found in FB_PAGES_CREDENTIALS secret. Skipping.")
             continue
@@ -165,7 +171,6 @@ def main():
 
         # Handle commands and flags
         is_refresh_only = os.environ.get("REFRESH_ONLY") == "true"
-        test_page_target = os.environ.get("TEST_PAGE_NAME")
         is_test_run = (test_page_target == page_name)
 
         # Get latest image count from Cloudinary
@@ -177,9 +182,12 @@ def main():
             unposted_images = all_images
             
             images_left = len(unposted_images)
-            if page_state.get("images_left") != images_left:
                 page_state["images_left"] = images_left
                 state_changed = True
+            
+            # Always update refresh timestamp so dashboard knows we finished
+            page_state["last_refresh"] = datetime.now().isoformat()
+            state_changed = True
             
             print(f"[{page_name}] Inventory Check: {images_left} images remaining.")
             
@@ -303,7 +311,7 @@ def main():
             print(f"[{page_name}] Workflow completed successfully.")
             
             # --- ANTI-SPAM PACING (5-8 min gap between pages) ---
-            if not is_test_run and not is_refresh_only:
+            if not is_test_run and not is_refresh_only and not test_page_target:
                 sleep_time = random.randint(300, 480)
                 print(f"PACING: Sleeping for {sleep_time // 60} min {sleep_time % 60}s before next page...")
                 time.sleep(sleep_time)
