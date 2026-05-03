@@ -19,19 +19,20 @@ def init_cloudinary():
 
 def get_images_from_folder(folder_name):
     """
-    Fetches all images from a specific Cloudinary folder, sorted oldest to newest.
-    Returns a list of image URLs.
+    Fetches all images from a specific Cloudinary folder using Search API.
     """
     init_cloudinary()
+    import cloudinary.search
     
     try:
-        # Search API to get resources in folder, sorted by created_at ascending (oldest first)
-        response = cloudinary.api.resources(
-            type="upload",
-            prefix=folder_name + "/",
-            max_results=500,
-            direction="asc" # oldest to newest
-        )
+        # Search API is more robust for folder matching
+        expression = f"folder:\"{folder_name}\" AND resource_type:image"
+        
+        response = cloudinary.search.Search() \
+            .expression(expression) \
+            .sort_by("created_at", "asc") \
+            .max_results(500) \
+            .execute()
         
         images = []
         for resource in response.get('resources', []):
