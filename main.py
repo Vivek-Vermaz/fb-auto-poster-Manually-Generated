@@ -143,15 +143,20 @@ def main():
             continue
             
         # Optimization: If we are targeting a specific page for a test, skip everything else immediately
-        test_page_target = os.environ.get("TEST_PAGE_NAME")
-        if test_page_target and test_page_target != page_name and os.environ.get("REFRESH_ONLY") != "true":
+        test_page_target = os.environ.get("TEST_PAGE_NAME", "").strip().lower()
+        clean_page_name = page_name.strip().lower()
+        if test_page_target and test_page_target != clean_page_name and os.environ.get("REFRESH_ONLY") != "true":
             continue
 
-        if page_name not in fb_creds:
+        # Case-insensitive secret lookup
+        clean_page_name = page_name.strip().lower()
+        secret_match_key = next((k for k in fb_creds.keys() if k.strip().lower() == clean_page_name), None)
+        
+        if not secret_match_key:
             print(f"[{page_name}] Credentials not found in FB_PAGES_CREDENTIALS secret. Skipping.")
             continue
             
-        page_creds = fb_creds[page_name]
+        page_creds = fb_creds[secret_match_key]
         fb_page_id = page_creds.get("id")
         fb_page_token = page_creds.get("token")
         
@@ -171,7 +176,7 @@ def main():
 
         # Handle commands and flags
         is_refresh_only = os.environ.get("REFRESH_ONLY") == "true"
-        is_test_run = (test_page_target == page_name)
+        is_test_run = (test_page_target == clean_page_name)
 
         # Get latest image count from Cloudinary
         folder = page_config.get("cloudinary_folder")
@@ -182,14 +187,16 @@ def main():
             unposted_images = all_images
             
             images_left = len(unposted_images)
+            print(f"[{page_name}] Inventory Check: Found {images_left} images in folder '{folder}'")
+            if images_left > 0:
+                print(f"[{page_name}] Debug: Sample Image ID: {unposted_images[0]['public_id']}")
+            
             page_state["images_left"] = images_left
             state_changed = True
             
             # Always update refresh timestamp so dashboard knows we finished
             page_state["last_refresh"] = datetime.now().isoformat()
             state_changed = True
-            
-            print(f"[{page_name}] Inventory Check: {images_left} images remaining.")
             
             # Low Inventory Alerts
             if not is_refresh_only and not is_test_run: 
