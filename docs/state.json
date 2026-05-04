@@ -117,7 +117,7 @@
       "daily_target_reached": false,
       "images_left": 14,
       "last_inventory_alert": "2026-05-04",
-      "last_refresh": "2026-05-04T08:33:54.420939"
+      "last_refresh": "2026-05-04T11:14:44.496795"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -349,7 +349,7 @@
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-04",
-      "last_refresh": "2026-05-04T08:33:53.842300"
+      "last_refresh": "2026-05-04T11:01:01.728117"
     },
     "Beautiful House": {
       "posted": [
@@ -492,10 +492,16 @@
       "daily_target_reached": false,
       "images_left": 43,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-04T08:33:54.032926"
+      "last_refresh": "2026-05-04T11:01:01.912475"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "20260503_132210_UTC_0",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-04T07:01:01.522198-04:00",
+          "caption": "\ud83d\udcaa\ud83d\udca5\ud83d\ude97\ud83c\udf1f\ud83d\ude4c"
+        },
         {
           "public_id": "20260503_131210_UTC_0",
           "url": "https://facebook.com/None",
@@ -563,16 +569,22 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-03T22:13:19.894294-04:00",
+      "last_run": "2026-05-04T07:01:01.522198-04:00",
       "day_date": "2026-05-04",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 10,
       "last_inventory_alert": "2026-05-04",
-      "last_refresh": "2026-05-04T08:33:54.143822"
+      "last_refresh": "2026-05-04T11:01:02.027677"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Infographic_of_deep_breath_202604301541",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-04T07:01:01.522198-04:00",
+          "caption": "In a world buzzing with constant demands, stress often feels like an unwelcome companion. But what if the most powerful tool to reclaim your calm is as simple and innate as your breath? This incredible infographic visually demystifies the profound \"Physiology of a Deep Breath,\" showing us exactly how a conscious inhalation and exhalation can be a game-changer, shifting our internal state from chaos to serenity.\n\nWhen stress takes over, our Sympathetic Nervous System (highlighted in vivid red) kicks into overdrive, triggering our primitive \"fight or flight\" response. Our breathing becomes shallow, rapid, and often confined to the chest, perpetuating a cycle of anxiety. However, by intentionally engaging in deep, diaphragmatic breathing \u2013 following the soothing blue pathway \u2013 we initiate a powerful physiological reset. As our lungs fully inhale, the diaphragm descends, and our abdomen gently expands, we send a clear signal to our brain.\n\nThis signal actively stimulates the Parasympathetic Nervous System (represented by the calming blue), which is the body's natural \"rest and digest\" mechanism. It's like flipping a switch from high alert to profound tranquility. This isn't merely about feeling better; it\u2019s a tangible shift that lowers heart rate, reduces blood pressure, enhances digestion, and promotes mental clarity. Understanding this intricate pathway empowers you to harness your own internal pharmacy, transforming your stress response into a conscious choice for calm. Next time you feel overwhelmed, remember this visual guide and take a moment to breathe deeply, deliberately, and with intention. It's a simple practice with extraordinary benefits for your holistic well-being.\n#DeepBreathing #StressRelief #NervousSystem #MindBodyConnection #Physiology"
+        },
         {
           "public_id": "Puredetox/Human_eye_body_clock_diagram_202604301541",
           "url": "https://facebook.com/None",
@@ -598,12 +610,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-03T22:13:19.894294-04:00",
+      "last_run": "2026-05-04T07:01:01.522198-04:00",
       "day_date": "2026-05-04",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 60,
-      "last_refresh": "2026-05-04T08:33:54.333640"
+      "last_refresh": "2026-05-04T11:07:57.046964"
     }
   },
   "last_daily_report": "2026-05-03"
