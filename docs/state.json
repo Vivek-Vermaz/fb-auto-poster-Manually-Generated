@@ -112,12 +112,12 @@
         }
       ],
       "last_run": "2026-05-02T09:58:41.921551-04:00",
-      "day_date": "2026-05-03",
+      "day_date": "2026-05-04",
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-04T05:26:53.247195"
+      "last_inventory_alert": "2026-05-04",
+      "last_refresh": "2026-05-04T05:58:38.654975"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -279,12 +279,12 @@
         }
       ],
       "last_run": "2026-05-03T19:38:30.164713-04:00",
-      "day_date": "2026-05-03",
-      "daily_count": 3,
+      "day_date": "2026-05-04",
+      "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 31,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-04T05:26:52.433737"
+      "last_refresh": "2026-05-04T05:58:36.791904"
     },
     "Celebs A": {
       "posted": [
@@ -344,12 +344,12 @@
         }
       ],
       "last_run": "2026-05-03T14:50:46.875167-04:00",
-      "day_date": "2026-05-03",
-      "daily_count": 3,
-      "daily_target_reached": true,
+      "day_date": "2026-05-04",
+      "daily_count": 0,
+      "daily_target_reached": false,
       "images_left": 7,
-      "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-04T05:26:52.602594"
+      "last_inventory_alert": "2026-05-04",
+      "last_refresh": "2026-05-04T05:58:36.900151"
     },
     "Beautiful House": {
       "posted": [
@@ -487,12 +487,12 @@
         }
       ],
       "last_run": "2026-05-03T19:38:30.164713-04:00",
-      "day_date": "2026-05-03",
-      "daily_count": 4,
+      "day_date": "2026-05-04",
+      "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 43,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-04T05:26:52.793397"
+      "last_refresh": "2026-05-04T05:58:37.895754"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -564,12 +564,12 @@
         }
       ],
       "last_run": "2026-05-03T22:13:19.894294-04:00",
-      "day_date": "2026-05-03",
-      "daily_count": 4,
+      "day_date": "2026-05-04",
+      "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 6,
-      "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-04T05:26:52.950998"
+      "last_inventory_alert": "2026-05-04",
+      "last_refresh": "2026-05-04T05:58:38.020155"
     },
     " Aging With Grace": {
       "posted": [
@@ -599,11 +599,11 @@
         }
       ],
       "last_run": "2026-05-03T22:13:19.894294-04:00",
-      "day_date": "2026-05-03",
-      "daily_count": 4,
+      "day_date": "2026-05-04",
+      "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 25,
-      "last_refresh": "2026-05-04T05:26:53.120076"
+      "last_refresh": "2026-05-04T05:58:38.608436"
     }
   },
   "last_daily_report": "2026-05-03"
