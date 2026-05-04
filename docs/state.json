@@ -117,7 +117,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-03T23:58:46.264442"
+      "last_refresh": "2026-05-04T02:27:16.119410"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -282,9 +282,9 @@
       "day_date": "2026-05-03",
       "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 19,
+      "images_left": 18,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-03T23:38:30.488260"
+      "last_refresh": "2026-05-04T02:13:20.069501"
     },
     "Celebs A": {
       "posted": [
@@ -349,7 +349,7 @@
       "daily_target_reached": true,
       "images_left": 7,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-03T23:45:04.914242"
+      "last_refresh": "2026-05-04T02:13:22.772098"
     },
     "Beautiful House": {
       "posted": [
@@ -490,12 +490,18 @@
       "day_date": "2026-05-03",
       "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 29,
+      "images_left": 28,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-03T23:45:05.119541"
+      "last_refresh": "2026-05-04T02:13:22.957901"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "20260503_131210_UTC_0",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-03T22:13:19.894294-04:00",
+          "caption": "Angelic presence, sparkling wings, bathed in celestial light. #EtherealBeauty #CelestialVibes #AngelWings #DivineAesthetic #FantasyArt"
+        },
         {
           "public_id": "20260503_130546_UTC_0",
           "url": "https://facebook.com/None",
@@ -557,16 +563,22 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-03T18:34:46.727273-04:00",
+      "last_run": "2026-05-03T22:13:19.894294-04:00",
       "day_date": "2026-05-03",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-03T23:52:15.137811"
+      "last_refresh": "2026-05-04T02:13:23.106972"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Human_eye_body_clock_diagram_202604301541",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-03T22:13:19.894294-04:00",
+          "caption": "Ever wondered what truly dictates your daily energy ebb and flow? It's your body's incredible internal timepiece: the Circadian Rhythm. This intricate 24-hour cycle, often called your 'body clock,' orchestrates everything from sleep-wake patterns to hormone release, digestion, and even mood. As beautifully illustrated in the diagram, our eyes play a pivotal role, acting as crucial receptors for light. From the moment the sun's reflection hits your pupil, through the lens, to the retina, and along the optic nerve, light signals are sent to your brain, cueing your body when it's day and when it's night. This natural light exposure at sunrise helps signal wakefulness, boosting alertness and preparing you for the day, while its absence after sunset promotes melatonin production, preparing you for restorative sleep.\n\nIn our modern world, filled with artificial light and irregular schedules, our circadian rhythms are often thrown out of sync. This disruption can lead to a cascade of health issues, including chronic fatigue, poor concentration, mood disturbances, and even long-term chronic conditions. Understanding and respecting this innate rhythm is fundamental to holistic wellness. Simple practices like aligning your exposure to natural light and darkness with the sun's cycle, especially by getting morning light and limiting blue light exposure from screens in the evening, can make a profound difference. Prioritizing consistent sleep schedules, even on weekends, can significantly improve your energy, mood, and overall health, allowing your body clock to tick in perfect harmony. It's a powerful tool for a healthier, more vibrant you. #CircadianRhythm #BodyClock #SleepHealth #EyeHealth #NaturalRhythms"
+        },
         {
           "public_id": "Puredetox/Office_chair_fading_into_sand_202604301542",
           "url": "https://facebook.com/None",
@@ -586,12 +598,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-03T19:38:30.164713-04:00",
+      "last_run": "2026-05-03T22:13:19.894294-04:00",
       "day_date": "2026-05-03",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 27,
-      "last_refresh": "2026-05-03T23:52:15.291630"
+      "images_left": 26,
+      "last_refresh": "2026-05-04T02:21:10.204288"
     }
   },
   "last_daily_report": "2026-05-03"
