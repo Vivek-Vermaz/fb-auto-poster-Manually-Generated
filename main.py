@@ -57,12 +57,11 @@ def check_schedule(page_state, frequency, current_time, page_name):
         print(f"[{page_name}] Daily limit reached ({page_state['daily_count']}/{frequency}). Skipping.")
         return False
 
-    # Weighted Posting Windows (US Eastern Time)
-    # Peak Hours:   9-12 AM, 5-9 PM  → 65% chance to post
-    # Normal Hours: 7-9 AM, 12-5 PM, 9-11 PM → 30% chance to post
-    # Dead Hours:   11 PM - 7 AM → Do NOT post
     hour = current_time.hour
+    hours_until_dead = max(0, 23 - hour)
+    remaining_posts = frequency - page_state["daily_count"]
     
+    # Base probabilities based on time of day
     if 9 <= hour < 12 or 17 <= hour < 21:
         post_chance = 0.65
         window_name = "Peak"
@@ -70,9 +69,19 @@ def check_schedule(page_state, frequency, current_time, page_name):
         post_chance = 0.30
         window_name = "Normal"
     else:
+        post_chance = 0.0
+        window_name = "Dead"
+        
+    # OVERRIDE: If we are running out of time to hit our target before dead hours, FORCE POST.
+    # This guarantees the target is met every day.
+    if remaining_posts >= hours_until_dead and remaining_posts > 0:
+        post_chance = 1.0
+        window_name = f"Forced Catch-up (Target {page_state['daily_count']}/{frequency})"
+        
+    if post_chance <= 0:
         print(f"[{page_name}] Dead hours ({hour}:00 EST). No audience online. Sleeping.")
         return False
-    
+        
     roll = random.random()
     if roll > post_chance:
         print(f"[{page_name}] {window_name} window ({hour}:00 EST, {int(post_chance*100)}% chance). Rolled {roll:.2f}. Not this hour.")
@@ -83,8 +92,9 @@ def check_schedule(page_state, frequency, current_time, page_name):
         last_post_time = datetime.fromisoformat(last_post_time_str)
         diff = current_time - last_post_time
         hours_since = diff.total_seconds() / 3600
-        if hours_since < 1:
-            print(f"[{page_name}] Only {hours_since:.2f} hours since last post. Skipping.")
+        # 1.4 hours = 84 minutes. This enforces a ~90 minute cooldown, allowing for cron jitter.
+        if hours_since < 1.4: 
+            print(f"[{page_name}] Only {hours_since:.2f} hours since last post (Need 1.5). Skipping.")
             return False
 
     return True
@@ -317,9 +327,9 @@ def main():
             
             print(f"[{page_name}] Workflow completed successfully.")
             
-            # --- ANTI-SPAM PACING (5-8 min gap between pages) ---
+            # --- ANTI-SPAM PACING (5-10 min gap between pages) ---
             if not is_test_run and not is_refresh_only and not test_page_target:
-                sleep_time = random.randint(300, 480)
+                sleep_time = random.randint(300, 600)
                 print(f"PACING: Sleeping for {sleep_time // 60} min {sleep_time % 60}s before next page...")
                 time.sleep(sleep_time)
                 
