@@ -5,10 +5,10 @@
   "pages": [
     {
       "page_name": "Chrome Cruiser",
-      "cloudinary_folder": "",
+      "cloudinary_folder": "Chrome Cruiser",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-05-04T06:40:47.492Z",
+      "last_updated": "2026-05-05T12:29:18.698Z",
       "ai_prompt": ""
     },
     {
