@@ -159,10 +159,16 @@
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-05",
-      "last_refresh": "2026-05-05T22:22:57.379530"
+      "last_refresh": "2026-05-05T23:57:47.539150"
     },
     "Chrome Cruiser": {
       "posted": [
+        {
+          "public_id": "Chrome Cruiser/Woman_with_Porsche_French_Riviera_202604301343",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-05T19:42:48.516296-04:00",
+          "caption": "\ud83d\ude0d\ud83d\ude97\ud83d\udd25\u2728\ud83c\udf1f"
+        },
         {
           "public_id": "Chrome Cruiser/Woman_with_car_on_road_202604301344",
           "url": "https://facebook.com/None",
@@ -326,13 +332,13 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-05-05T17:00:01.262482-04:00",
+      "last_run": "2026-05-05T19:42:48.516296-04:00",
       "day_date": "2026-05-05",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 30,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-05T22:06:09.957355"
+      "last_refresh": "2026-05-05T23:42:48.798580"
     },
     "Celebs A": {
       "posted": [
@@ -418,10 +424,10 @@
       "last_run": "2026-05-05T18:06:09.461339-04:00",
       "day_date": "2026-05-05",
       "daily_count": 3,
-      "daily_target_reached": false,
+      "daily_target_reached": true,
       "images_left": 7,
       "last_inventory_alert": "2026-05-05",
-      "last_refresh": "2026-05-05T22:06:10.206978"
+      "last_refresh": "2026-05-05T23:52:05.811089"
     },
     "Beautiful House": {
       "posted": [
@@ -592,9 +598,9 @@
       "day_date": "2026-05-05",
       "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 39,
+      "images_left": 38,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-05T22:14:15.557871"
+      "last_refresh": "2026-05-05T23:52:06.753492"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -713,10 +719,16 @@
       "daily_target_reached": false,
       "images_left": 3,
       "last_inventory_alert": "2026-05-05",
-      "last_refresh": "2026-05-05T22:22:56.962786"
+      "last_refresh": "2026-05-05T23:52:06.856299"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Person_walking_after_dinner_stab__202605011322_1",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-05T19:42:48.516296-04:00",
+          "caption": "We all love a good meal, but what happens afterwards? Our bodies work hard to process the nutrients, often leading to a temporary spike in blood sugar. While normal, prolonged or excessive spikes can have long-term health implications. What if there was a simple, enjoyable way to help your body manage this effectively? Enter the post-dinner walk! This isn't just about burning calories; it's a powerful tool for metabolic health. As our infographic beautifully illustrates, even a moderate stroll after your evening meal can significantly impact how your body handles glucose. When you walk, your muscles become more active, increasing their demand for glucose. This helps clear glucose from your bloodstream more efficiently, reducing that post-meal spike and promoting a smoother return to a normal glucose range. It essentially makes your cells more sensitive to insulin, the hormone responsible for ushering glucose into cells for energy. Beyond blood sugar stabilization, think of the ripple effect: improved digestion means less bloating and discomfort, while enhanced metabolism helps your body burn energy more effectively. The mental benefits are just as crucial \u2013 a gentle walk can lower stress, clear your head, and even boost your mood, turning a simple routine into a holistic wellness practice. So, next time dinner is done, consider trading the couch for a stroll. Your body (and mind!) will thank you. Aim for a comfortable pace; even 15-20 minutes can make a world of difference. It's a small step for a healthier you. #PostDinnerWalk #BloodSugarControl #HealthyHabits #MetabolicHealth #WellnessJourney"
+        },
         {
           "public_id": "Puredetox/Person_eating_mindful_infographic_202605011324",
           "url": "https://facebook.com/None",
@@ -802,12 +814,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-05T17:00:01.262482-04:00",
+      "last_run": "2026-05-05T19:42:48.516296-04:00",
       "day_date": "2026-05-05",
-      "daily_count": 4,
+      "daily_count": 5,
       "daily_target_reached": false,
       "images_left": 50,
-      "last_refresh": "2026-05-05T22:22:57.244179"
+      "last_refresh": "2026-05-05T23:52:07.110903"
     }
   },
   "last_daily_report": "2026-05-05"
