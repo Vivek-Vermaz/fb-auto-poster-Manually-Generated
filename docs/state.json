@@ -189,10 +189,16 @@
       "daily_target_reached": false,
       "images_left": 12,
       "last_inventory_alert": "2026-05-07",
-      "last_refresh": "2026-05-07T14:22:03.027117"
+      "last_refresh": "2026-05-07T16:27:44.812153"
     },
     "Chrome Cruiser": {
       "posted": [
+        {
+          "public_id": "Chrome Cruiser/Ferrari_250_GTO_Italian_road_202605031457",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-07T12:03:02.151599-04:00",
+          "caption": "\ud83d\ude97\ud83d\udca5\ud83d\udcaa\ud83c\udf1f"
+        },
         {
           "public_id": "Chrome Cruiser/Woman_standing_beside_car_202605031457",
           "url": "https://facebook.com/None",
@@ -416,13 +422,13 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-05-07T09:51:26.870169-04:00",
+      "last_run": "2026-05-07T12:03:02.151599-04:00",
       "day_date": "2026-05-07",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 21,
+      "images_left": 20,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-07T13:51:27.346260"
+      "last_refresh": "2026-05-07T16:03:02.539695"
     },
     "Celebs A": {
       "posted": [
@@ -529,10 +535,16 @@
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-07",
-      "last_refresh": "2026-05-07T13:58:38.943220"
+      "last_refresh": "2026-05-07T16:08:22.510596"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/Miami_waterfront_villa_infinity___202605011134",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-07T12:03:02.151599-04:00",
+          "caption": "This incredible waterfront oasis perfectly epitomizes luxury living, set against one of the most breathtaking sunsets we've ever witnessed. \ud83c\udf05 Imagine stepping into this architectural marvel, where floor-to-ceiling windows blur the lines between indoors and out, inviting the vibrant Miami cityscape and tranquil bay into every corner. The soft glow illuminating the interiors hints at a warm, inviting ambiance, perfect for lavish entertaining or serene relaxation. The outdoor spaces are simply spectacular. A shimmering infinity pool stretches towards the horizon, reflecting the fiery hues of the sky, beckoning for a refreshing dip under the stars or a lazy afternoon soak. Chic lounge areas are strategically placed for optimal views, perfect for sipping a morning coffee or an evening cocktail. Picture hosting an unforgettable dinner party on that magnificent patio, with city lights twinkling and the gentle lapping of water as your soundtrack. The ultimate statement of grandeur is its private dock, gracefully hosting a majestic yacht \u2013 a symbol of freedom and adventure, ready to whisk you away to open waters. This isn't just a house; it's a lifestyle, a sanctuary, and an entertainer's dream. Every detail, from pristine landscaping to elegant lighting, speaks of unparalleled sophistication and a deep connection to its stunning surroundings. What a place to call home! \u2728\ud83c\udf34\ud83d\udee5\ufe0f #WaterfrontLuxury #MiamiDreamHome #SunsetVibes #ModernMansion #YachtLifeGoals"
+        },
         {
           "public_id": "Beautiful House/Luxury_villa_in_forest_clearing_202605011134_1",
           "url": "https://facebook.com/None",
@@ -738,13 +750,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-07T09:51:26.870169-04:00",
+      "last_run": "2026-05-07T12:03:02.151599-04:00",
       "day_date": "2026-05-07",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 32,
+      "images_left": 31,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-07T13:58:39.249438"
+      "last_refresh": "2026-05-07T16:08:22.645122"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -897,12 +909,18 @@
       "day_date": "2026-05-07",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 13,
+      "images_left": 12,
       "last_inventory_alert": "2026-05-07",
-      "last_refresh": "2026-05-07T14:07:52.134074"
+      "last_refresh": "2026-05-07T16:18:04.856160"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Infographic_fiber-rich_foods_vis__202605011323",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-07T12:03:02.151599-04:00",
+          "caption": "\ud83d\udd25\ud83d\ude97\ud83d\ude80\ud83c\udf1f\ud83d\ude0d"
+        },
         {
           "public_id": "Puredetox/Infographic_human_body_health_tr__202605011322",
           "url": "https://facebook.com/None",
@@ -1042,12 +1060,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-07T09:51:26.870169-04:00",
+      "last_run": "2026-05-07T12:03:02.151599-04:00",
       "day_date": "2026-05-07",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 42,
-      "last_refresh": "2026-05-07T14:15:59.895153"
+      "images_left": 41,
+      "last_refresh": "2026-05-07T16:18:05.153585"
     }
   },
   "last_daily_report": "2026-05-06"
