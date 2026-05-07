@@ -199,9 +199,9 @@
       "day_date": "2026-05-07",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 11,
+      "images_left": 10,
       "last_inventory_alert": "2026-05-07",
-      "last_refresh": "2026-05-07T22:15:38.605066"
+      "last_refresh": "2026-05-07T23:06:13.910865"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -444,9 +444,9 @@
       "day_date": "2026-05-07",
       "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 19,
+      "images_left": 18,
       "last_inventory_alert": "2026-05-07",
-      "last_refresh": "2026-05-07T21:51:28.769328"
+      "last_refresh": "2026-05-07T22:56:15.801513"
     },
     "Celebs A": {
       "posted": [
@@ -559,10 +559,16 @@
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-07",
-      "last_refresh": "2026-05-07T21:58:08.211841"
+      "last_refresh": "2026-05-07T22:56:15.973899"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/Mediterranean_cliffside_villa_ov__202605031320_1",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-07T18:56:15.222428-04:00",
+          "caption": "Imagine waking up to this panorama! \ud83c\udf05 Perched majestically on a dramatic cliffside, this extraordinary residence redefines luxury coastal living. Every angle of this magnificent estate captures the breathtaking beauty of the Mediterranean, from the azure waters below to the fiery hues of the sunset painting the sky. \ud83c\udfa8 The classic architecture, with its warm terracotta roofs, elegant arches, and sprawling terraces adorned with vibrant bougainvillea, exudes an unparalleled charm and timeless elegance. Step into a world where indoor blends seamlessly with outdoor, inviting you to embrace the serene rhythm of the ocean. The dazzling infinity pool appears to spill directly into the sea, offering a truly immersive experience that blurs the line between man-made marvel and natural wonder. Picture yourself lounging on one of the sun-drenched terraces, a cool drink in hand, as the gentle sea breeze whispers through the cypress trees. \ud83c\udf34 Whether you're envisioning peaceful mornings with a coffee overlooking the endless horizon, or unforgettable evenings hosting friends under a canopy of stars, this home offers an idyllic sanctuary. It\u2019s more than a house; it\u2019s a lifestyle, a dream brought to life, promising moments of pure bliss and tranquility amidst nature's grandeur. \u2728 This is the ultimate escape where every detail harmonizes with its spectacular surroundings. #ClifftopLuxury #MediterraneanDream #SunsetViews #InfinityPoolGoals #CoastalLiving"
+        },
         {
           "public_id": "Beautiful House/Waterfront_villa_Amalfi_Coast_su__202605031320_1",
           "url": "https://facebook.com/None",
@@ -786,13 +792,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-07T16:10:06.645445-04:00",
+      "last_run": "2026-05-07T18:56:15.222428-04:00",
       "day_date": "2026-05-07",
-      "daily_count": 4,
+      "daily_count": 5,
       "daily_target_reached": false,
       "images_left": 28,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-07T21:58:08.447803"
+      "last_refresh": "2026-05-07T22:56:16.226703"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -962,10 +968,10 @@
       "last_run": "2026-05-07T17:51:28.332081-04:00",
       "day_date": "2026-05-07",
       "daily_count": 4,
-      "daily_target_reached": false,
-      "images_left": 10,
+      "daily_target_reached": true,
+      "images_left": 9,
       "last_inventory_alert": "2026-05-07",
-      "last_refresh": "2026-05-07T21:58:08.630361"
+      "last_refresh": "2026-05-07T23:06:12.767104"
     },
     " Aging With Grace": {
       "posted": [
@@ -1124,8 +1130,8 @@
       "day_date": "2026-05-07",
       "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 40,
-      "last_refresh": "2026-05-07T22:07:33.831497"
+      "images_left": 39,
+      "last_refresh": "2026-05-07T23:06:13.734131"
     }
   },
   "last_daily_report": "2026-05-06"
