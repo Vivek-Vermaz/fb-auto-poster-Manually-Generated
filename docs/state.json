@@ -213,7 +213,7 @@
       "daily_target_reached": false,
       "images_left": 8,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T09:10:29.457460"
+      "last_refresh": "2026-05-08T11:19:53.477185"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -464,10 +464,16 @@
       "daily_target_reached": false,
       "images_left": 25,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T09:10:28.470507"
+      "last_refresh": "2026-05-08T11:06:48.082783"
     },
     "Celebs A": {
       "posted": [
+        {
+          "public_id": "Celebs A/collage_77cac8e24d",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-08T07:06:47.830575-04:00",
+          "caption": "Unveiling the raw spectrum of human emotion through a single, powerful gaze. \ud83d\udc40 From the quiet introspection bathed in warm, golden hues, suggesting a moment of contemplation or deep thought, to the stark, chilling grip of fear and distress under icy blue light, every frame tells a profound story. This captivating visual journey highlights the incredible power of expression, where vulnerability meets undeniable resilience. You can almost feel the weight of every unspoken thought, every internal struggle, and every moment of profound realization etched upon her face. It's a poignant reminder that even in the darkest, most intense moments, a flicker of strength and courage can be found within. What untold narrative lies behind those compelling eyes? \u2728 The dramatic shift in light isn't just an aesthetic choice; it powerfully mirrors an internal transformation, a battle being fought, or a hard-won truth being revealed. This isn't just a face; it's a living canvas of complex human experience, beautifully and hauntingly portrayed, inviting us to look closer and feel deeper. What emotions do these striking expressions ignite within you? Let the eyes speak volumes. \ud83d\udc99 What a journey this must be! \n#EmotionalDepth #VisualStorytelling #HumanExpression #CinematicVibes #RawEmotion"
+        },
         {
           "public_id": "Celebs A/collage_8dc6b467a6",
           "url": "https://facebook.com/None",
@@ -583,16 +589,22 @@
           "caption": "Step into a world where every corner whispers tales of old books, deep thoughts, and timeless elegance. \ud83d\udcda\u2728 Our latest visual guide is your ultimate inspiration for mastering the enchanting allure of Dark Academia decor! From richly paneled walls and plush velvet seating in deep jewel tones to antique writing desks adorned with inkwells and flickering candlelight, this aesthetic is all about creating a sanctuary for the curious mind and the nostalgic soul. Imagine endless evenings lost in ancient literature, surrounded by the warm glow of a crackling fireplace, a cup of strong tea or coffee in hand. \u2615\ufe0f\ud83d\udd6f\ufe0f It's more than just a style; it's a mood, an invitation to slow down, ponder, and indulge in intellectual pursuits. We're talking vintage finds, art with a captivating story, classical busts that stand as silent muses, and an abundance of textures that invite touch and contemplation. Dive into the art of curated clutter and transform your space into a sophisticated haven that feels both deeply personal and universally enchanting. Let the brooding beauty and scholarly charm take over your home, making every moment feel like a page from a forgotten novel. #DarkAcademiaDecor #LiteraryHome #VintageVibes #ScholarlyChic #OldWorldInteriors #TimelessDesign #VelvetAndBooks #CandlelightMagic #PoshPenniesStyle #GothicElegance #CuratedSpaces #HomeSanctuary #IntellectualAesthetic #AntiqueFinds #DecorInspiration"
         }
       ],
-      "last_run": "2026-05-07T22:30:38.775114-04:00",
+      "last_run": "2026-05-08T07:06:47.830575-04:00",
       "day_date": "2026-05-08",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 5,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T09:10:28.671570"
+      "last_refresh": "2026-05-08T11:06:48.168929"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/Mediterranean_cliffside_villa_ov__202605031320",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-08T07:06:47.830575-04:00",
+          "caption": "Imagine waking up to this... \ud83c\udf05 Perched majestically on a sun-drenched cliff, this stunning villa isn't just a house; it's a symphony of Mediterranean luxury and serene natural beauty. Every detail here whispers stories of endless summer days and breathtaking sunsets that paint the sky in hues of gold and rose. From the terracotta rooftops that echo ancient traditions to the expansive infinity pool that seems to spill directly into the azure sea, this estate redefines coastal living with unparalleled elegance. \ud83c\udf0a\u2728\n\nThe moment you step onto these grounds, a profound sense of peace washes over you. Lush, vibrant bougainvillea cascades down stone walls, adding bursts of fuchsia against the soft cream facade, while ancient olive trees stand as timeless sentinels, offering shade and character. Picture yourself lounging on those plush outdoor sofas, a gentle sea breeze rustling through the leaves, a cool drink in hand, as the last rays of sunlight dance on the water. This isn't just a home; it's a sanctuary where every corner is designed for ultimate relaxation and immersive experiences. \ud83c\udf3f\ud83c\udf3a\n\nThe meticulous landscaping blends seamlessly with the dramatic cliffside, creating private alcoves and grand terraces where one can savor the panoramic ocean views. Whether it's a quiet morning coffee overlooking the sparkling waves or an evening gathering under a canopy of stars, this house offers an unparalleled backdrop for creating unforgettable memories. It's more than just a destination; it's a dream realized, a place where time slows down, and every moment feels like a postcard. Who wouldn't want to escape to this slice of paradise? \ud83e\udd42\ud83d\udcab\n#MediterraneanDream #CliffsideVilla #SunsetParadise #LuxuryCoastalLiving #BougainvilleaMagic"
+        },
         {
           "public_id": "Beautiful House/Mediterranean_cliffside_villa_ov__202605031320_1",
           "url": "https://facebook.com/None",
@@ -822,13 +834,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-07T18:56:15.222428-04:00",
+      "last_run": "2026-05-08T07:06:47.830575-04:00",
       "day_date": "2026-05-08",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 27,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-08T09:10:28.901680"
+      "last_refresh": "2026-05-08T11:12:41.567106"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1001,7 +1013,7 @@
       "daily_target_reached": false,
       "images_left": 13,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T09:10:29.080440"
+      "last_refresh": "2026-05-08T11:19:53.150270"
     },
     " Aging With Grace": {
       "posted": [
@@ -1173,7 +1185,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 37,
-      "last_refresh": "2026-05-08T09:10:29.277661"
+      "last_refresh": "2026-05-08T11:19:53.338440"
     }
   },
   "last_daily_report": "2026-05-06"
