@@ -223,9 +223,9 @@
       "day_date": "2026-05-08",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 7,
+      "images_left": 6,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T17:18:38.007798"
+      "last_refresh": "2026-05-08T19:20:15.379452"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -488,7 +488,7 @@
       "daily_target_reached": false,
       "images_left": 23,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T17:07:26.086961"
+      "last_refresh": "2026-05-08T19:08:35.983406"
     },
     "Celebs A": {
       "posted": [
@@ -628,10 +628,10 @@
       "last_run": "2026-05-08T13:07:25.707416-04:00",
       "day_date": "2026-05-08",
       "daily_count": 3,
-      "daily_target_reached": false,
+      "daily_target_reached": true,
       "images_left": 5,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T17:07:26.195761"
+      "last_refresh": "2026-05-08T19:08:36.085613"
     },
     "Beautiful House": {
       "posted": [
@@ -886,12 +886,18 @@
       "day_date": "2026-05-08",
       "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 25,
+      "images_left": 24,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-08T17:12:57.236284"
+      "last_refresh": "2026-05-08T19:08:36.909249"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/20260506_112311_UTC_0",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-08T15:08:35.517983-04:00",
+          "caption": "Ethereal queen reigns, draped in gold and ice. #IceQueen #FantasyArt #AngelWings #RegalBeauty #WinterGoddess"
+        },
         {
           "public_id": "manifest.yourdreamz/20260506_112153_UTC_0",
           "url": "https://facebook.com/None",
@@ -1061,16 +1067,22 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-08T11:17:01.629426-04:00",
+      "last_run": "2026-05-08T15:08:35.517983-04:00",
       "day_date": "2026-05-08",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 12,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T17:18:37.570930"
+      "last_refresh": "2026-05-08T19:08:37.060330"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Morning_wellness_infographic_sun__202605011323",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-08T15:08:35.517983-04:00",
+          "caption": "Ever wondered why a sunny morning walk just feels *right*? Our bodies are incredible timekeepers, governed by an intricate internal clock known as the circadian rhythm. This rhythm dictates everything from our sleep-wake cycles to hormone release, and its most powerful synchronizer is light, especially the sun!\n\nAs the golden rays of dawn greet us, our eyes receive crucial light signals. This stimulation boosts the production of serotonin \u2013 often called the \"happy hormone.\" Serotonin is vital for regulating mood, boosting alertness, and sharpening our cognitive functions, helping us feel energized and ready to tackle the day. Notice how the infographic highlights peak alertness around 10 AM, a direct result of this morning light exposure.\n\nBut the sun's influence doesn't stop there. As evening descends and darkness increases, our pineal gland begins to secrete melatonin, the \"sleep hormone.\" Melatonin signals to our body that it's time to wind down, promoting relaxation and preparing us for a restful night's sleep. The delicate balance between morning serotonin and evening melatonin is key to holistic wellness.\n\nBy consciously embracing morning sunlight and respecting the natural progression of light into darkness, we can optimize our circadian rhythm. This simple act can lead to better sleep quality, improved mood stability, enhanced energy levels throughout the day, and overall greater well-being. Let's make a conscious effort to align with nature's rhythm and unlock our body's full potential!\n\n#CircadianRhythm #MorningSun #WellnessJourney #SleepHealth #NaturalRhythms"
+        },
         {
           "public_id": "Puredetox/Infographic_showing_adult_liftin__202605011323",
           "url": "https://facebook.com/None",
@@ -1240,12 +1252,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-08T11:17:01.629426-04:00",
+      "last_run": "2026-05-08T15:08:35.517983-04:00",
       "day_date": "2026-05-08",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 36,
-      "last_refresh": "2026-05-08T17:18:37.792492"
+      "last_refresh": "2026-05-08T19:14:14.564085"
     }
   },
   "last_daily_report": "2026-05-06"
