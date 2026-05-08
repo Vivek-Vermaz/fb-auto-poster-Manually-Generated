@@ -235,9 +235,9 @@
       "day_date": "2026-05-08",
       "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 5,
+      "images_left": 4,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T22:56:31.240013"
+      "last_refresh": "2026-05-08T23:57:50.669585"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -510,9 +510,9 @@
       "day_date": "2026-05-08",
       "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 22,
+      "images_left": 21,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T22:51:25.644301"
+      "last_refresh": "2026-05-08T23:51:41.475751"
     },
     "Celebs A": {
       "posted": [
@@ -655,10 +655,16 @@
       "daily_target_reached": true,
       "images_left": 6,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T22:56:30.614600"
+      "last_refresh": "2026-05-08T23:51:41.612528"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/Waterfront_villa_Amalfi_Coast_su__202605031320",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-08T19:51:41.211191-04:00",
+          "caption": "Imagine waking up to this view every single day! \ud83c\udf05 This isn't just a house; it's a dreamscape nestled into the breathtaking cliffs of the Amalfi Coast. Every detail of this particular villa whispers luxury, serenity, and an unparalleled connection to the stunning Mediterranean Sea. From its pastel-hued walls adorned with cascades of vibrant bougainvillea to the delicate string lights illuminating a romantic dinner setting on the balcony, it\u2019s clear this is a place designed for unforgettable moments. \u2728\n\nPicture yourself taking a refreshing dip in that spectacular infinity pool, feeling as if you're floating directly into the azure waters below, with the golden hour sun painting the sky in fiery oranges and soft purples. The intricate stone pathways, dotted with charming lanterns, beckon you to explore the hidden nooks and crannies leading down to the private water access, where little boats bob gently. \ud83d\udea4 The air here is infused with romance and tranquility, a perfect blend of natural beauty and exquisite design. This isn't just a vacation rental; it's an experience, a haven where time slows down, and every sunset feels like a personal serenade. Who wouldn't want to live out their most cherished dreams in a place like this? It's more than a view; it's a feeling, a luxurious embrace of coastal living at its finest. Pure magic! \ud83d\udc96\n\n#AmalfiCoastVilla #CliffsideLuxury #PositanoDreams #MediterraneanMagic #SunsetViews"
+        },
         {
           "public_id": "Beautiful House/Mountain_lodge_estate_snow_backdrop_202605031320",
           "url": "https://facebook.com/None",
@@ -912,13 +918,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-08T16:52:58.816206-04:00",
+      "last_run": "2026-05-08T19:51:41.211191-04:00",
       "day_date": "2026-05-08",
-      "daily_count": 4,
+      "daily_count": 5,
       "daily_target_reached": false,
       "images_left": 23,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-08T22:56:30.808377"
+      "last_refresh": "2026-05-08T23:51:41.854239"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1109,7 +1115,7 @@
       "daily_target_reached": false,
       "images_left": 10,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-08T22:56:30.947580"
+      "last_refresh": "2026-05-08T23:57:50.430985"
     },
     " Aging With Grace": {
       "posted": [
@@ -1299,7 +1305,7 @@
       "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 34,
-      "last_refresh": "2026-05-08T22:56:31.124188"
+      "last_refresh": "2026-05-08T23:57:50.593480"
     }
   },
   "last_daily_report": "2026-05-06"
