@@ -261,7 +261,7 @@
       "daily_target_reached": false,
       "images_left": 11,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T19:53:49.470806"
+      "last_refresh": "2026-05-09T20:47:21.750717"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -697,10 +697,16 @@
       "daily_target_reached": false,
       "images_left": 6,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T19:53:48.822921"
+      "last_refresh": "2026-05-09T20:38:10.068550"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/German_countryside_estate_mansion_202605031319_1",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-09T16:38:09.721663-04:00",
+          "caption": "Stepping into a dream, where timeless elegance meets unparalleled natural beauty. \ud83c\udfe1\u2728 This magnificent estate, with its striking half-timbered facade and classic European charm, truly feels like it\u2019s been plucked straight from a storybook. Imagine waking up to that breathtaking misty landscape, the gentle hum of nature as your personal soundtrack, with rolling hills creating a serene backdrop. Every detail, from the meticulously manicured lawns striped to perfection, to the vibrant blooming flower beds and the tranquil fountain, whispers tales of grandeur and tranquil living. The rich, earthy tones of the prominent red tiled roof and dark wood accents beautifully complement the pristine white walls, creating an inviting warmth that permeates the crisp morning air. And that stately cobblestone driveway? A majestic welcome to a world where luxury knows no bounds, perfectly accentuated by the sleek modern elegance of the car awaiting its next journey. This isn't just a house; it\u2019s a sanctuary, a statement of refined taste, and a lifestyle defined by peace and opulence. It\u2019s the kind of place where cherished memories are etched into every corner, where grand celebrations and quiet reflections find their perfect backdrop. The seamless blend of historical architecture with a refreshingly peaceful atmosphere makes this property truly exceptional. It\u2019s a perfect harmony of heritage and tranquility, inviting you to embrace a life of sophisticated comfort amidst nature's embrace. Can you feel the serene and aspirational vibe radiating from this picture? \ud83d\udcab\n#DreamEstate #LuxuryLiving #TimelessArchitecture #EuropeanManor #GrandVibes"
+        },
         {
           "public_id": "Beautiful House/Glass_house_above_Pacific_Ocean_202605031319_1",
           "url": "https://facebook.com/None",
@@ -972,13 +978,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-09T11:43:54.332211-04:00",
+      "last_run": "2026-05-09T16:38:09.721663-04:00",
       "day_date": "2026-05-09",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 43,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-09T19:53:48.977543"
+      "last_refresh": "2026-05-09T20:38:10.343642"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1187,7 +1193,7 @@
       "daily_target_reached": false,
       "images_left": 19,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T19:53:49.081323"
+      "last_refresh": "2026-05-09T20:47:21.360562"
     },
     " Aging With Grace": {
       "posted": [
@@ -1395,7 +1401,7 @@
       "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 31,
-      "last_refresh": "2026-05-09T19:53:49.339224"
+      "last_refresh": "2026-05-09T20:47:21.522723"
     }
   },
   "last_daily_report": "2026-05-09"
