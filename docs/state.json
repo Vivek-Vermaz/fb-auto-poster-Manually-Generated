@@ -243,7 +243,7 @@
       "daily_target_reached": false,
       "images_left": 14,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T10:52:25.126092"
+      "last_refresh": "2026-05-09T11:50:34.152461"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -529,6 +529,12 @@
     "Celebs A": {
       "posted": [
         {
+          "public_id": "Celebs A/collage_68432645d8",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-09T07:44:20.856993-04:00",
+          "caption": "From casual chic to red carpet dreams, this collage captures a spectrum of style moments that I absolutely adore! \u2728 Whether it's a laid-back day in my favorite denim and a simple top, stepping out for an evening with a touch of sparkle and my beloved Miu Miu arm candy, or transforming for a major event like the BAFTAs in a dreamy, layered gown, every look tells a unique story. \ud83d\udc96 It\u2019s incredible how fashion allows us to express different facets of ourselves \u2013 from the natural beauty of a fresh face with a pop of bold lip color to the full glam of a special occasion, showcasing versatility at its best. Each moment reflects a unique mood and adventure, celebrating personal style evolution. Loving the journey of discovering and showcasing these diverse aesthetics! Which look resonates with you the most today? Soaking in all the good vibes and embracing every beautiful transformation. Feeling grateful for the opportunities to explore and create through fashion and beauty. \ud83e\udd70 What an amazing ride it is! \n#StyleTransformation #FashionJourney #RedCarpetGlam #EverydayChic #BeautyLooks"
+        },
+        {
           "public_id": "Celebs A/collage_2fb9a44dbd",
           "url": "https://facebook.com/None",
           "time": "2026-05-08T13:07:25.707416-04:00",
@@ -661,13 +667,13 @@
           "caption": "Step into a world where every corner whispers tales of old books, deep thoughts, and timeless elegance. \ud83d\udcda\u2728 Our latest visual guide is your ultimate inspiration for mastering the enchanting allure of Dark Academia decor! From richly paneled walls and plush velvet seating in deep jewel tones to antique writing desks adorned with inkwells and flickering candlelight, this aesthetic is all about creating a sanctuary for the curious mind and the nostalgic soul. Imagine endless evenings lost in ancient literature, surrounded by the warm glow of a crackling fireplace, a cup of strong tea or coffee in hand. \u2615\ufe0f\ud83d\udd6f\ufe0f It's more than just a style; it's a mood, an invitation to slow down, ponder, and indulge in intellectual pursuits. We're talking vintage finds, art with a captivating story, classical busts that stand as silent muses, and an abundance of textures that invite touch and contemplation. Dive into the art of curated clutter and transform your space into a sophisticated haven that feels both deeply personal and universally enchanting. Let the brooding beauty and scholarly charm take over your home, making every moment feel like a page from a forgotten novel. #DarkAcademiaDecor #LiteraryHome #VintageVibes #ScholarlyChic #OldWorldInteriors #TimelessDesign #VelvetAndBooks #CandlelightMagic #PoshPenniesStyle #GothicElegance #CuratedSpaces #HomeSanctuary #IntellectualAesthetic #AntiqueFinds #DecorInspiration"
         }
       ],
-      "last_run": "2026-05-08T13:07:25.707416-04:00",
+      "last_run": "2026-05-09T07:44:20.856993-04:00",
       "day_date": "2026-05-09",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 6,
+      "images_left": 7,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T10:52:24.212240"
+      "last_refresh": "2026-05-09T11:44:21.190131"
     },
     "Beautiful House": {
       "posted": [
@@ -936,7 +942,7 @@
       "daily_target_reached": false,
       "images_left": 45,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-09T10:52:24.650607"
+      "last_refresh": "2026-05-09T11:50:33.674684"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1133,7 +1139,7 @@
       "daily_target_reached": false,
       "images_left": 21,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T10:52:24.805063"
+      "last_refresh": "2026-05-09T11:50:33.871081"
     },
     " Aging With Grace": {
       "posted": [
@@ -1329,7 +1335,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 33,
-      "last_refresh": "2026-05-09T10:52:24.980406"
+      "last_refresh": "2026-05-09T11:50:34.035469"
     }
   },
   "last_daily_report": "2026-05-06"
