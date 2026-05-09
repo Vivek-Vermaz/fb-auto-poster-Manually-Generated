@@ -5,10 +5,10 @@
   "pages": [
     {
       "page_name": "Chrome Cruiser",
-      "cloudinary_folder": "Chrome Cruiser",
+      "cloudinary_folder": "",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-05-05T12:29:18.698Z",
+      "last_updated": "2026-05-09T08:48:12.181Z",
       "ai_prompt": ""
     },
     {
@@ -46,10 +46,10 @@
     {
       "page_name": "Pure Detox Journey",
       "cloudinary_folder": "PJ",
-      "frequency": 6,
+      "frequency": 5,
       "ai_prompt": "Write a 200 to 250 words engaging and interestin and create curiosity caption related to particual image topic and with emojis with 2 to 4 releavent hashtags",
       "captions": [],
-      "last_updated": "2026-05-04T06:43:14.740Z"
+      "last_updated": "2026-05-09T08:48:22.084Z"
     }
   ]
 }
