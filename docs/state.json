@@ -253,9 +253,9 @@
       "day_date": "2026-05-09",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 13,
+      "images_left": 12,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T16:52:31.193906"
+      "last_refresh": "2026-05-09T17:43:40.240821"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -691,7 +691,7 @@
       "daily_target_reached": false,
       "images_left": 6,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T16:44:51.559295"
+      "last_refresh": "2026-05-09T17:43:39.740366"
     },
     "Beautiful House": {
       "posted": [
@@ -972,7 +972,7 @@
       "daily_target_reached": false,
       "images_left": 43,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-09T16:52:30.815448"
+      "last_refresh": "2026-05-09T17:43:39.893346"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1181,7 +1181,7 @@
       "daily_target_reached": false,
       "images_left": 19,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T16:52:30.920851"
+      "last_refresh": "2026-05-09T17:43:40.013832"
     },
     " Aging With Grace": {
       "posted": [
@@ -1389,8 +1389,8 @@
       "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 31,
-      "last_refresh": "2026-05-09T16:52:31.049469"
+      "last_refresh": "2026-05-09T17:43:40.145616"
     }
   },
-  "last_daily_report": "2026-05-06"
+  "last_daily_report": "2026-05-09"
 }
