@@ -261,7 +261,7 @@
       "daily_target_reached": false,
       "images_left": 11,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T20:47:21.750717"
+      "last_refresh": "2026-05-09T21:50:14.516578"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -697,7 +697,7 @@
       "daily_target_reached": false,
       "images_left": 6,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T20:38:10.068550"
+      "last_refresh": "2026-05-09T21:37:48.609980"
     },
     "Beautiful House": {
       "posted": [
@@ -982,12 +982,18 @@
       "day_date": "2026-05-09",
       "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 43,
+      "images_left": 42,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-09T20:38:10.343642"
+      "last_refresh": "2026-05-09T21:37:48.933445"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/20260507_070327_UTC_0",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-09T17:37:48.250931-04:00",
+          "caption": "Radiant queen of gold and ancient sands. #GoldenGoddess #AncientMystery #DesertQueen #DivineBeauty #FantasyArt"
+        },
         {
           "public_id": "manifest.yourdreamz/20260507_070713_UTC_0",
           "url": "https://facebook.com/None",
@@ -1187,16 +1193,22 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-09T11:43:54.332211-04:00",
+      "last_run": "2026-05-09T17:37:48.250931-04:00",
       "day_date": "2026-05-09",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 19,
       "last_inventory_alert": "2026-05-09",
-      "last_refresh": "2026-05-09T20:47:21.360562"
+      "last_refresh": "2026-05-09T21:37:49.060178"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Person_stretching_morning_infogr__202605041107_1",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-09T17:37:48.250931-04:00",
+          "caption": "Are you ready to transform your mornings and infuse your entire day with vibrant energy? We often overlook the incredible power of a simple, intentional stretch routine to set the tone for what\u2019s ahead. This incredible infographic, 'Revitalize Your Morning: The Energizing Stretch Routine,' lays out five fantastic movements designed to awaken your body and mind, helping you start each day feeling refreshed and ready to conquer.\n\nImagine beginning with a deep 'Sunrise Reach & Breathe,' expanding your chest and releasing tension as the first rays of dawn touch your skin. Follow that with a 'Standing Forward Fold' to gently lengthen your hamstrings and lower back, improving mobility and boosting circulation even before your first cup of coffee. The 'Side Body Arc' offers a beautiful opening for your obliques and intercostals, enhancing your flexibility and overall range of motion.\n\nDon't forget the 'Quad Stretch' to relieve stiffness in one of the body's largest muscle groups, perfectly balancing strength with suppleness. And finally, flow into a 'Cat-Cow Flow,' a classic for spinal mobility, synchronizing movement with breath to calm your nervous system and stimulate core engagement. Each of these stretches is a small investment in your physical well-being, promising improved mobility, a significant boost in energy, and enhanced circulation throughout your entire system.\n\nMaking these five simple stretches a daily habit can dramatically impact your flexibility and overall blood flow, laying a solid foundation for a healthy, active lifestyle. It's not just about physical movement; it's about creating a mindful ritual that prepares you for whatever the day brings. So, why not give it a try? Let\u2019s embrace the power of movement and 'Start Your Day Vibrant!' You deserve to feel amazing from the moment you wake up.\n#MorningStretch #EnergizingRoutine #DailyFlexibility #WellnessJourney #RevitalizeYourDay"
+        },
         {
           "public_id": "Puredetox/Infographic_human_body_immune_sy__202605041107_1",
           "url": "https://facebook.com/None",
@@ -1396,12 +1408,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-09T11:43:54.332211-04:00",
+      "last_run": "2026-05-09T17:37:48.250931-04:00",
       "day_date": "2026-05-09",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 31,
-      "last_refresh": "2026-05-09T20:47:21.522723"
+      "last_refresh": "2026-05-09T21:43:57.627930"
     }
   },
   "last_daily_report": "2026-05-09"
