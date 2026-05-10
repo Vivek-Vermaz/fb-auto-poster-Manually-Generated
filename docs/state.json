@@ -285,7 +285,7 @@
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-10",
-      "last_refresh": "2026-05-10T20:58:56.920735"
+      "last_refresh": "2026-05-10T21:51:15.456893"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -739,7 +739,7 @@
       "daily_target_reached": false,
       "images_left": 6,
       "last_inventory_alert": "2026-05-10",
-      "last_refresh": "2026-05-10T20:42:22.502457"
+      "last_refresh": "2026-05-10T21:41:34.753267"
     },
     "Beautiful House": {
       "posted": [
@@ -1048,9 +1048,9 @@
       "day_date": "2026-05-10",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 39,
+      "images_left": 38,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-10T20:42:23.019170"
+      "last_refresh": "2026-05-10T21:41:35.191287"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1287,12 +1287,18 @@
       "day_date": "2026-05-10",
       "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 15,
+      "images_left": 14,
       "last_inventory_alert": "2026-05-10",
-      "last_refresh": "2026-05-10T20:49:28.218886"
+      "last_refresh": "2026-05-10T21:41:35.368902"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Sugar_reduction_infographic_comp__202605041107",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-10T17:41:34.389172-04:00",
+          "caption": "Ever wondered how your daily sweet treats are truly impacting your body beyond just the scale? This powerful infographic lays bare the stark contrast between a high-sugar diet and a low-sugar lifestyle, revealing profound effects on nearly every aspect of your well-being. On one side, we see the consequences of excessive sugar intake manifesting as problematic skin \u2013 think acne, pimples, inflammation, and even premature fine lines. Energy levels become a rollercoaster of rapid spikes followed by debilitating crashes, leaving you with daytime drowsiness and persistent brain fog. Internally, a high-sugar diet can set the stage for significant health risks, including unhealthy weight gain, increased obesity risk, insulin resistance, and an imbalanced gut microbiome, paving the way for chronic diseases.\n\nBut there's a brighter side! Shifting to a low-sugar lifestyle, focused on healthy eating habits, unlocks incredible transformations. Imagine waking up to radiant skin with reduced inflammation and an even tone, a result of healthy cell function. Your energy levels stabilize, providing sustained vitality, enhanced mental focus, and saying goodbye to brain fog. The internal benefits are equally compelling: efficient weight management, improved metabolism, a lower risk of chronic diseases, and optimized organ function. It's not just about what you cut out; it's about what you gain \u2013 a healthier, more vibrant you. This isn't just a diet; it's a lifestyle upgrade that impacts you from the inside out.\n#SugarReduction #HealthyLifestyle #LowSugarLiving #WellnessJourney #GutHealth"
+        },
         {
           "public_id": "Puredetox/Sugar_reduction_infographic_comp__202605041107_1",
           "url": "https://facebook.com/None",
@@ -1516,12 +1522,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-10T10:46:06.250861-04:00",
+      "last_run": "2026-05-10T17:41:34.389172-04:00",
       "day_date": "2026-05-10",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 27,
-      "last_refresh": "2026-05-10T20:58:56.848424"
+      "last_refresh": "2026-05-10T21:41:35.604793"
     }
   },
   "last_daily_report": "2026-05-10"
