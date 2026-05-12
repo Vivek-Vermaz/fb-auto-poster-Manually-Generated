@@ -327,7 +327,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-12T09:31:35.312708"
+      "last_refresh": "2026-05-12T11:58:21.432019"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -632,7 +632,7 @@
       "daily_target_reached": false,
       "images_left": 28,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-12T09:31:34.602794"
+      "last_refresh": "2026-05-12T11:49:28.830914"
     },
     "Celebs A": {
       "posted": [
@@ -829,10 +829,16 @@
       "daily_target_reached": false,
       "images_left": 5,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-12T09:31:34.743826"
+      "last_refresh": "2026-05-12T11:49:28.958056"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/Forest_mansion_with_jacuzzi_stea__202605041033",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-12T07:49:28.233681-04:00",
+          "caption": "Imagine stepping into this winter dreamscape, where every snowflake adds to the enchantment. \u2744\ufe0f This breathtaking mountain lodge isn't just a house; it's an experience, a sanctuary bathed in the soft glow of warm light, nestled amidst a tranquil, snow-covered forest. The rustic elegance of the log and stone fa\u00e7ade harmonizes perfectly with the pristine white landscape, creating a picture of ultimate serenity and luxurious comfort. \n\nPicture yourself here: the gentle crunch of snow underfoot as you make your way to the inviting hot tub, steam rising into the crisp evening air, surrounded by the silent majesty of nature. Or perhaps you're already inside, curled up by the crackling fireplace, a warm drink in hand, watching the snow fall gracefully through expansive windows that frame the perfect winter scene. Smoke curling from the chimney hints at the cozy warmth waiting within, promising an escape from the everyday hustle.\n\nEvery detail, from the glowing lanterns along the path to the beautifully illuminated interior, whispers tales of peaceful evenings and unforgettable memories. This isn't just a home; it's a winter fairytale brought to life, offering a unique blend of rugged charm and refined indulgence. It's the ultimate retreat for those seeking solace, beauty, and a touch of magic during the colder months. Who wouldn't want to spend their winter nights in this spectacular haven? \ud83d\udd25\u2728\n\n#WinterWonderlandHome #LuxuryCabinLife #SnowyEscape #CozyVibes #MountainLodgeDream"
+        },
         {
           "public_id": "Beautiful House/Mansion_extending_over_ocean_202605041034_1",
           "url": "https://facebook.com/None",
@@ -1170,13 +1176,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-11T22:28:54.581045-04:00",
+      "last_run": "2026-05-12T07:49:28.233681-04:00",
       "day_date": "2026-05-12",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 32,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-12T09:31:34.947118"
+      "last_refresh": "2026-05-12T11:49:29.187394"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1445,7 +1451,7 @@
       "daily_target_reached": false,
       "images_left": 9,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-12T09:31:35.071424"
+      "last_refresh": "2026-05-12T11:58:20.967553"
     },
     " Aging With Grace": {
       "posted": [
@@ -1719,7 +1725,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 20,
-      "last_refresh": "2026-05-12T09:31:35.238831"
+      "last_refresh": "2026-05-12T11:58:21.182453"
     }
   },
   "last_daily_report": "2026-05-10"
