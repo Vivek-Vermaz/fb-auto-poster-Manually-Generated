@@ -327,7 +327,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-12T21:39:01.408650"
+      "last_refresh": "2026-05-12T23:02:32.325455"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -648,9 +648,9 @@
       "day_date": "2026-05-12",
       "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 26,
+      "images_left": 25,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-12T21:13:35.155035"
+      "last_refresh": "2026-05-12T22:54:55.484390"
     },
     "Celebs A": {
       "posted": [
@@ -862,13 +862,19 @@
       "last_run": "2026-05-12T17:13:34.825650-04:00",
       "day_date": "2026-05-12",
       "daily_count": 3,
-      "daily_target_reached": false,
+      "daily_target_reached": true,
       "images_left": 5,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-12T21:22:30.872344"
+      "last_refresh": "2026-05-12T22:54:55.593635"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/Spanish_Mediterranean_villa_with__202605041033",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-12T18:54:55.189359-04:00",
+          "caption": "Imagine stepping into a world where every detail whispers luxury and tranquility. \ud83c\udf05 This breathtaking Mediterranean villa, perched majestically above the shimmering sea, is more than just a house \u2013 it's an immersive experience in sophisticated living. From the warm terracotta roofs that gleam under the golden hour sun to the cascading bougainvillea that paints the courtyards in vibrant hues of pink and purple, every unique architectural curve and lush garden path exudes unparalleled charm and a timeless elegance.\n\nThe true heart of this haven lies in its exquisite outdoor spaces, designed for both grand entertaining and quiet contemplation. Picture intimate gatherings around the elegant tiered fountain, its gentle trickle creating a serene soundtrack to your afternoon. Or perhaps, envision lively dinner parties under the enchanting wooden pergola, romantically adorned with climbing flowers and softly glowing lanterns, promising unforgettable evenings with loved ones. \ud83e\udd42\ud83c\udf7d\ufe0f Every meal here becomes a cherished memory.\n\nAnd let's not forget that magnificent infinity pool, seemingly merging with the horizon, offering uninterrupted panoramic views of the ocean stretching out endlessly into the sunset. Whether you're enjoying a morning coffee on a private balcony, taking a refreshing dip, or simply soaking in the spectacular golden hour from the terraced gardens, this residence offers a sublime escape from the everyday. It\u2019s a place where time slows down, worries melt away, and every moment feels like a sun-drenched dream. Who wouldn't want to wake up to these incredible vibes every single day? \u2728\ud83c\udfe1\ud83c\udf34\n#MediterraneanDream #LuxuryVillaLife #SunsetParadise #AlFrescoLiving #CoastalVibes"
+        },
         {
           "public_id": "Beautiful House/Mansion_with_supercars_sunset_202605041033_1",
           "url": "https://facebook.com/None",
@@ -1230,13 +1236,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-12T15:41:59.543351-04:00",
+      "last_run": "2026-05-12T18:54:55.189359-04:00",
       "day_date": "2026-05-12",
-      "daily_count": 4,
+      "daily_count": 5,
       "daily_target_reached": false,
       "images_left": 28,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-12T21:31:39.578452"
+      "last_refresh": "2026-05-12T22:54:56.268153"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1526,10 +1532,10 @@
       "last_run": "2026-05-12T17:13:34.825650-04:00",
       "day_date": "2026-05-12",
       "daily_count": 4,
-      "daily_target_reached": false,
-      "images_left": 6,
+      "daily_target_reached": true,
+      "images_left": 5,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-12T21:31:39.723764"
+      "last_refresh": "2026-05-12T23:02:31.089877"
     },
     " Aging With Grace": {
       "posted": [
@@ -1815,7 +1821,7 @@
       "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 18,
-      "last_refresh": "2026-05-12T21:39:01.318962",
+      "last_refresh": "2026-05-12T23:02:31.758022",
       "last_inventory_alert": "2026-05-12"
     }
   },
