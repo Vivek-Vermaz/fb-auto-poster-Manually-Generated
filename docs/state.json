@@ -327,7 +327,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-12T23:02:32.325455"
+      "last_refresh": "2026-05-13T00:02:34.306011"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -650,7 +650,7 @@
       "daily_target_reached": false,
       "images_left": 25,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-12T22:54:55.484390"
+      "last_refresh": "2026-05-12T23:54:51.511314"
     },
     "Celebs A": {
       "posted": [
@@ -863,9 +863,9 @@
       "day_date": "2026-05-12",
       "daily_count": 3,
       "daily_target_reached": true,
-      "images_left": 5,
+      "images_left": 6,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-12T22:54:55.593635"
+      "last_refresh": "2026-05-12T23:54:51.595157"
     },
     "Beautiful House": {
       "posted": [
@@ -1239,10 +1239,10 @@
       "last_run": "2026-05-12T18:54:55.189359-04:00",
       "day_date": "2026-05-12",
       "daily_count": 5,
-      "daily_target_reached": false,
-      "images_left": 28,
+      "daily_target_reached": true,
+      "images_left": 27,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-12T22:54:56.268153"
+      "last_refresh": "2026-05-12T23:54:51.699565"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1535,10 +1535,16 @@
       "daily_target_reached": true,
       "images_left": 5,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-12T23:02:31.089877"
+      "last_refresh": "2026-05-12T23:54:52.261217"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Nature_therapy_infographic_perso__202605041107",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-12T19:54:51.167323-04:00",
+          "caption": "In our fast-paced world, finding moments of peace and rejuvenation is essential. What if the secret to a happier, healthier you was as simple as stepping outside? Our latest infographic perfectly illustrates the profound \"Benefits of Walking Outdoors\" \u2013 a true form of nature therapy for your mind and body. Imagine a stroll through a sun-dappled forest, the fresh air filling your lungs, the gentle sounds of nature soothing your soul. This isn't just a pleasant experience; it's a powerful therapeutic intervention. Studies show that even a short walk in nature can dramatically reduce stress and anxiety by lowering cortisol levels, leaving you with a calmer, clearer mind. Beyond mental tranquility, nature walks are incredible mood boosters, prompting your brain to release serotonin, the 'feel-good' hormone, and enhancing overall happiness. But the benefits don't stop there! Need to sharpen your focus or overcome brain fog? Walking outdoors increases concentration and cognitive function, making your brain feel more agile and ready to tackle tasks. Feeling sluggish? Physical activity in nature provides a natural energy and vitality boost, effectively reducing fatigue and making you feel more vibrant. And in a time when health is paramount, exposure to phytoncides (natural airborne chemicals released by plants) during your walks strengthens your immune system, enhancing immune cell activity. Even your sleep stands to improve, with nature helping to regulate your circadian rhythm for deeper, more restorative rest. So, next time you're feeling overwhelmed, tired, or just need a pick-me-up, remember the incredible healing power of nature. Lace up your shoes, step outside, and let the great outdoors work its magic. Embrace this simple yet profound way to revitalize your mind and body. #NatureTherapy #WalkingOutdoors #MindBodyWellness #ForestBathing #EmbraceNature"
+        },
         {
           "public_id": "Puredetox/Infographic__sedentary_vs_active__202605041106",
           "url": "https://facebook.com/None",
@@ -1816,12 +1822,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-12T13:05:10.528257-04:00",
+      "last_run": "2026-05-12T19:54:51.167323-04:00",
       "day_date": "2026-05-12",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 18,
-      "last_refresh": "2026-05-12T23:02:31.758022",
+      "last_refresh": "2026-05-12T23:54:52.349290",
       "last_inventory_alert": "2026-05-12"
     }
   },
