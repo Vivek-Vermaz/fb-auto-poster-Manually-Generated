@@ -327,10 +327,16 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-13T00:02:34.306011"
+      "last_refresh": "2026-05-13T02:53:23.752063"
     },
     "Chrome Cruiser": {
       "posted": [
+        {
+          "public_id": "Chrome Cruiser/Woman_posing_with_Volkswagen_Beetle_202605041051",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-12T22:35:23.008849-04:00",
+          "caption": "Sunshine, wildflowers, and the timeless charm of a classic VW Beetle! \ud83c\udf3c There's something truly magical about hitting the open road in a car that radiates so much personality. This beautiful light blue 'Retro 68' bug, complete with a roof rack and picnic baskets, is calling for an adventure. Imagine the stories this car could tell! What's better than a spontaneous summer escape, surrounded by nature's beauty and the pure joy of the journey? Feeling those vintage summer dreams come alive! \u2728\n#ClassicBeetle #VWBugLove #SummerVibes #RetroRoadtrip #FlowerPowerCar"
+        },
         {
           "public_id": "Chrome Cruiser/Muscle_car_with_woman_on_202605041051",
           "url": "https://facebook.com/None",
@@ -644,13 +650,13 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-05-12T17:13:34.825650-04:00",
+      "last_run": "2026-05-12T22:35:23.008849-04:00",
       "day_date": "2026-05-12",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
       "images_left": 25,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-12T23:54:51.511314"
+      "last_refresh": "2026-05-13T02:35:23.451206"
     },
     "Celebs A": {
       "posted": [
@@ -863,9 +869,9 @@
       "day_date": "2026-05-12",
       "daily_count": 3,
       "daily_target_reached": true,
-      "images_left": 6,
+      "images_left": 7,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-12T23:54:51.595157"
+      "last_refresh": "2026-05-13T02:44:52.996272"
     },
     "Beautiful House": {
       "posted": [
@@ -1242,7 +1248,7 @@
       "daily_target_reached": true,
       "images_left": 27,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-12T23:54:51.699565"
+      "last_refresh": "2026-05-13T02:44:53.187218"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1535,10 +1541,16 @@
       "daily_target_reached": true,
       "images_left": 5,
       "last_inventory_alert": "2026-05-12",
-      "last_refresh": "2026-05-12T23:54:52.261217"
+      "last_refresh": "2026-05-13T02:44:53.423415"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Protein_benefits_infographic_foo__202605041107",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-12T22:35:23.008849-04:00",
+          "caption": "Unlock the power of protein and transform your health and fitness journey! This incredible infographic breaks down exactly why this essential nutrient is crucial for everyone, from athletes to daily wellness seekers. Protein isn't just for building bulging muscles; it's the architect of muscle repair and recovery, especially vital after a strenuous workout. It helps mend tissue damage and synthesizes new, stronger muscle fibers, ensuring you bounce back faster and get stronger with every session.\n\nBeyond the gym, protein is your secret weapon for satiety and energy control. Ever feel those afternoon energy slumps or relentless cravings? Protein helps combat them by promoting a feeling of fullness, curbing overeating, and digesting slower, keeping you satisfied for longer. This sustained release of energy isn't just about feeling full; it also boosts your metabolic rate, providing a powerful fuel source for your body and mind, preventing those dreaded energy crashes, and stabilizing blood sugar levels throughout the day.\n\nThe best part? Powering up with protein is delicious and versatile! Whether you prefer animal-based sources like chicken breast, salmon, eggs, steak, or Greek yogurt, or you lean towards plant-based options such as lentils, chickpeas, tofu, quinoa, beans, edamame, nuts, and seeds, there's an abundance of choices to integrate into your diet. Each serving listed can provide 15g+ to 25g+ of this vital macronutrient. Start prioritizing protein to maximize your health, fitness, and vitality! #ProteinBenefits #MuscleBuilding #HealthyEating #NutritionTips #FuelYourBody"
+        },
         {
           "public_id": "Puredetox/Nature_therapy_infographic_perso__202605041107",
           "url": "https://facebook.com/None",
@@ -1822,12 +1834,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-12T19:54:51.167323-04:00",
+      "last_run": "2026-05-12T22:35:23.008849-04:00",
       "day_date": "2026-05-12",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 18,
-      "last_refresh": "2026-05-12T23:54:52.349290",
+      "images_left": 17,
+      "last_refresh": "2026-05-13T02:44:53.596854",
       "last_inventory_alert": "2026-05-12"
     }
   },
