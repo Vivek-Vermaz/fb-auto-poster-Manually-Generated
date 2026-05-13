@@ -327,7 +327,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-13",
-      "last_refresh": "2026-05-13T17:35:45.952537"
+      "last_refresh": "2026-05-13T19:52:34.181309"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -666,9 +666,9 @@
       "day_date": "2026-05-13",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 23,
+      "images_left": 22,
       "last_inventory_alert": "2026-05-08",
-      "last_refresh": "2026-05-13T17:12:06.635760"
+      "last_refresh": "2026-05-13T19:46:14.243034"
     },
     "Celebs A": {
       "posted": [
@@ -889,7 +889,7 @@
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-13",
-      "last_refresh": "2026-05-13T17:19:45.091839"
+      "last_refresh": "2026-05-13T19:46:14.528644"
     },
     "Beautiful House": {
       "posted": [
@@ -1276,9 +1276,9 @@
       "day_date": "2026-05-13",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 27,
+      "images_left": 26,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-13T17:19:45.405014"
+      "last_refresh": "2026-05-13T19:46:14.813800"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1581,12 +1581,18 @@
       "day_date": "2026-05-13",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 4,
+      "images_left": 3,
       "last_inventory_alert": "2026-05-13",
-      "last_refresh": "2026-05-13T17:29:25.368263"
+      "last_refresh": "2026-05-13T19:46:14.970021"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Herbal_tea_infographic_benefits_202605041106",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-13T15:46:13.767472-04:00",
+          "caption": "In the hustle and bustle of modern life, finding moments of tranquility and supporting our body's natural processes is more crucial than ever. Enter the wonderful world of herbal teas \u2013 ancient remedies reimagined for contemporary wellness. Our latest infographic beautifully illustrates how these natural elixirs can be your allies for both profound relaxation and seamless digestion.\n\nImagine unwinding after a long day with a warm cup of Chamomile. Known affectionately as 'The Calming Cup,' Chamomile tea is a gentle powerhouse, promoting deep relaxation, easing anxiety, and significantly improving sleep quality. It\u2019s the perfect nightly ritual to soothe tension and prepare your mind and body for restorative rest.\n\nFor those moments when your digestive system needs a little love, Mint tea steps in as 'The Digestive Aid.' Refreshing and invigorating, mint is renowned for its ability to aid digestion, alleviate uncomfortable bloating and gas, and even relieve nausea. A cup after a meal can make all the difference, leaving you feeling light and refreshed with the added bonus of revitalized breath.\n\nAnd when you need a comforting hug from within, Ginger & Lemon tea offers a 'Warming & Comforting' embrace. This dynamic duo stimulates digestion, effectively reduces indigestion, and alleviates general stomach upset. Plus, ginger's well-known anti-inflammatory properties make this a potent brew for overall well-being, especially during cooler months or when you feel a bit under the weather.\n\nEmbrace the simple yet profound power of nature's pantry. Sip, relax, and digest naturally with these incredible herbal remedies, transforming your daily routine into a sanctuary of wellness. #HerbalTeaBenefits #NaturalRemedies #WellnessJourney #DigestiveWellness #RelaxationTeas"
+        },
         {
           "public_id": "Puredetox/Stress_management_infographic_pe__202605041107",
           "url": "https://facebook.com/None",
@@ -1882,12 +1888,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-13T10:42:29.917349-04:00",
+      "last_run": "2026-05-13T15:46:13.767472-04:00",
       "day_date": "2026-05-13",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 15,
-      "last_refresh": "2026-05-13T17:35:45.895860",
+      "last_refresh": "2026-05-13T19:46:15.161583",
       "last_inventory_alert": "2026-05-13"
     }
   },
