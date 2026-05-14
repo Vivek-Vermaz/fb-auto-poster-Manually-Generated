@@ -337,9 +337,9 @@
       "day_date": "2026-05-14",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 8,
+      "images_left": 7,
       "last_inventory_alert": "2026-05-14",
-      "last_refresh": "2026-05-14T18:49:27.776628"
+      "last_refresh": "2026-05-14T20:50:27.615011"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -704,10 +704,16 @@
       "daily_target_reached": false,
       "images_left": 18,
       "last_inventory_alert": "2026-05-14",
-      "last_refresh": "2026-05-14T18:49:26.701323"
+      "last_refresh": "2026-05-14T20:24:48.845882"
     },
     "Celebs A": {
       "posted": [
+        {
+          "public_id": "Celebs A/collage_46a983fafe",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-14T16:24:48.515289-04:00",
+          "caption": "\ud83d\udca5\u2728\ud83d\ude0e\ud83d\ude4c"
+        },
         {
           "public_id": "Celebs A/collage_543b85b43b",
           "url": "https://facebook.com/None",
@@ -937,16 +943,22 @@
           "caption": "Step into a world where every corner whispers tales of old books, deep thoughts, and timeless elegance. \ud83d\udcda\u2728 Our latest visual guide is your ultimate inspiration for mastering the enchanting allure of Dark Academia decor! From richly paneled walls and plush velvet seating in deep jewel tones to antique writing desks adorned with inkwells and flickering candlelight, this aesthetic is all about creating a sanctuary for the curious mind and the nostalgic soul. Imagine endless evenings lost in ancient literature, surrounded by the warm glow of a crackling fireplace, a cup of strong tea or coffee in hand. \u2615\ufe0f\ud83d\udd6f\ufe0f It's more than just a style; it's a mood, an invitation to slow down, ponder, and indulge in intellectual pursuits. We're talking vintage finds, art with a captivating story, classical busts that stand as silent muses, and an abundance of textures that invite touch and contemplation. Dive into the art of curated clutter and transform your space into a sophisticated haven that feels both deeply personal and universally enchanting. Let the brooding beauty and scholarly charm take over your home, making every moment feel like a page from a forgotten novel. #DarkAcademiaDecor #LiteraryHome #VintageVibes #ScholarlyChic #OldWorldInteriors #TimelessDesign #VelvetAndBooks #CandlelightMagic #PoshPenniesStyle #GothicElegance #CuratedSpaces #HomeSanctuary #IntellectualAesthetic #AntiqueFinds #DecorInspiration"
         }
       ],
-      "last_run": "2026-05-14T09:54:53.872133-04:00",
+      "last_run": "2026-05-14T16:24:48.515289-04:00",
       "day_date": "2026-05-14",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 6,
       "last_inventory_alert": "2026-05-14",
-      "last_refresh": "2026-05-14T18:49:26.880403"
+      "last_refresh": "2026-05-14T20:24:48.980201"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/Cottage_with_ivy_and_garden_202605091339",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-14T16:24:48.515289-04:00",
+          "caption": "\ud83d\udcaf\ud83d\udc4c\ud83d\udc4c\ud83c\udf1f"
+        },
         {
           "public_id": "Beautiful House/Hillside_glass_mansion_Switzerla__202605041033_1",
           "url": "https://facebook.com/None",
@@ -1344,16 +1356,22 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-13T22:36:02.374202-04:00",
+      "last_run": "2026-05-14T16:24:48.515289-04:00",
       "day_date": "2026-05-14",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 23,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-14T18:49:27.112376"
+      "last_refresh": "2026-05-14T20:34:16.102298"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/20260509_090354_UTC_0",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-14T16:24:48.515289-04:00",
+          "caption": "\ud83d\ude0d\ud83d\ude80\ud83d\ude4c\ud83d\udc4c"
+        },
         {
           "public_id": "manifest.yourdreamz/20260509_090355_UTC_0",
           "url": "https://facebook.com/None",
@@ -1661,13 +1679,13 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-13T22:36:02.374202-04:00",
+      "last_run": "2026-05-14T16:24:48.515289-04:00",
       "day_date": "2026-05-14",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-14",
-      "last_refresh": "2026-05-14T18:49:27.295985"
+      "last_refresh": "2026-05-14T20:43:23.324592"
     },
     " Aging With Grace": {
       "posted": [
@@ -1989,7 +2007,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 12,
-      "last_refresh": "2026-05-14T18:49:27.546873",
+      "last_refresh": "2026-05-14T20:50:27.089909",
       "last_inventory_alert": "2026-05-14"
     }
   },
