@@ -375,10 +375,16 @@
       "daily_target_reached": true,
       "images_left": 1,
       "last_inventory_alert": "2026-05-15",
-      "last_refresh": "2026-05-15T22:09:30.576339"
+      "last_refresh": "2026-05-15T22:55:07.682508"
     },
     "Chrome Cruiser": {
       "posted": [
+        {
+          "public_id": "Chrome Cruiser/Midnight-blue_Camaro_parked_moun__202605081124",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-15T18:49:48.910914-04:00",
+          "caption": "\ud83d\ude80\ud83d\ude0e\ud83c\udfc6\ud83d\ude80"
+        },
         {
           "public_id": "Chrome Cruiser/Silver_Porsche_356_Speedster_lak__202605081125",
           "url": "https://facebook.com/None",
@@ -752,13 +758,13 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-05-15T16:55:17.065789-04:00",
+      "last_run": "2026-05-15T18:49:48.910914-04:00",
       "day_date": "2026-05-15",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 15,
       "last_inventory_alert": "2026-05-15",
-      "last_refresh": "2026-05-15T21:53:56.106300"
+      "last_refresh": "2026-05-15T22:49:49.174263"
     },
     "Celebs A": {
       "posted": [
@@ -1015,7 +1021,7 @@
       "daily_target_reached": false,
       "images_left": 6,
       "last_inventory_alert": "2026-05-15",
-      "last_refresh": "2026-05-15T21:53:56.198444"
+      "last_refresh": "2026-05-15T22:55:06.520438"
     },
     "Beautiful House": {
       "posted": [
@@ -1456,9 +1462,9 @@
       "day_date": "2026-05-15",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 18,
+      "images_left": 17,
       "last_inventory_alert": "2026-05-15",
-      "last_refresh": "2026-05-15T21:53:56.787912"
+      "last_refresh": "2026-05-15T22:55:06.739446"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1814,10 +1820,10 @@
       "last_run": "2026-05-15T17:53:55.861056-04:00",
       "day_date": "2026-05-15",
       "daily_count": 4,
-      "daily_target_reached": false,
-      "images_left": 1,
+      "daily_target_reached": true,
+      "images_left": 0,
       "last_inventory_alert": "2026-05-15",
-      "last_refresh": "2026-05-15T22:00:57.637188"
+      "last_refresh": "2026-05-15T22:55:06.952654"
     },
     " Aging With Grace": {
       "posted": [
@@ -2175,7 +2181,7 @@
       "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 6,
-      "last_refresh": "2026-05-15T22:09:30.455443",
+      "last_refresh": "2026-05-15T22:55:07.603794",
       "last_inventory_alert": "2026-05-15"
     }
   },
