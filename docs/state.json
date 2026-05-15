@@ -339,10 +339,16 @@
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-14",
-      "last_refresh": "2026-05-14T22:29:13.334426"
+      "last_refresh": "2026-05-15T00:13:37.536164"
     },
     "Chrome Cruiser": {
       "posted": [
+        {
+          "public_id": "Chrome Cruiser/Yellow_Ferrari_on_Italian_road_202605081125",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-14T19:52:15.958205-04:00",
+          "caption": "\ud83d\udc4c\ud83d\ude80\u2728\ud83c\udfc6\ud83d\udc4c"
+        },
         {
           "public_id": "Chrome Cruiser/Aston_Martin_DB5_parked_hotel_202605081125",
           "url": "https://facebook.com/None",
@@ -698,13 +704,13 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-05-14T09:54:53.872133-04:00",
+      "last_run": "2026-05-14T19:52:15.958205-04:00",
       "day_date": "2026-05-14",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 18,
       "last_inventory_alert": "2026-05-14",
-      "last_refresh": "2026-05-14T22:04:47.796104"
+      "last_refresh": "2026-05-14T23:52:17.154469"
     },
     "Celebs A": {
       "posted": [
@@ -949,10 +955,16 @@
       "daily_target_reached": false,
       "images_left": 5,
       "last_inventory_alert": "2026-05-14",
-      "last_refresh": "2026-05-14T22:04:47.900940"
+      "last_refresh": "2026-05-15T00:01:14.996949"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/Family_home_in_Bali_202605091340",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-14T19:52:15.958205-04:00",
+          "caption": "\ud83d\udca5\ud83d\ude4c\ud83d\ude80\ud83d\udca5"
+        },
         {
           "public_id": "Beautiful House/Lakeside_family_house_sunrise_ca__202605091340",
           "url": "https://facebook.com/None",
@@ -1362,13 +1374,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-14T18:04:47.413965-04:00",
+      "last_run": "2026-05-14T19:52:15.958205-04:00",
       "day_date": "2026-05-14",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 22,
+      "images_left": 21,
       "last_inventory_alert": "2026-05-03",
-      "last_refresh": "2026-05-14T22:04:48.059296"
+      "last_refresh": "2026-05-15T00:01:15.674861"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1695,12 +1707,18 @@
       "day_date": "2026-05-14",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 6,
+      "images_left": 5,
       "last_inventory_alert": "2026-05-14",
-      "last_refresh": "2026-05-14T22:11:37.617533"
+      "last_refresh": "2026-05-15T00:07:13.668060"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Diet_infographic_with_colorful_p__202605041106",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-14T19:52:15.958205-04:00",
+          "caption": "\ud83d\ude0e\ud83d\ude97\ud83d\ude80\ud83d\ude97\ud83d\ude0e"
+        },
         {
           "public_id": "Puredetox/Hygiene_infographic_handwashing___202605041106",
           "url": "https://facebook.com/None",
@@ -2020,12 +2038,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-14T18:04:47.413965-04:00",
+      "last_run": "2026-05-14T19:52:15.958205-04:00",
       "day_date": "2026-05-14",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 12,
-      "last_refresh": "2026-05-14T22:21:26.629048",
+      "images_left": 11,
+      "last_refresh": "2026-05-15T00:07:13.802557",
       "last_inventory_alert": "2026-05-14"
     }
   },
