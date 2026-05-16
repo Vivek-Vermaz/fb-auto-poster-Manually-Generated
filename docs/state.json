@@ -375,7 +375,7 @@
       "daily_target_reached": false,
       "images_left": 1,
       "last_inventory_alert": "2026-05-16",
-      "last_refresh": "2026-05-16T10:57:42.366636"
+      "last_refresh": "2026-05-16T11:58:43.550000"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -770,7 +770,7 @@
       "daily_target_reached": false,
       "images_left": 13,
       "last_inventory_alert": "2026-05-16",
-      "last_refresh": "2026-05-16T10:57:41.748513"
+      "last_refresh": "2026-05-16T11:51:33.734492"
     },
     "Celebs A": {
       "posted": [
@@ -1039,7 +1039,7 @@
       "daily_target_reached": false,
       "images_left": 4,
       "last_inventory_alert": "2026-05-16",
-      "last_refresh": "2026-05-16T10:57:41.849266"
+      "last_refresh": "2026-05-16T11:51:33.886717"
     },
     "Beautiful House": {
       "posted": [
@@ -1494,7 +1494,7 @@
       "daily_target_reached": false,
       "images_left": 15,
       "last_inventory_alert": "2026-05-16",
-      "last_refresh": "2026-05-16T10:57:41.977447"
+      "last_refresh": "2026-05-16T11:51:34.074310"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1853,10 +1853,16 @@
       "daily_target_reached": false,
       "images_left": 12,
       "last_inventory_alert": "2026-05-16",
-      "last_refresh": "2026-05-16T10:57:42.120895"
+      "last_refresh": "2026-05-16T11:51:34.247323"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Mindfulness_infographic_calm_per__202605041105",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-16T07:51:33.269729-04:00",
+          "caption": "\u2728\u2728\ud83d\ude80\ud83d\udcaf\ud83d\ude80"
+        },
         {
           "public_id": "Puredetox/Infographic__Joint_health_flexib__202605041106",
           "url": "https://facebook.com/None",
@@ -2212,12 +2218,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-15T22:26:15.497029-04:00",
+      "last_run": "2026-05-16T07:51:33.269729-04:00",
       "day_date": "2026-05-16",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 24,
-      "last_refresh": "2026-05-16T10:57:42.272723",
+      "last_refresh": "2026-05-16T11:51:34.445354",
       "last_inventory_alert": "2026-05-16"
     }
   },
