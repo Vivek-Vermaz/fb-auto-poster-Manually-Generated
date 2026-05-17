@@ -381,10 +381,16 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T14:36:57.039932"
+      "last_refresh": "2026-05-17T16:18:25.748823"
     },
     "Chrome Cruiser": {
       "posted": [
+        {
+          "public_id": "Chrome Cruiser/Volkswagen_Beetle_widebody_parke__202605091352",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-17T11:53:50.465859-04:00",
+          "caption": "\ud83d\udca5\ud83d\ude97\ud83d\ude97\u2728\ud83d\ude0e"
+        },
         {
           "public_id": "Chrome Cruiser/Mercedes-Benz_300SL_parked_casino_202605091352",
           "url": "https://facebook.com/None",
@@ -800,16 +806,22 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-05-16T22:33:25.747213-04:00",
+      "last_run": "2026-05-17T11:53:50.465859-04:00",
       "day_date": "2026-05-17",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 8,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T14:23:15.864328"
+      "last_refresh": "2026-05-17T15:53:51.066946"
     },
     "Celebs A": {
       "posted": [
+        {
+          "public_id": "Celebs A/collage_f4e81bf766",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-17T11:53:50.465859-04:00",
+          "caption": "\ud83d\udcaa\ud83d\udc4c\ud83d\ude4c\u2728\ud83d\udcaf"
+        },
         {
           "public_id": "Celebs A/collage_e055fc299b",
           "url": "https://facebook.com/None",
@@ -1093,16 +1105,22 @@
           "caption": "Step into a world where every corner whispers tales of old books, deep thoughts, and timeless elegance. \ud83d\udcda\u2728 Our latest visual guide is your ultimate inspiration for mastering the enchanting allure of Dark Academia decor! From richly paneled walls and plush velvet seating in deep jewel tones to antique writing desks adorned with inkwells and flickering candlelight, this aesthetic is all about creating a sanctuary for the curious mind and the nostalgic soul. Imagine endless evenings lost in ancient literature, surrounded by the warm glow of a crackling fireplace, a cup of strong tea or coffee in hand. \u2615\ufe0f\ud83d\udd6f\ufe0f It's more than just a style; it's a mood, an invitation to slow down, ponder, and indulge in intellectual pursuits. We're talking vintage finds, art with a captivating story, classical busts that stand as silent muses, and an abundance of textures that invite touch and contemplation. Dive into the art of curated clutter and transform your space into a sophisticated haven that feels both deeply personal and universally enchanting. Let the brooding beauty and scholarly charm take over your home, making every moment feel like a page from a forgotten novel. #DarkAcademiaDecor #LiteraryHome #VintageVibes #ScholarlyChic #OldWorldInteriors #TimelessDesign #VelvetAndBooks #CandlelightMagic #PoshPenniesStyle #GothicElegance #CuratedSpaces #HomeSanctuary #IntellectualAesthetic #AntiqueFinds #DecorInspiration"
         }
       ],
-      "last_run": "2026-05-17T10:23:15.351150-04:00",
+      "last_run": "2026-05-17T11:53:50.465859-04:00",
       "day_date": "2026-05-17",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T14:23:16.055570"
+      "last_refresh": "2026-05-17T16:02:05.404345"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/Family_house_during_winter_snowfall_202605091338",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-17T11:53:50.465859-04:00",
+          "caption": "\ud83d\udc4c\ud83d\udc4c\ud83d\udca5\ud83d\ude0e"
+        },
         {
           "public_id": "Beautiful House/Japanese_family_home_cherry_blos__202605091339_1",
           "url": "https://facebook.com/None",
@@ -1572,13 +1590,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-16T22:33:25.747213-04:00",
+      "last_run": "2026-05-17T11:53:50.465859-04:00",
       "day_date": "2026-05-17",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 11,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T14:30:15.635406"
+      "last_refresh": "2026-05-17T16:09:25.578517"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1961,7 +1979,7 @@
       "daily_target_reached": false,
       "images_left": 8,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T14:30:15.832270"
+      "last_refresh": "2026-05-17T16:18:24.737901"
     },
     " Aging With Grace": {
       "posted": [
@@ -2354,9 +2372,9 @@
       "day_date": "2026-05-17",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 20,
-      "last_refresh": "2026-05-17T14:30:16.153387",
-      "last_inventory_alert": "2026-05-16"
+      "images_left": 19,
+      "last_refresh": "2026-05-17T16:18:24.925052",
+      "last_inventory_alert": "2026-05-17"
     }
   },
   "last_daily_report": "2026-05-16"
