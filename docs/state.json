@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T22:11:34.231256"
+      "last_refresh": "2026-05-17T22:57:47.839406"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -822,9 +822,9 @@
       "day_date": "2026-05-17",
       "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 6,
+      "images_left": 5,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T21:49:02.345515"
+      "last_refresh": "2026-05-17T22:47:49.167737"
     },
     "Celebs A": {
       "posted": [
@@ -1127,9 +1127,9 @@
       "day_date": "2026-05-17",
       "daily_count": 3,
       "daily_target_reached": true,
-      "images_left": 6,
+      "images_left": 7,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T21:56:23.688200"
+      "last_refresh": "2026-05-17T22:47:49.314547"
     },
     "Beautiful House": {
       "posted": [
@@ -1624,9 +1624,9 @@
       "day_date": "2026-05-17",
       "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 9,
+      "images_left": 8,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T21:56:23.843684"
+      "last_refresh": "2026-05-17T22:47:49.595421"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -2013,12 +2013,18 @@
       "day_date": "2026-05-17",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 8,
+      "images_left": 7,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T22:06:09.353267"
+      "last_refresh": "2026-05-17T22:47:49.790533"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Infographic_comparing_sitting_ve__202605161332",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-17T18:47:48.737015-04:00",
+          "caption": "\ud83d\udca5\ud83d\ude97\ud83d\ude4c\ud83d\ude80"
+        },
         {
           "public_id": "Puredetox/Cardiovascular_health_infographi__202605161332",
           "url": "https://facebook.com/None",
@@ -2416,12 +2422,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-17T16:06:30.443748-04:00",
+      "last_run": "2026-05-17T18:47:48.737015-04:00",
       "day_date": "2026-05-17",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
       "images_left": 17,
-      "last_refresh": "2026-05-17T22:11:34.122550",
+      "last_refresh": "2026-05-17T22:47:49.963299",
       "last_inventory_alert": "2026-05-17"
     }
   },
