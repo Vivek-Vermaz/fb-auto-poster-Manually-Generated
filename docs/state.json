@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T16:18:25.748823"
+      "last_refresh": "2026-05-17T17:00:16.949931"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -810,9 +810,9 @@
       "day_date": "2026-05-17",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 8,
+      "images_left": 7,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T15:53:51.066946"
+      "last_refresh": "2026-05-17T16:51:45.295587"
     },
     "Celebs A": {
       "posted": [
@@ -1109,9 +1109,9 @@
       "day_date": "2026-05-17",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 7,
+      "images_left": 6,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T16:02:05.404345"
+      "last_refresh": "2026-05-17T16:51:45.378020"
     },
     "Beautiful House": {
       "posted": [
@@ -1594,9 +1594,9 @@
       "day_date": "2026-05-17",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 11,
+      "images_left": 10,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T16:09:25.578517"
+      "last_refresh": "2026-05-17T16:51:45.466391"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -1979,10 +1979,16 @@
       "daily_target_reached": false,
       "images_left": 8,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-17T16:18:24.737901"
+      "last_refresh": "2026-05-17T16:51:45.589716"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Infographic_showing_stress_impact_202605161332",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-17T12:51:45.132392-04:00",
+          "caption": "\ud83d\udc4c\ud83d\udcaa\ud83d\ude97\ud83d\udca5\ud83d\udd25"
+        },
         {
           "public_id": "Puredetox/Mindfulness_infographic_calm_per__202605041106",
           "url": "https://facebook.com/None",
@@ -2368,12 +2374,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-17T10:23:15.351150-04:00",
+      "last_run": "2026-05-17T12:51:45.132392-04:00",
       "day_date": "2026-05-17",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 19,
-      "last_refresh": "2026-05-17T16:18:24.925052",
+      "last_refresh": "2026-05-17T16:51:45.764536",
       "last_inventory_alert": "2026-05-17"
     }
   },
