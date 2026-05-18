@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-18T03:10:58.281140"
+      "last_refresh": "2026-05-18T05:48:34.661075"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -828,9 +828,9 @@
       "day_date": "2026-05-17",
       "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 5,
+      "images_left": 16,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-18T02:43:43.368880"
+      "last_refresh": "2026-05-18T05:48:33.798072"
     },
     "Celebs A": {
       "posted": [
@@ -1133,9 +1133,9 @@
       "day_date": "2026-05-17",
       "daily_count": 3,
       "daily_target_reached": true,
-      "images_left": 7,
+      "images_left": 4,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-18T02:52:38.099470"
+      "last_refresh": "2026-05-18T05:48:33.972753"
     },
     "Beautiful House": {
       "posted": [
@@ -1642,9 +1642,9 @@
       "day_date": "2026-05-17",
       "daily_count": 5,
       "daily_target_reached": false,
-      "images_left": 7,
+      "images_left": 6,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-18T02:52:38.183877"
+      "last_refresh": "2026-05-18T05:48:34.141770"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -2037,9 +2037,9 @@
       "day_date": "2026-05-17",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 7,
+      "images_left": 19,
       "last_inventory_alert": "2026-05-17",
-      "last_refresh": "2026-05-18T02:59:20.182822"
+      "last_refresh": "2026-05-18T05:48:34.362013"
     },
     " Aging With Grace": {
       "posted": [
@@ -2456,8 +2456,8 @@
       "day_date": "2026-05-17",
       "daily_count": 5,
       "daily_target_reached": false,
-      "images_left": 16,
-      "last_refresh": "2026-05-18T03:05:16.715803",
+      "images_left": 15,
+      "last_refresh": "2026-05-18T05:48:34.550487",
       "last_inventory_alert": "2026-05-17"
     }
   },
