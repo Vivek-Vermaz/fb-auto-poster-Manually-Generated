@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-19",
-      "last_refresh": "2026-05-19T15:22:48.554908"
+      "last_refresh": "2026-05-19T17:55:29.989879"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -860,7 +860,7 @@
       "daily_target_reached": false,
       "images_left": 11,
       "last_inventory_alert": "2026-05-19",
-      "last_refresh": "2026-05-19T14:58:27.701557"
+      "last_refresh": "2026-05-19T17:39:05.278527"
     },
     "Celebs A": {
       "posted": [
@@ -1181,9 +1181,9 @@
       "day_date": "2026-05-19",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 6,
+      "images_left": 5,
       "last_inventory_alert": "2026-05-19",
-      "last_refresh": "2026-05-19T14:58:27.851782"
+      "last_refresh": "2026-05-19T17:39:05.510244"
     },
     "Beautiful House": {
       "posted": [
@@ -1716,10 +1716,16 @@
       "daily_target_reached": false,
       "images_left": 11,
       "last_inventory_alert": "2026-05-19",
-      "last_refresh": "2026-05-19T15:07:03.850620"
+      "last_refresh": "2026-05-19T17:39:05.680631"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/Warrior_angel_stepping_out_portal_202605161241",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-19T13:39:04.814512-04:00",
+          "caption": "\ud83c\udf1f\ud83d\udc4c\ud83d\udcaf\ud83c\udfc6\ud83d\ude97"
+        },
         {
           "public_id": "manifest.yourdreamz/Warrior_angel_stepping_out_portal_202605161241_1",
           "url": "https://facebook.com/None",
@@ -2123,16 +2129,22 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-19T10:58:27.292988-04:00",
+      "last_run": "2026-05-19T13:39:04.814512-04:00",
       "day_date": "2026-05-19",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 17,
+      "images_left": 16,
       "last_inventory_alert": "2026-05-19",
-      "last_refresh": "2026-05-19T15:07:04.020315"
+      "last_refresh": "2026-05-19T17:39:05.894439"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Brain_meditation_infographic_neu__202605161331",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-19T13:39:04.814512-04:00",
+          "caption": "\ud83d\ude4c\ud83d\ude0d\ud83d\ude0d\ud83d\udcaf"
+        },
         {
           "public_id": "Puredetox/Hydration_infographic_showing_de__202605161331",
           "url": "https://facebook.com/None",
@@ -2572,14 +2584,14 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-19T10:58:27.292988-04:00",
+      "last_run": "2026-05-19T13:39:04.814512-04:00",
       "day_date": "2026-05-19",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 11,
-      "last_refresh": "2026-05-19T15:14:27.060048",
+      "images_left": 10,
+      "last_refresh": "2026-05-19T17:47:50.565687",
       "last_inventory_alert": "2026-05-19"
     }
   },
-  "last_daily_report": "2026-05-18"
+  "last_daily_report": "2026-05-19"
 }
