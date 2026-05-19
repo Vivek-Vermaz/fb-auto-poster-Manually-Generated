@@ -381,10 +381,16 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-19",
-      "last_refresh": "2026-05-19T21:34:44.935637"
+      "last_refresh": "2026-05-19T23:16:09.304413"
     },
     "Chrome Cruiser": {
       "posted": [
+        {
+          "public_id": "Chrome Cruiser/Lincoln_Continental_suicide_door__202605180915",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-19T18:58:45.718078-04:00",
+          "caption": "\ud83d\udcaa\ud83d\ude80\ud83d\ude80\ud83d\udcaf\ud83d\ude0d"
+        },
         {
           "public_id": "Chrome Cruiser/Rolls-Royce_Silver_Shadow_palace__202605180915",
           "url": "https://facebook.com/None",
@@ -854,13 +860,13 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-05-19T07:56:56.856873-04:00",
+      "last_run": "2026-05-19T18:58:45.718078-04:00",
       "day_date": "2026-05-19",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 11,
       "last_inventory_alert": "2026-05-19",
-      "last_refresh": "2026-05-19T21:14:14.610751"
+      "last_refresh": "2026-05-19T22:58:45.951564"
     },
     "Celebs A": {
       "posted": [
@@ -1192,10 +1198,10 @@
       "last_run": "2026-05-19T17:14:14.391441-04:00",
       "day_date": "2026-05-19",
       "daily_count": 3,
-      "daily_target_reached": false,
+      "daily_target_reached": true,
       "images_left": 5,
       "last_inventory_alert": "2026-05-19",
-      "last_refresh": "2026-05-19T21:14:14.945225"
+      "last_refresh": "2026-05-19T23:07:27.334300"
     },
     "Beautiful House": {
       "posted": [
@@ -1732,9 +1738,9 @@
       "day_date": "2026-05-19",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 11,
+      "images_left": 10,
       "last_inventory_alert": "2026-05-19",
-      "last_refresh": "2026-05-19T21:19:49.594055"
+      "last_refresh": "2026-05-19T23:07:27.985025"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -2156,13 +2162,19 @@
       "last_run": "2026-05-19T17:14:14.391441-04:00",
       "day_date": "2026-05-19",
       "daily_count": 4,
-      "daily_target_reached": false,
-      "images_left": 15,
+      "daily_target_reached": true,
+      "images_left": 14,
       "last_inventory_alert": "2026-05-19",
-      "last_refresh": "2026-05-19T21:28:20.429912"
+      "last_refresh": "2026-05-19T23:07:28.230603"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Garlic_wellness_infographic_mode__202605161330_1",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-19T18:58:45.718078-04:00",
+          "caption": "\ud83d\ude97\ud83d\udcaf\ud83d\udc4c\ud83d\udc4c"
+        },
         {
           "public_id": "Puredetox/Brain_meditation_infographic_neu__202605161331",
           "url": "https://facebook.com/None",
@@ -2608,12 +2620,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-19T13:39:04.814512-04:00",
+      "last_run": "2026-05-19T18:58:45.718078-04:00",
       "day_date": "2026-05-19",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
       "images_left": 9,
-      "last_refresh": "2026-05-19T21:34:44.834151",
+      "last_refresh": "2026-05-19T23:07:28.809362",
       "last_inventory_alert": "2026-05-19"
     }
   },
