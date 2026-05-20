@@ -381,10 +381,16 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-20",
-      "last_refresh": "2026-05-20T08:29:36.259264"
+      "last_refresh": "2026-05-20T11:56:47.555546"
     },
     "Chrome Cruiser": {
       "posted": [
+        {
+          "public_id": "Chrome Cruiser/Oldsmobile_442_satin_black_202605180915",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-20T07:45:10.145289-04:00",
+          "caption": "\ud83d\ude4c\ud83d\udc4c\ud83c\udfc6\ud83d\udd25"
+        },
         {
           "public_id": "Chrome Cruiser/Lincoln_Continental_suicide_door__202605180915",
           "url": "https://facebook.com/None",
@@ -860,13 +866,13 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-05-19T18:58:45.718078-04:00",
+      "last_run": "2026-05-20T07:45:10.145289-04:00",
       "day_date": "2026-05-20",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 10,
       "last_inventory_alert": "2026-05-20",
-      "last_refresh": "2026-05-20T08:29:35.628413"
+      "last_refresh": "2026-05-20T11:45:10.468713"
     },
     "Celebs A": {
       "posted": [
@@ -1201,7 +1207,7 @@
       "daily_target_reached": false,
       "images_left": 6,
       "last_inventory_alert": "2026-05-20",
-      "last_refresh": "2026-05-20T08:29:35.753025"
+      "last_refresh": "2026-05-20T11:51:15.134532"
     },
     "Beautiful House": {
       "posted": [
@@ -1746,10 +1752,16 @@
       "daily_target_reached": false,
       "images_left": 9,
       "last_inventory_alert": "2026-05-20",
-      "last_refresh": "2026-05-20T08:29:35.971496"
+      "last_refresh": "2026-05-20T11:51:15.226405"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/Angel_emerging_from_glowing_clouds_202605161259",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-20T07:45:10.145289-04:00",
+          "caption": "\ud83c\udfc6\ud83d\udca5\ud83d\udca5\ud83c\udf1f"
+        },
         {
           "public_id": "manifest.yourdreamz/Angel_beneath_crimson_moon_rooftop_202605161241",
           "url": "https://facebook.com/None",
@@ -2165,13 +2177,13 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-19T17:14:14.391441-04:00",
+      "last_run": "2026-05-20T07:45:10.145289-04:00",
       "day_date": "2026-05-20",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 14,
       "last_inventory_alert": "2026-05-20",
-      "last_refresh": "2026-05-20T08:29:36.081993"
+      "last_refresh": "2026-05-20T11:51:15.347620"
     },
     " Aging With Grace": {
       "posted": [
@@ -2631,7 +2643,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 8,
-      "last_refresh": "2026-05-20T08:29:36.152900",
+      "last_refresh": "2026-05-20T11:56:47.463822",
       "last_inventory_alert": "2026-05-20"
     }
   },
