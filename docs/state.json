@@ -381,10 +381,16 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-20",
-      "last_refresh": "2026-05-20T20:05:48.274291"
+      "last_refresh": "2026-05-20T22:36:14.876449"
     },
     "Chrome Cruiser": {
       "posted": [
+        {
+          "public_id": "Chrome Cruiser/Modified_Chevrolet_Nova_SS_parked_202605180914",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-20T18:21:22.314896-04:00",
+          "caption": "\ud83d\ude97\ud83d\udcaf\u2728\ud83d\udcaa"
+        },
         {
           "public_id": "Chrome Cruiser/Bentley_S3_Continental_parked_es__202605180914",
           "url": "https://facebook.com/None",
@@ -872,13 +878,13 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-05-20T10:50:12.199911-04:00",
+      "last_run": "2026-05-20T18:21:22.314896-04:00",
       "day_date": "2026-05-20",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 8,
       "last_inventory_alert": "2026-05-20",
-      "last_refresh": "2026-05-20T20:05:47.241580"
+      "last_refresh": "2026-05-20T22:21:22.672307"
     },
     "Celebs A": {
       "posted": [
@@ -1219,7 +1225,7 @@
       "daily_target_reached": false,
       "images_left": 5,
       "last_inventory_alert": "2026-05-20",
-      "last_refresh": "2026-05-20T20:05:47.530842"
+      "last_refresh": "2026-05-20T22:28:16.592996"
     },
     "Beautiful House": {
       "posted": [
@@ -1770,7 +1776,7 @@
       "daily_target_reached": false,
       "images_left": 8,
       "last_inventory_alert": "2026-05-20",
-      "last_refresh": "2026-05-20T20:05:47.701497"
+      "last_refresh": "2026-05-20T22:28:16.741333"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -2207,10 +2213,16 @@
       "daily_target_reached": false,
       "images_left": 12,
       "last_inventory_alert": "2026-05-20",
-      "last_refresh": "2026-05-20T20:05:47.830496"
+      "last_refresh": "2026-05-20T22:28:16.897292"
     },
     " Aging With Grace": {
       "posted": [
+        {
+          "public_id": "Puredetox/Person_walking_through_forest_202605161330",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-20T18:21:22.314896-04:00",
+          "caption": "\ud83d\udcaf\ud83d\udc4c\ud83c\udf1f\ud83d\ude0d\ud83d\udcaa"
+        },
         {
           "public_id": "Puredetox/Sleep_deprivation_infographic_me__202605161329",
           "url": "https://facebook.com/None",
@@ -2668,12 +2680,12 @@
           "caption": "\ud83d\ude80\ud83d\ude97\u2728\ud83d\udcaf"
         }
       ],
-      "last_run": "2026-05-20T10:50:12.199911-04:00",
+      "last_run": "2026-05-20T18:21:22.314896-04:00",
       "day_date": "2026-05-20",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 7,
-      "last_refresh": "2026-05-20T20:05:48.195688",
+      "last_refresh": "2026-05-20T22:28:17.071388",
       "last_inventory_alert": "2026-05-20"
     }
   },
