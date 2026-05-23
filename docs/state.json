@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-23",
-      "last_refresh": "2026-05-23T21:57:40.751986"
+      "last_refresh": "2026-05-23T22:50:54.255638"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -926,7 +926,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-23",
-      "last_refresh": "2026-05-23T21:48:10.001768"
+      "last_refresh": "2026-05-23T22:45:29.674958"
     },
     "Celebs A": {
       "posted": [
@@ -1319,9 +1319,9 @@
       "day_date": "2026-05-23",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 7,
+      "images_left": 6,
       "last_inventory_alert": "2026-05-23",
-      "last_refresh": "2026-05-23T21:48:10.135264"
+      "last_refresh": "2026-05-23T22:45:29.827718"
     },
     "Beautiful House": {
       "posted": [
@@ -1920,10 +1920,16 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-23",
-      "last_refresh": "2026-05-23T21:57:40.361529"
+      "last_refresh": "2026-05-23T22:45:30.000582"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/Angel_standing_snowy_mountain_bl__202605181103",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-23T18:45:29.247345-04:00",
+          "caption": "\ud83d\ude0e\ud83d\ude0d\u2728\ud83d\udd25\ud83d\ude80"
+        },
         {
           "public_id": "manifest.yourdreamz/Angel_dancing_in_ballroom_202605181103",
           "url": "https://facebook.com/None",
@@ -2405,13 +2411,13 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-23T16:41:37.586273-04:00",
+      "last_run": "2026-05-23T18:45:29.247345-04:00",
       "day_date": "2026-05-23",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
       "images_left": 3,
       "last_inventory_alert": "2026-05-23",
-      "last_refresh": "2026-05-23T21:57:40.492914"
+      "last_refresh": "2026-05-23T22:45:30.146260"
     },
     " Aging With Grace": {
       "posted": [
@@ -2919,7 +2925,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-05-23T21:57:40.580889",
+      "last_refresh": "2026-05-23T22:50:54.134560",
       "last_inventory_alert": "2026-05-23"
     }
   },
