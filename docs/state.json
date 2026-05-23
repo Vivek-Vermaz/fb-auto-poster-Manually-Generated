@@ -381,10 +381,16 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-22",
-      "last_refresh": "2026-05-22T22:19:58.731695"
+      "last_refresh": "2026-05-23T00:21:24.072462"
     },
     "Chrome Cruiser": {
       "posted": [
+        {
+          "public_id": "Chrome Cruiser/Toyota_2000GT_parked_Tokyo_street_202605180914",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-22T20:00:30.478154-04:00",
+          "caption": "\ud83d\udd25\ud83d\ude0d\ud83d\udcaf\ud83c\udf1f"
+        },
         {
           "public_id": "Chrome Cruiser/Modified_Ford_Thunderbird_Las_Vegas_202605180914",
           "url": "https://facebook.com/None",
@@ -914,13 +920,13 @@
           "caption": "\ud83d\ude0e\ud83d\ude4c\ud83c\udfc6\u2728\ud83c\udfc6"
         }
       ],
-      "last_run": "2026-05-22T18:03:06.036401-04:00",
+      "last_run": "2026-05-22T20:00:30.478154-04:00",
       "day_date": "2026-05-22",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
-      "images_left": 2,
+      "images_left": 1,
       "last_inventory_alert": "2026-05-22",
-      "last_refresh": "2026-05-22T22:03:06.413938"
+      "last_refresh": "2026-05-23T00:00:30.720551"
     },
     "Celebs A": {
       "posted": [
@@ -1300,13 +1306,19 @@
       "last_run": "2026-05-22T18:03:06.036401-04:00",
       "day_date": "2026-05-22",
       "daily_count": 3,
-      "daily_target_reached": false,
-      "images_left": 4,
+      "daily_target_reached": true,
+      "images_left": 5,
       "last_inventory_alert": "2026-05-22",
-      "last_refresh": "2026-05-22T22:11:32.175196"
+      "last_refresh": "2026-05-23T00:06:39.936574"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/Small_Mediterranean_cliffside_family_home_202605191833",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-22T20:00:30.478154-04:00",
+          "caption": "\ud83d\udc4c\ud83d\udcaa\ud83c\udfc6\ud83d\ude97\ud83d\ude80"
+        },
         {
           "public_id": "Beautiful House/Stone_cottage_blooming_garden_li__202605191832",
           "url": "https://facebook.com/None",
@@ -1878,16 +1890,22 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-22T16:29:38.404264-04:00",
+      "last_run": "2026-05-22T20:00:30.478154-04:00",
       "day_date": "2026-05-22",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 3,
       "last_inventory_alert": "2026-05-22",
-      "last_refresh": "2026-05-22T22:19:58.207413"
+      "last_refresh": "2026-05-23T00:06:40.636309"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/Guardian_angel_protecting_humani__202605181105",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-22T20:00:30.478154-04:00",
+          "caption": "\ud83d\udcaf\ud83d\ude4c\ud83d\udcaa\ud83d\ude4c"
+        },
         {
           "public_id": "manifest.yourdreamz/Angel_relaxing_on_skyscraper_edge_202605181105_1",
           "url": "https://facebook.com/None",
@@ -2345,13 +2363,13 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-22T14:50:23.696265-04:00",
+      "last_run": "2026-05-22T20:00:30.478154-04:00",
       "day_date": "2026-05-22",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-22",
-      "last_refresh": "2026-05-22T22:19:58.396165"
+      "last_refresh": "2026-05-23T00:13:08.256061"
     },
     " Aging With Grace": {
       "posted": [
@@ -2859,7 +2877,7 @@
       "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-05-22T22:19:58.590941",
+      "last_refresh": "2026-05-23T00:21:23.934251",
       "last_inventory_alert": "2026-05-22"
     }
   },
