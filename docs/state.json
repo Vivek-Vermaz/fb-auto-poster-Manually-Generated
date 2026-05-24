@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-24T16:02:06.031991"
+      "last_refresh": "2026-05-24T18:00:28.388269"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -926,10 +926,16 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-24T16:02:04.981600"
+      "last_refresh": "2026-05-24T17:55:01.771951"
     },
     "Celebs A": {
       "posted": [
+        {
+          "public_id": "Celebs A/collage_71570279dc",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-24T13:55:01.425384-04:00",
+          "caption": "\ud83c\udf1f\ud83c\udf1f\ud83d\ude97\ud83c\udf1f\ud83d\ude97"
+        },
         {
           "public_id": "Celebs A/collage_5468e7c077",
           "url": "https://facebook.com/None",
@@ -1327,13 +1333,13 @@
           "caption": "Step into a world where every corner whispers tales of old books, deep thoughts, and timeless elegance. \ud83d\udcda\u2728 Our latest visual guide is your ultimate inspiration for mastering the enchanting allure of Dark Academia decor! From richly paneled walls and plush velvet seating in deep jewel tones to antique writing desks adorned with inkwells and flickering candlelight, this aesthetic is all about creating a sanctuary for the curious mind and the nostalgic soul. Imagine endless evenings lost in ancient literature, surrounded by the warm glow of a crackling fireplace, a cup of strong tea or coffee in hand. \u2615\ufe0f\ud83d\udd6f\ufe0f It's more than just a style; it's a mood, an invitation to slow down, ponder, and indulge in intellectual pursuits. We're talking vintage finds, art with a captivating story, classical busts that stand as silent muses, and an abundance of textures that invite touch and contemplation. Dive into the art of curated clutter and transform your space into a sophisticated haven that feels both deeply personal and universally enchanting. Let the brooding beauty and scholarly charm take over your home, making every moment feel like a page from a forgotten novel. #DarkAcademiaDecor #LiteraryHome #VintageVibes #ScholarlyChic #OldWorldInteriors #TimelessDesign #VelvetAndBooks #CandlelightMagic #PoshPenniesStyle #GothicElegance #CuratedSpaces #HomeSanctuary #IntellectualAesthetic #AntiqueFinds #DecorInspiration"
         }
       ],
-      "last_run": "2026-05-24T07:11:07.144555-04:00",
+      "last_run": "2026-05-24T13:55:01.425384-04:00",
       "day_date": "2026-05-24",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 7,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-24T16:02:05.347107"
+      "last_refresh": "2026-05-24T17:55:01.925920"
     },
     "Beautiful House": {
       "posted": [
@@ -1932,7 +1938,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-24T16:02:05.561599"
+      "last_refresh": "2026-05-24T18:00:27.917780"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -2441,7 +2447,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-24T16:02:05.666417"
+      "last_refresh": "2026-05-24T18:00:28.052524"
     },
     " Aging With Grace": {
       "posted": [
@@ -2949,9 +2955,9 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-05-24T16:02:05.837722",
+      "last_refresh": "2026-05-24T18:00:28.239058",
       "last_inventory_alert": "2026-05-24"
     }
   },
-  "last_daily_report": "2026-05-20"
+  "last_daily_report": "2026-05-24"
 }
