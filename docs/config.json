@@ -5,11 +5,11 @@
   "pages": [
     {
       "page_name": "Chrome Cruiser",
-      "cloudinary_folder": "Chrome Cruiser",
+      "cloudinary_folder": "",
       "frequency": 6,
       "captions": [],
-      "last_updated": "2026-05-11T05:40:15.525Z",
-      "ai_prompt": "Write a 50 to 100 words engaging caption related to particual car with emojis with 2 to 4 releavent hashtags"
+      "last_updated": "2026-05-25T07:28:33.962Z",
+      "ai_prompt": ""
     },
     {
       "page_name": "Celebs A",
@@ -31,9 +31,9 @@
       "page_name": "manifest.yourdreamz",
       "cloudinary_folder": "manifest.yourdreamz",
       "frequency": 4,
-      "ai_prompt": "write Beautiful caption in 5 to 10 words as per image",
+      "ai_prompt": "write caption relation to manifestation/loa in such a way that user will more engage with the image post without violating the fb policies. word count is arount 150 to 200 words with emojis to grab attention.",
       "captions": [],
-      "last_updated": "2026-05-03T15:24:48.676Z"
+      "last_updated": "2026-05-25T14:12:09.391Z"
     },
     {
       "page_name": " Aging With Grace",
