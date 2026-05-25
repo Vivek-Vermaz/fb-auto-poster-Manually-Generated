@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-25",
-      "last_refresh": "2026-05-25T15:08:22.545670"
+      "last_refresh": "2026-05-25T17:10:29.105219"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -1355,9 +1355,9 @@
       "day_date": "2026-05-25",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 5,
+      "images_left": 4,
       "last_inventory_alert": "2026-05-25",
-      "last_refresh": "2026-05-25T14:42:22.791572"
+      "last_refresh": "2026-05-25T17:03:10.814383"
     },
     "Beautiful House": {
       "posted": [
@@ -1966,12 +1966,18 @@
       "day_date": "2026-05-25",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 28,
+      "images_left": 27,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-25T14:51:58.655166"
+      "last_refresh": "2026-05-25T17:03:11.027245"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/001_image_2",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-25T13:03:10.668170-04:00",
+          "caption": "Wow! \u2728 Look at this incredible energy! This image isn't just stunning; it's a powerful visual representation of what happens when you truly align with abundance and the Law of Attraction. Imagine yourself as this magnificent being, effortlessly attracting a shower of prosperity, joy, and limitless opportunities into your life. \ud83d\ude07\n\nAre you ready to call in your greatest desires? The universe is constantly responding to your frequency. When you raise your vibration, focus on gratitude, and clearly visualize your dreams, you open yourself up to a flow of blessings that can feel just like this \u2013 an overflowing cascade of what you've been manifesting. Every coin and gem here symbolizes the diverse forms of wealth and happiness waiting to manifest in your reality, simply because you believe and expect them. \ud83d\udc8e\ud83d\udcb0\n\nWhat thoughts are you casting out into the universe today? Are they thoughts of lack and limitation, or thoughts of boundless possibility and receiving? Let this image be a powerful reminder to nurture your dreams, believe wholeheartedly in your worth, and confidently expect good things to come your way. Your manifestation journey begins with a single thought, a clear intention, and unwavering faith. Declare your abundance, open your heart to receive, and watch the magic unfold! \ud83d\udc96 Believe it, and it will be yours.\n\n#ManifestationMagic #LawOfAttraction #AbundanceMindset #AttractWealth #SpiritualJourney"
+        },
         {
           "public_id": "manifest.yourdreamz/005_image_2",
           "url": "https://facebook.com/None",
@@ -2489,13 +2495,13 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-25T10:42:22.565277-04:00",
+      "last_run": "2026-05-25T13:03:10.668170-04:00",
       "day_date": "2026-05-25",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
-      "images_left": 17,
+      "images_left": 16,
       "last_inventory_alert": "2026-05-25",
-      "last_refresh": "2026-05-25T15:01:18.970382"
+      "last_refresh": "2026-05-25T17:03:11.159502"
     },
     " Aging With Grace": {
       "posted": [
@@ -3003,7 +3009,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-05-25T15:08:22.470292",
+      "last_refresh": "2026-05-25T17:10:29.020887",
       "last_inventory_alert": "2026-05-25"
     }
   },
