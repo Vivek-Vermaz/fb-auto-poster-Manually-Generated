@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-25",
-      "last_refresh": "2026-05-25T19:20:08.710437"
+      "last_refresh": "2026-05-25T21:07:39.898820"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -1355,12 +1355,18 @@
       "day_date": "2026-05-25",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 4,
+      "images_left": 5,
       "last_inventory_alert": "2026-05-25",
-      "last_refresh": "2026-05-25T19:20:07.242462"
+      "last_refresh": "2026-05-25T20:59:24.556282"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/003_image",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-25T16:59:24.159030-04:00",
+          "caption": "Imagine stepping into a dream, where every evening unfurls like a painting across the sky. This incredible home, with its distinctive Mediterranean charm, perfectly captures that essence. From the moment the golden hour begins to kiss the terracotta roof tiles, it's clear this isn't just a house; it's a sanctuary. The elegant spiral staircase, adorned with soft, inviting lights, beckons you upwards to a rooftop oasis where string lights twinkle like fallen stars. Here, amidst lush potted olive trees and vibrant bougainvillea, an elevated perspective offers breathtaking panoramic views of the sprawling landscape and majestic mountains. Picture sunset gatherings, laughter echoing under the vast sky, or quiet moments of contemplation as the city lights begin to sparkle below. Inside, warmth radiates from the arched windows, revealing cozy nooks and a curated library wall, promising comfort and charm. Every detail, from the stone pathways winding through fragrant lavender to the crackling fire pit ready for storytelling nights, is meticulously designed to create an unparalleled indoor-outdoor living experience. It's a harmonious blend of natural beauty and refined luxury, offering an escape to pure bliss. Who wouldn't want to unwind in a setting so utterly enchanting? \u2728\ud83c\udfe1\u26f0\ufe0f\ud83c\udf05 #MediterraneanDream #RooftopOasis #SunsetViews #LuxuryLiving #DreamHomeVibes"
+        },
         {
           "public_id": "Beautiful House/009_image",
           "url": "https://facebook.com/None",
@@ -1962,13 +1968,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-25T10:42:22.565277-04:00",
+      "last_run": "2026-05-25T16:59:24.159030-04:00",
       "day_date": "2026-05-25",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 27,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-25T19:20:07.521023"
+      "last_refresh": "2026-05-25T20:59:24.805664"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -2501,7 +2507,7 @@
       "daily_target_reached": true,
       "images_left": 15,
       "last_inventory_alert": "2026-05-25",
-      "last_refresh": "2026-05-25T19:20:07.678535"
+      "last_refresh": "2026-05-25T21:07:39.721265"
     },
     " Aging With Grace": {
       "posted": [
@@ -3009,7 +3015,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-05-25T19:20:08.580399",
+      "last_refresh": "2026-05-25T21:07:39.811805",
       "last_inventory_alert": "2026-05-25"
     }
   },
