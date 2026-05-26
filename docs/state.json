@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T08:31:50.982759"
+      "last_refresh": "2026-05-26T16:10:34.854164"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -931,6 +931,12 @@
     "Celebs A": {
       "posted": [
         {
+          "public_id": "Celebs A/collage_18712442cd",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-26T11:42:48.304534-04:00",
+          "caption": "Step into a world woven from vibrant pixels, where every square tells a story and every scene invites pure wonder! \u2728 This stunning mosaic of pixel art transports us to four distinct, captivating realms. Top left, we're strolling through a charming, sun-drenched street, where a friendly, adorable character in a hat greets us amidst quaint shops and lush trees. It\u2019s the epitome of cozy, slice-of-life vibes! \ud83c\udf38 Upper right, prepare for adventure with a dynamic pattern of pixelated warriors, each armored and ready for battle, hinting at epic quests and strategic gaming. Lower left, find solace and enchantment in a familiar, comforting hobbit-hole, perfectly rendered with its iconic round door and blossoming garden \u2013 a true fantasy retreat. \ud83c\udfe1 And finally, drift away to the ethereal beauty of a floating island, crowned with a delicate cherry blossom tree, embodying serenity and magic against a soft sky. Each quadrant is a testament to the boundless creativity and nostalgic charm of pixel art, reminding us how intricate details can build entire worlds. Which of these art styles speaks to your soul today? Let these tiny blocks ignite your imagination and whisk you away! \ud83d\udc96\n#PixelArt #FantasyWorlds #CozyVibes #RetroGaming #DigitalArt"
+        },
+        {
           "public_id": "Celebs A/collage_b483ee725f",
           "url": "https://facebook.com/None",
           "time": "2026-05-25T18:12:16.594240-04:00",
@@ -1357,16 +1363,22 @@
           "caption": "Step into a world where every corner whispers tales of old books, deep thoughts, and timeless elegance. \ud83d\udcda\u2728 Our latest visual guide is your ultimate inspiration for mastering the enchanting allure of Dark Academia decor! From richly paneled walls and plush velvet seating in deep jewel tones to antique writing desks adorned with inkwells and flickering candlelight, this aesthetic is all about creating a sanctuary for the curious mind and the nostalgic soul. Imagine endless evenings lost in ancient literature, surrounded by the warm glow of a crackling fireplace, a cup of strong tea or coffee in hand. \u2615\ufe0f\ud83d\udd6f\ufe0f It's more than just a style; it's a mood, an invitation to slow down, ponder, and indulge in intellectual pursuits. We're talking vintage finds, art with a captivating story, classical busts that stand as silent muses, and an abundance of textures that invite touch and contemplation. Dive into the art of curated clutter and transform your space into a sophisticated haven that feels both deeply personal and universally enchanting. Let the brooding beauty and scholarly charm take over your home, making every moment feel like a page from a forgotten novel. #DarkAcademiaDecor #LiteraryHome #VintageVibes #ScholarlyChic #OldWorldInteriors #TimelessDesign #VelvetAndBooks #CandlelightMagic #PoshPenniesStyle #GothicElegance #CuratedSpaces #HomeSanctuary #IntellectualAesthetic #AntiqueFinds #DecorInspiration"
         }
       ],
-      "last_run": "2026-05-25T18:12:16.594240-04:00",
+      "last_run": "2026-05-26T11:42:48.304534-04:00",
       "day_date": "2026-05-26",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 6,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T08:31:50.164507"
+      "last_refresh": "2026-05-26T15:42:48.661920"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/006_image",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-26T11:42:48.304534-04:00",
+          "caption": "Imagine waking up to this panoramic symphony every single day! \ud83c\udf05 Perched amidst a lush, emerald embrace \ud83c\udf3f, this architectural marvel isn't just a house; it's a living, breathing testament to seamless integration with nature. Every curve, every expansive glass panel, every illuminated step of that mesmerizing staircase \u2728 beckons you deeper into a realm of unparalleled tranquility and breathtaking beauty. \n\nFrom the infinity edge pool \ud83c\udfca\u200d\u2640\ufe0f that seemingly melts into the misty mountain valleys \u26f0\ufe0f beyond, to the verdant rooftop garden adding another layer of organic charm, every detail here whispers luxury and serenity. The soft glow emanating from within highlights the warm, inviting interiors, promising cozy evenings after sun-drenched days. Picture yourself unwinding on those chic outdoor lounges \ud83e\udd42, cocktail in hand, as the last rays of sunlight paint the sky in hues of gold and purple, and the mountain mist rolls in, creating an ethereal blanket over the landscape. \n\nThis isn't merely a home; it's a sanctuary, a private resort where design meets destiny, and every moment feels like a postcard. It\u2019s the perfect blend of modern elegance and raw natural splendor, offering an escape from the ordinary and an immersion into the extraordinary. Who wouldn't want to trade cityscapes for this serene mountain retreat? \ud83c\udfe1\ud83c\udf34 #LuxuryMountainHome #ArchitecturalDesign #TropicalParadise #DreamHomeVibes #NatureInspiredLiving"
+        },
         {
           "public_id": "Beautiful House/004_image",
           "url": "https://facebook.com/None",
@@ -1980,16 +1992,22 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-25T20:00:35.671185-04:00",
+      "last_run": "2026-05-26T11:42:48.304534-04:00",
       "day_date": "2026-05-26",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 25,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-26T08:31:50.357263"
+      "last_refresh": "2026-05-26T15:52:15.646963"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/002_image_2",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-26T11:42:48.304534-04:00",
+          "caption": "Imagine stepping into a realm where abundance flows effortlessly, where every desire you hold dear manifests into dazzling reality! \u2728 This breathtaking image isn't just art; it's a powerful visual anchor for the boundless potential within you. The winged messenger, showered in gold and gems, reminds us that the universe is inherently generous, just waiting for us to align with its frequency.\n\nAt the heart of manifestation lies belief, clarity, and inspired action. When you truly believe in your worthiness to receive, when you visualize your dreams with vivid detail, and when you take steps, however small, towards your goals, you activate the Law of Attraction. This isn't about wishing; it's about knowing. It's about feeling the joy of your future self, right here, right now.\n\nLet this image ignite your inner magnet! \ud83d\udcab What treasures\u2014be it financial prosperity, vibrant health, deep connections, or profound wisdom\u2014are you calling into your life today? Remember, what you focus on expands. Choose abundance. Choose joy. Choose limitless possibilities. Drop a \ud83c\udf1f if you're ready to embrace your manifesting power!\n\n#ManifestAbundance #LawOfAttraction #ManifestationMagic #DivineProsperity #VibrationalAlignment"
+        },
         {
           "public_id": "manifest.yourdreamz/001_image_2",
           "url": "https://facebook.com/None",
@@ -2513,13 +2531,13 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-25T13:03:10.668170-04:00",
+      "last_run": "2026-05-26T11:42:48.304534-04:00",
       "day_date": "2026-05-26",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 15,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T08:31:50.488056"
+      "last_refresh": "2026-05-26T16:02:13.200444"
     },
     " Aging With Grace": {
       "posted": [
@@ -3027,7 +3045,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-05-26T08:31:50.603077",
+      "last_refresh": "2026-05-26T16:10:34.761563",
       "last_inventory_alert": "2026-05-26"
     }
   },
