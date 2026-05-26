@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T18:34:48.139236"
+      "last_refresh": "2026-05-26T21:00:33.786402"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -931,6 +931,12 @@
     "Celebs A": {
       "posted": [
         {
+          "public_id": "Celebs A/collage_18959c1404",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-26T16:51:09.806001-04:00",
+          "caption": "The pitter-patter of rain on the window pane doesn't have to mean boredom or a never-ending cycle of \"I'm bored!\" calls! \u2614\ud83c\udf27\ufe0f Instead, let's turn those grey skies into a vibrant canvas of creativity and movement for our little ones! This amazing collage is bursting with brilliant ideas to keep young minds and bodies active, engaged, and utterly delighted, even when you're stuck indoors. From unleashing their inner artist at an easel \ud83c\udfa8 to navigating a super cool \"laser maze\" made from ribbon, or even constructing gravity-defying towers with LEGOs, there\u2019s an adventure waiting for every child. And who says all rainy day fun has to be inside? Splashing in puddles can be just as magical and memorable! \ud83e\udd38\u200d\u2642\ufe0f\u2728 These activities are more than just time-fillers; they're opportunities for imaginative play, problem-solving, and developing motor skills. They save your sanity while creating precious memories. Think beyond the screen and embrace the joy of hands-on exploration! Let\u2019s transform those dreary rainy days into cherished moments of discovery and laughter. Get ready to ignite some serious fun and watch your kids thrive with these simple, engaging ideas! #RainyDayKids #IndoorActivitiesForKids #CreativePlaytime #KidsEntertainment #ParentingTips"
+        },
+        {
           "public_id": "Celebs A/collage_18712442cd",
           "url": "https://facebook.com/None",
           "time": "2026-05-26T11:42:48.304534-04:00",
@@ -1363,13 +1369,13 @@
           "caption": "Step into a world where every corner whispers tales of old books, deep thoughts, and timeless elegance. \ud83d\udcda\u2728 Our latest visual guide is your ultimate inspiration for mastering the enchanting allure of Dark Academia decor! From richly paneled walls and plush velvet seating in deep jewel tones to antique writing desks adorned with inkwells and flickering candlelight, this aesthetic is all about creating a sanctuary for the curious mind and the nostalgic soul. Imagine endless evenings lost in ancient literature, surrounded by the warm glow of a crackling fireplace, a cup of strong tea or coffee in hand. \u2615\ufe0f\ud83d\udd6f\ufe0f It's more than just a style; it's a mood, an invitation to slow down, ponder, and indulge in intellectual pursuits. We're talking vintage finds, art with a captivating story, classical busts that stand as silent muses, and an abundance of textures that invite touch and contemplation. Dive into the art of curated clutter and transform your space into a sophisticated haven that feels both deeply personal and universally enchanting. Let the brooding beauty and scholarly charm take over your home, making every moment feel like a page from a forgotten novel. #DarkAcademiaDecor #LiteraryHome #VintageVibes #ScholarlyChic #OldWorldInteriors #TimelessDesign #VelvetAndBooks #CandlelightMagic #PoshPenniesStyle #GothicElegance #CuratedSpaces #HomeSanctuary #IntellectualAesthetic #AntiqueFinds #DecorInspiration"
         }
       ],
-      "last_run": "2026-05-26T11:42:48.304534-04:00",
+      "last_run": "2026-05-26T16:51:09.806001-04:00",
       "day_date": "2026-05-26",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
       "images_left": 5,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T18:20:50.382414"
+      "last_refresh": "2026-05-26T20:51:10.189119"
     },
     "Beautiful House": {
       "posted": [
@@ -2002,9 +2008,9 @@
       "day_date": "2026-05-26",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 24,
+      "images_left": 23,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-26T18:20:50.573982"
+      "last_refresh": "2026-05-26T21:00:33.203257"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -2547,9 +2553,9 @@
       "day_date": "2026-05-26",
       "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 14,
+      "images_left": 13,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T18:26:10.449002"
+      "last_refresh": "2026-05-26T21:00:33.500748"
     },
     " Aging With Grace": {
       "posted": [
@@ -3057,7 +3063,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-05-26T18:34:48.002799",
+      "last_refresh": "2026-05-26T21:00:33.647016",
       "last_inventory_alert": "2026-05-26"
     }
   },
