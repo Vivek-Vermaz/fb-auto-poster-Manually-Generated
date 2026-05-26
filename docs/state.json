@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-25",
-      "last_refresh": "2026-05-25T22:17:39.195041"
+      "last_refresh": "2026-05-26T00:08:10.505174"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -1360,13 +1360,19 @@
       "last_run": "2026-05-25T18:12:16.594240-04:00",
       "day_date": "2026-05-25",
       "daily_count": 3,
-      "daily_target_reached": false,
-      "images_left": 6,
+      "daily_target_reached": true,
+      "images_left": 5,
       "last_inventory_alert": "2026-05-25",
-      "last_refresh": "2026-05-25T22:12:16.814152"
+      "last_refresh": "2026-05-26T00:00:35.916972"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/004_image",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-25T20:00:35.671185-04:00",
+          "caption": "\ud83d\udca5\ud83d\udd25\ud83d\udca5\ud83d\udcaf\ud83d\udcaf"
+        },
         {
           "public_id": "Beautiful House/003_image",
           "url": "https://facebook.com/None",
@@ -1974,13 +1980,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-25T16:59:24.159030-04:00",
+      "last_run": "2026-05-25T20:00:35.671185-04:00",
       "day_date": "2026-05-25",
-      "daily_count": 3,
+      "daily_count": 4,
       "daily_target_reached": false,
       "images_left": 26,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-25T22:17:38.818733"
+      "last_refresh": "2026-05-26T00:00:36.635897"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -2513,7 +2519,7 @@
       "daily_target_reached": true,
       "images_left": 15,
       "last_inventory_alert": "2026-05-25",
-      "last_refresh": "2026-05-25T22:17:38.903805"
+      "last_refresh": "2026-05-26T00:08:10.347860"
     },
     " Aging With Grace": {
       "posted": [
@@ -3021,7 +3027,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-05-25T22:17:38.971862",
+      "last_refresh": "2026-05-26T00:08:10.411452",
       "last_inventory_alert": "2026-05-25"
     }
   },
