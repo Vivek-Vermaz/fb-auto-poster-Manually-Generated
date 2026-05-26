@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T21:00:33.786402"
+      "last_refresh": "2026-05-26T22:32:02.470138"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -931,6 +931,12 @@
     "Celebs A": {
       "posted": [
         {
+          "public_id": "Celebs A/collage_c620df3637",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-26T18:16:39.566470-04:00",
+          "caption": "\ud83d\udd25\ud83d\udcaf\ud83c\udfc6\ud83d\ude4c"
+        },
+        {
           "public_id": "Celebs A/collage_18959c1404",
           "url": "https://facebook.com/None",
           "time": "2026-05-26T16:51:09.806001-04:00",
@@ -1369,16 +1375,22 @@
           "caption": "Step into a world where every corner whispers tales of old books, deep thoughts, and timeless elegance. \ud83d\udcda\u2728 Our latest visual guide is your ultimate inspiration for mastering the enchanting allure of Dark Academia decor! From richly paneled walls and plush velvet seating in deep jewel tones to antique writing desks adorned with inkwells and flickering candlelight, this aesthetic is all about creating a sanctuary for the curious mind and the nostalgic soul. Imagine endless evenings lost in ancient literature, surrounded by the warm glow of a crackling fireplace, a cup of strong tea or coffee in hand. \u2615\ufe0f\ud83d\udd6f\ufe0f It's more than just a style; it's a mood, an invitation to slow down, ponder, and indulge in intellectual pursuits. We're talking vintage finds, art with a captivating story, classical busts that stand as silent muses, and an abundance of textures that invite touch and contemplation. Dive into the art of curated clutter and transform your space into a sophisticated haven that feels both deeply personal and universally enchanting. Let the brooding beauty and scholarly charm take over your home, making every moment feel like a page from a forgotten novel. #DarkAcademiaDecor #LiteraryHome #VintageVibes #ScholarlyChic #OldWorldInteriors #TimelessDesign #VelvetAndBooks #CandlelightMagic #PoshPenniesStyle #GothicElegance #CuratedSpaces #HomeSanctuary #IntellectualAesthetic #AntiqueFinds #DecorInspiration"
         }
       ],
-      "last_run": "2026-05-26T16:51:09.806001-04:00",
+      "last_run": "2026-05-26T18:16:39.566470-04:00",
       "day_date": "2026-05-26",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 5,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T20:51:10.189119"
+      "last_refresh": "2026-05-26T22:16:39.749185"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/007_image",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-26T18:16:39.566470-04:00",
+          "caption": "Nestled amidst a pristine blanket of snow, this architectural marvel isn't just a house; it's a winter dream brought to life! \u2744\ufe0f\u2728 The striking barrel roof, sleek lines, and expansive glass walls create a seamless dialogue between luxurious modern design and the breathtaking natural landscape. Imagine waking up to a serene snowy forest view, or spending your evenings by the crackling fireplace \ud83d\udd25, watching the snowflakes fall gently outside. This isn't just about aesthetics; it's about the feeling. The warm, inviting glow emanating from within tells a story of cozy evenings, laughter, and cherished family moments. Look closely, and you'll see the joy \u2013 families gathered, safe and warm, creating memories that will last a lifetime in this spectacular retreat. The contrasting textures of natural wood and dark metal, combined with the illuminated outdoor staircase, add to its majestic presence, making it a true beacon of comfort in the wilderness. It's the ultimate escape, a place where tranquility meets modern elegance, offering a perfect sanctuary from the everyday hustle. Who wouldn't want to trade the city lights for this magical winter haven? It embodies the perfect blend of architectural innovation and heartwarming coziness, inviting you to embrace the slower, more joyful pace of a snowy holiday. Pure bliss! \ud83c\udfe1\ud83d\udc96 #WinterWonderlandHome #ModernCabin #SnowyEscape #ArchitecturalDesign #CozyVibes"
+        },
         {
           "public_id": "Beautiful House/008_image",
           "url": "https://facebook.com/None",
@@ -2004,13 +2016,13 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-26T14:20:50.186147-04:00",
+      "last_run": "2026-05-26T18:16:39.566470-04:00",
       "day_date": "2026-05-26",
-      "daily_count": 2,
+      "daily_count": 3,
       "daily_target_reached": false,
       "images_left": 23,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-26T21:00:33.203257"
+      "last_refresh": "2026-05-26T22:25:52.115581"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -2555,7 +2567,7 @@
       "daily_target_reached": false,
       "images_left": 13,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T21:00:33.500748"
+      "last_refresh": "2026-05-26T22:32:02.263377"
     },
     " Aging With Grace": {
       "posted": [
@@ -3063,7 +3075,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-05-26T21:00:33.647016",
+      "last_refresh": "2026-05-26T22:32:02.356535",
       "last_inventory_alert": "2026-05-26"
     }
   },
