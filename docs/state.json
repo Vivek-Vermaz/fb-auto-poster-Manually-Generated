@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T16:10:34.854164"
+      "last_refresh": "2026-05-26T18:34:48.139236"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -1367,12 +1367,18 @@
       "day_date": "2026-05-26",
       "daily_count": 1,
       "daily_target_reached": false,
-      "images_left": 6,
+      "images_left": 5,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T15:42:48.661920"
+      "last_refresh": "2026-05-26T18:20:50.382414"
     },
     "Beautiful House": {
       "posted": [
+        {
+          "public_id": "Beautiful House/008_image",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-26T14:20:50.186147-04:00",
+          "caption": "Nestled deep within the vibrant embrace of an autumn forest, this architectural marvel isn't just a house; it's a breathtaking living dream. \ud83c\udf42 With its gracefully curved lines and expansive, organically shaped windows, this contemporary sanctuary seems to flow effortlessly with the surrounding landscape, blurring the lines between sophisticated indoor comfort and untamed natural beauty. Imagine waking up to a symphony of rustling leaves and panoramic views of breathtaking fall foliage, painted in hues of amber, crimson, and gold, right outside every window! \ud83e\udde1 As dusk gracefully settles, the warm, inviting glow emanating from within transforms this modern masterpiece into a beacon of unparalleled coziness and tranquil elegance. \u2728 Each of its unique levels offers a distinct perspective and amenity, from the subtly lit, inviting entrance leading up to a welcoming foyer, to the serene, private balconies perfect for quiet contemplation or morning coffee amidst the trees. And let's not forget the elevated rooftop terrace, an ideal spot designed for stargazing on clear nights or soaking in the seasonal splendor. This exceptional residence perfectly marries cutting-edge design with the timeless allure of nature, creating an unparalleled sense of peace and luxurious seclusion. Every thoughtful detail, from the minimalist railings to the meticulously planned natural landscaping, speaks volumes about a lifestyle dedicated to beauty, comfort, and a profound appreciation for the environment. This isn't merely a home; it's an immersive experience, a private haven perfectly poised to celebrate and enjoy every changing season in truly spectacular fashion. What an absolute masterpiece of innovative design and harmonious integration! \ud83c\udfe1\ud83c\udf41 #ModernArchitecture #ForestRetreat #AutumnAesthetics #CurvedDesign"
+        },
         {
           "public_id": "Beautiful House/006_image",
           "url": "https://facebook.com/None",
@@ -1992,16 +1998,22 @@
           "caption": "\ud83d\ude97\ud83d\ude80\ud83d\udc4c\ud83d\udc4c"
         }
       ],
-      "last_run": "2026-05-26T11:42:48.304534-04:00",
+      "last_run": "2026-05-26T14:20:50.186147-04:00",
       "day_date": "2026-05-26",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 25,
+      "images_left": 24,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-26T15:52:15.646963"
+      "last_refresh": "2026-05-26T18:20:50.573982"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/001_image_5",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-26T14:20:50.186147-04:00",
+          "caption": "\u2728 Behold this ethereal vision, a powerful reminder of the magic within us all! \ud83c\udf19 Just like this serene being under the watchful full moon, we too have the power to manifest our deepest desires. The lotus flowers blooming gracefully from the water symbolize purity, rebirth, and the ability to rise above any challenges to unveil our true potential.\n\nImagine yourself in this peaceful sanctuary, hands gently clasped, heart open, truly believing in the universe's abundant plan for you. Every thought, every feeling, every intention you send out into the cosmos is a seed planted in this mystical garden. What are you cultivating today? \ud83d\udc96\n\nThis image invites us to pause, breathe, and connect with that inner wisdom, that divine spark that knows no limits. It's about aligning your energy with your aspirations, trusting the process, and knowing that your dreams are already on their way to you. Let this be your visual anchor for unwavering faith and radiant manifestation. What powerful intentions are you setting under this moonlight glow? Share your thoughts below! \ud83d\udc47\n\n#ManifestationMagic #LawOfAttraction #DivineGuidance #MoonManifesting #SpiritualJourney"
+        },
         {
           "public_id": "manifest.yourdreamz/002_image_2",
           "url": "https://facebook.com/None",
@@ -2531,13 +2543,13 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-26T11:42:48.304534-04:00",
+      "last_run": "2026-05-26T14:20:50.186147-04:00",
       "day_date": "2026-05-26",
-      "daily_count": 1,
+      "daily_count": 2,
       "daily_target_reached": false,
-      "images_left": 15,
+      "images_left": 14,
       "last_inventory_alert": "2026-05-26",
-      "last_refresh": "2026-05-26T16:02:13.200444"
+      "last_refresh": "2026-05-26T18:26:10.449002"
     },
     " Aging With Grace": {
       "posted": [
@@ -3045,7 +3057,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-05-26T16:10:34.761563",
+      "last_refresh": "2026-05-26T18:34:48.002799",
       "last_inventory_alert": "2026-05-26"
     }
   },
