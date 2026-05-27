@@ -381,7 +381,7 @@
       "daily_target_reached": false,
       "images_left": 0,
       "last_inventory_alert": "2026-05-27",
-      "last_refresh": "2026-05-27T08:35:38.724531"
+      "last_refresh": "2026-05-27T16:39:51.952240"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -1379,9 +1379,9 @@
       "day_date": "2026-05-27",
       "daily_count": 0,
       "daily_target_reached": false,
-      "images_left": 5,
+      "images_left": 7,
       "last_inventory_alert": "2026-05-27",
-      "last_refresh": "2026-05-27T08:35:38.240684"
+      "last_refresh": "2026-05-27T16:34:01.213612"
     },
     "Beautiful House": {
       "posted": [
@@ -2022,10 +2022,16 @@
       "daily_target_reached": false,
       "images_left": 22,
       "last_inventory_alert": "2026-05-24",
-      "last_refresh": "2026-05-27T08:35:38.390999"
+      "last_refresh": "2026-05-27T16:34:01.518683"
     },
     "manifest.yourdreamz": {
       "posted": [
+        {
+          "public_id": "manifest.yourdreamz/Angel_with_wings_on_balcony_202605251244",
+          "url": "https://facebook.com/None",
+          "time": "2026-05-27T12:34:00.753085-04:00",
+          "caption": "\u2728 Feel the magic of unwavering belief! \u2728 This stunning vision isn't just a dream; it's a vibrant testament to the incredible power of manifestation and the Law of Attraction. Imagine yourself standing in your fullest glory, surrounded by the divine light of your accomplishments, holding the very essence of your deepest desires brought to life. Every intricate detail, every golden shimmer, every cloud in the sky perfectly aligning with your highest vibration. \ud83d\udcab\n\nThis image is a powerful reminder that our thoughts are powerful architects of our reality. What if you already possessed this inner strength, this radiant grace, this undeniable power to create your heaven on Earth? Take a moment to truly *feel* this energy resonate within you. Let it ignite the spark, reminding you of the infinite potential you hold to manifest the life you\u2019ve always envisioned. You are capable of creating extraordinary beauty and abundance. Embrace your divine power and watch your world transform. \ud83d\udc96 You are the creator of your destiny! What are you calling into existence today? \ud83d\udc47\n\n#ManifestYourDreams #LawOfAttraction #DivineFeminineEnergy #SpiritualAwakening #VisionBoardGoals"
+        },
         {
           "public_id": "manifest.yourdreamz/010_image_2",
           "url": "https://facebook.com/None",
@@ -2567,13 +2573,13 @@
           "caption": "A celestial vision descends, bathed in the golden embrace of heavenly light. This radiant being, with magnificent wings unfurled, cradles a luminous essence within her gentle hands. Her serene gaze reflects profound love and pure devotion as sparkling stardust dances around her. She embodies grace and divine beauty, a beacon of hope and tenderness emerging from the ethereal clouds. The glow she holds illuminates the very air, a symbol of life's precious spark, protected and cherished. A truly breathtaking moment of ethereal wonder and celestial artistry, inspiring peace and awe."
         }
       ],
-      "last_run": "2026-05-26T19:59:38.729851-04:00",
+      "last_run": "2026-05-27T12:34:00.753085-04:00",
       "day_date": "2026-05-27",
-      "daily_count": 0,
+      "daily_count": 1,
       "daily_target_reached": false,
       "images_left": 12,
       "last_inventory_alert": "2026-05-27",
-      "last_refresh": "2026-05-27T08:35:38.544295"
+      "last_refresh": "2026-05-27T16:34:01.875595"
     },
     " Aging With Grace": {
       "posted": [
@@ -3081,7 +3087,7 @@
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-05-27T08:35:38.656738",
+      "last_refresh": "2026-05-27T16:39:51.804881",
       "last_inventory_alert": "2026-05-27"
     }
   },
