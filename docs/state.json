@@ -376,12 +376,12 @@
         }
       ],
       "last_run": "2026-05-16T16:00:33.433309-04:00",
-      "day_date": "2026-07-30",
+      "day_date": "2026-07-31",
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_inventory_alert": "2026-07-30",
-      "last_refresh": "2026-07-31T02:43:23.984784"
+      "last_inventory_alert": "2026-07-31",
+      "last_refresh": "2026-07-31T05:59:41.532229"
     },
     "Chrome Cruiser": {
       "posted": [
@@ -921,7 +921,7 @@
         }
       ],
       "last_run": "2026-05-22T20:00:30.478154-04:00",
-      "day_date": "2026-07-30",
+      "day_date": "2026-07-31",
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 13,
@@ -1376,12 +1376,12 @@
         }
       ],
       "last_run": "2026-05-26T18:16:39.566470-04:00",
-      "day_date": "2026-07-30",
+      "day_date": "2026-07-31",
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 14,
-      "last_inventory_alert": "2026-07-30",
-      "last_refresh": "2026-07-31T02:41:46.169595"
+      "last_inventory_alert": "2026-07-31",
+      "last_refresh": "2026-07-31T05:59:39.329413"
     },
     "Beautiful House": {
       "posted": [
@@ -2017,12 +2017,12 @@
         }
       ],
       "last_run": "2026-05-26T18:16:39.566470-04:00",
-      "day_date": "2026-07-30",
+      "day_date": "2026-07-31",
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 22,
       "last_inventory_alert": "2026-06-27",
-      "last_refresh": "2026-07-31T02:42:19.483274"
+      "last_refresh": "2026-07-31T05:59:40.129620"
     },
     "manifest.yourdreamz": {
       "posted": [
@@ -2574,12 +2574,12 @@
         }
       ],
       "last_run": "2026-05-27T12:34:00.753085-04:00",
-      "day_date": "2026-07-30",
+      "day_date": "2026-07-31",
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 11,
-      "last_inventory_alert": "2026-07-30",
-      "last_refresh": "2026-07-31T02:42:48.253076"
+      "last_inventory_alert": "2026-07-31",
+      "last_refresh": "2026-07-31T05:59:40.337457"
     },
     " Aging With Grace": {
       "posted": [
@@ -3083,12 +3083,12 @@
         }
       ],
       "last_run": "2026-05-22T12:20:09.236496-04:00",
-      "day_date": "2026-07-30",
+      "day_date": "2026-07-31",
       "daily_count": 0,
       "daily_target_reached": false,
       "images_left": 0,
-      "last_refresh": "2026-07-31T02:43:23.830546",
-      "last_inventory_alert": "2026-07-30"
+      "last_refresh": "2026-07-31T05:59:40.926963",
+      "last_inventory_alert": "2026-07-31"
     }
   },
   "last_daily_report": "2026-07-28"
